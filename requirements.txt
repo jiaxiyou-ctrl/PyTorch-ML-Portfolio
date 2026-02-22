@@ -1,5 +1,23 @@
-numpy
+# Core framework
+langchain
+langchain-community
+langchain-core
+langchain-text-splitters
+langchain-huggingface
+
+# Vector store
+chromadb
+
+# Embeddings & LLM
+sentence-transformers
+transformers
 torch
+accelerate
+
+# Document parsing
+pypdf
+
+# Visualization & utilities
+numpy
 matplotlib
 Pillow
-transformers
