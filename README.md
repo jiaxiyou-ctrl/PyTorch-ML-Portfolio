@@ -1,7 +1,8 @@
-#  PyTorch Learning Lab
+# PyTorch Learning Lab: From Deep RL to Embodied AI
 
-A hands-on collection of PyTorch projects documenting my journey from beginner to practitioner.  
-Each project focuses on a core concept — from classical reinforcement learning to the Transformer architecture.
+This repository is a comprehensive, from-scratch engineering portfolio bridging **Deep Reinforcement Learning (DRL)** and **Foundation Models**. Built with a focus on **Embodied AI** and physical simulation, it demonstrates the translation of theoretical ML algorithms into robust, research-ready PyTorch code. 
+
+Key highlights include implementing core Transformer attention mechanisms, building local RAG systems, and training advanced continuous-control PPO agents in MuJoCo physics environments (featuring GAE, online observation normalization, and Domain Randomization for sim-to-real transfer).
 
 ---
 
