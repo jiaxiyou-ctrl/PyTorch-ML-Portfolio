@@ -26,6 +26,7 @@ class PixelPPOAgent:
         update_epochs: int = 10,
         batch_size: int = 64,
         buffer_size: int = 2048,
+        use_augmentation: bool = True,
     ) -> None:
         in_channels = obs_shape[0]
         self.network = PixelActorCritic(in_channels, act_dim)
@@ -50,7 +51,7 @@ class PixelPPOAgent:
         ])
 
         self.buffer = PixelPPOBuffer(buffer_size, obs_shape, act_dim)
-
+        self.use_augmentation = use_augmentation
         self.gamma = gamma
         self.lam = lam
         self.clip_range = clip_range
@@ -79,6 +80,8 @@ class PixelPPOAgent:
         for _epoch in range(self.update_epochs):
             for batch in self.buffer.get_batches(self.batch_size):
                 obs = batch["observations"]
+                if self.use_augmentation:
+                    obs = random_shift(obs, pad=4)
                 actions = batch["actions"]
                 old_log_probs = batch["log_probs"]
                 advantages = batch["advantages"]
