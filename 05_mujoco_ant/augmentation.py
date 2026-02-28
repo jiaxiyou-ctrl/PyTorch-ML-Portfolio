@@ -6,9 +6,9 @@ DrQ (Data-regularized Q).
 import torch
 import torch.nn.functional as F
 
-def random_shift(image: torch.Tensor, shift_range: int = 4) -> torch.Tensor:
+def random_shift(images: torch.Tensor, pad: int = 4) -> torch.Tensor:
     """Randomly shift the image by a small amount."""
-    batch_size, channels, height, width = image.shape
+    batch_size, channels, height, width = images.shape
     padded = F.pad(images, [pad, pad, pad, pad], mode='replicate')
 
     crop_top = torch.randint(0, 2 * pad + 1, size=(batch_size,))
