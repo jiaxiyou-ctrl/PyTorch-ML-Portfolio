@@ -1,7 +1,10 @@
 """Record a trained Ant-v5 agent as MP4 video."""
 
-import argparse
+import sys
 import os
+sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+
+import argparse
 
 import gymnasium as gym
 import numpy as np

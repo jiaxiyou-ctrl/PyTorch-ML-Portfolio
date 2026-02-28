@@ -1,5 +1,9 @@
 """Smoke test for domain randomization."""
 
+import sys
+import os
+sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+
 import gymnasium as gym
 
 from domain_random import DomainRandomizer

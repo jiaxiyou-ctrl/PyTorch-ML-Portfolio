@@ -100,35 +100,42 @@ The pixel-based agent learns to walk after ~350K steps, reaching positive reward
 
 ```
 05_mujoco_ant/
+├── README.md
+├── requirements.txt
+├── .gitignore
 │
-│  ── State-based PPO ──
-├── networks.py             # ActorCritic (MLP) + CNNEncoder + PixelActorCritic
-├── ppo_buffer.py           # PPO rollout buffer with GAE computation
-├── ppo_agent.py            # PPO agent (select_action, update)
-├── obs_normalizer.py       # Running observation normalizer (Welford)
-├── reward_normalizer.py    # Running reward normalizer
-├── domain_random.py        # Domain randomization for sim-to-real
-├── train.py                # State-based training loop
+│   # State-based PPO
+├── networks.py              # ActorCritic (MLP) + CNNEncoder + PixelActorCritic
+├── ppo_buffer.py            # PPO rollout buffer with GAE computation
+├── ppo_agent.py             # PPO agent (select_action, update)
+├── obs_normalizer.py        # Running observation normalizer (Welford)
+├── reward_normalizer.py     # Running reward normalizer
+├── domain_random.py         # Domain randomization for sim-to-real
+├── train.py                 # State-based training loop
 │
-│  ── Pixel-based PPO ──
-├── pixel_wrapper.py        # Image observation wrapper (resize, normalize, frame stack)
-├── pixel_ppo_buffer.py     # Experience buffer with uint8 image storage
-├── pixel_ppo_agent.py      # PPO agent with CNN, augmentation, reward normalization
-├── augmentation.py         # DrQ-style random shift augmentation
-├── pixel_train.py          # Pixel-based training script
+│   # Pixel-based PPO
+├── pixel_wrapper.py         # Image observation wrapper (resize, normalize, frame stack)
+├── pixel_ppo_buffer.py      # Experience buffer with uint8 image storage
+├── pixel_ppo_agent.py       # PPO agent with CNN, augmentation, reward normalization
+├── augmentation.py          # DrQ-style random shift augmentation
+├── pixel_train.py           # Pixel-based training script
 │
-│  ── Utilities ──
-├── record.py               # Record trained agent as MP4 video
-├── plot_training_curve.py  # Plot training reward curve from log
-├── explore_env.py          # Interactive environment exploration
+├── tests/                   # Unit and integration tests
+│   ├── test_cnn.py
+│   ├── test_pixel.py
+│   ├── test_wrapper.py
+│   ├── test_pixel_pipeline.py
+│   └── test_domain_random.py
 │
-│  ── Results & Logs ──
-├── training_log.txt        # State-based training log
-├── results/
-│   ├── training_reward_curve.png
-│   └── ant_walking.gif
-├── checkpoints/            # (gitignored) state-based checkpoints
-└── checkpoints_pixel/      # (gitignored) pixel-based checkpoints
+├── tools/                   # Utility scripts
+│   ├── explore_env.py       # Interactive environment exploration
+│   ├── record.py            # Record trained agent as video
+│   └── plot_training_curve.py
+│
+└── results/                 # Training logs, plots, and videos
+    ├── training_log.txt
+    ├── training_reward_curve.png
+    └── videos/
 ```
 
 ---
@@ -168,19 +175,19 @@ Configuration is in the CONFIG dictionary at the top of pixel_train.py.
 ### Record Video
 
 ```bash
-python record.py --checkpoint checkpoints/ant_ppo_final.pt --episodes 3
+python tools/record.py --checkpoint checkpoints/ant_ppo_final.pt --episodes 3
 ```
 
 ### Plot Training Curve
 
 ```bash
-python plot_training_curve.py --log training_log.txt
+python tools/plot_training_curve.py --log results/training_log.txt
 ```
 
 ### Explore the Environment
 
 ```bash
-python explore_env.py
+python tools/explore_env.py
 ```
 
 ---

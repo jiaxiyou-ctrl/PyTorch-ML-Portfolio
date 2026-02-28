@@ -1,5 +1,9 @@
 """Quick look at Ant-v5: print env info, run random episodes."""
 
+import sys
+import os
+sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+
 import gymnasium as gym
 
 

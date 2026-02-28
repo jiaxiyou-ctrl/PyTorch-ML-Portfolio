@@ -1,5 +1,6 @@
 __pycache__/
 *.pyc
+checkpoints/
 checkpoints_pixel/
 *.pt
 .DS_Store
@@ -7,3 +8,4 @@ checkpoints_pixel/
 .idea/
 *.mp4
 *.mov
+results/videos/
