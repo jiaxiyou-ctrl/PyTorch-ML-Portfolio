@@ -17,7 +17,7 @@ From-scratch implementations of core ML systems in PyTorch, covering reinforceme
 | [Transformer Basics](./02_transformer_basics/) | Self-attention from scratch | Custom encoder block + HuggingFace inference |
 | [PPO Reacher](./03_ppo_reacher/) | 2-DOF robotic arm control | Converged policy via PPO-Clip + GAE |
 | [RAG Assistant](./04rag-assistant/) | Local retrieval-augmented QA | End-to-end pipeline: ChromaDB + TinyLlama |
-| [PPO Ant Walker](./05_mujoco_ant/) | Quadruped locomotion (8-DOF) | Peak reward +632, obs/reward norm, LR annealing |
+| [PPO Ant Walker](./05_mujoco_ant/) | Quadruped locomotion (8-DOF) | State-based: reward +632; Pixel-based (CNN encoder): reward +301 from raw images |
 
 ---
 
@@ -57,9 +57,21 @@ Full RAG stack (load, chunk, embed, retrieve, generate) using LangChain + Chroma
 
 ### [5) PPO Ant Walker (MuJoCo)](./05_mujoco_ant/)
 
-PPO for high-dimensional locomotion (8 actuators, 105-dim observations) on Ant-v5. Reaches peak reward +632 after 5M steps. Key additions over vanilla PPO: Welford observation normalization (`obs_normalizer.py`), reward normalization (`reward_normalizer.py`), linear LR annealing, and optional domain randomization (`domain_random.py`) for sim-to-real robustness.
+PPO for high-dimensional locomotion (8 actuators, 105-dim observations) on Ant-v5, implemented in two phases:
 
-| Training Curve | Agent Demo |
+**Phase 1 — State-based PPO:** Reaches peak reward +632 after 5M steps using MLP networks, with Welford observation/reward normalization, linear LR annealing, and optional domain randomization for sim-to-real robustness.
+
+**Phase 2 — Pixel-based PPO:** The agent observes only raw 84×84 camera images (no joint angles or velocities). A CNN encoder (Nature DQN-style) extracts visual features, combined with DrQ-style data augmentation, uint8 memory optimization, learning rate separation, and reward normalization. Achieves average reward +301 (peak +536) after 1M steps — learning to walk purely from pixels.
+
+| | State-based (MLP) | Pixel-based (CNN) |
+|---|---|---|
+| Input | 105-dim state vector | 84×84 RGB × 3 frames |
+| Best reward | +632 | +301 (peak episode +536) |
+| Training steps | 5,000,000 | 1,000,000 |
+| Training time | ~37 min | ~126 min (CPU) |
+| Parameters | ~131K | ~1,025K |
+
+| Training Curve (State-based) | Agent Demo |
 | :---: | :---: |
 | ![Reward Curve](05_mujoco_ant/results/training_reward_curve.png) | ![Ant Walking](05_mujoco_ant/results/ant_walking.gif) |
 
@@ -101,14 +113,21 @@ pytorch-learning-lab/
 ├── 04rag-assistant/
 │   └── src/                       # Modular RAG pipeline steps
 ├── 05_mujoco_ant/
-│   ├── networks.py                # ActorCritic (shared encoder)
-│   ├── ppo_agent.py               # PPO agent with buffer
+│   ├── networks.py                # ActorCritic (MLP) + CNNEncoder + PixelActorCritic
+│   ├── ppo_agent.py               # State-based PPO agent
+│   ├── ppo_buffer.py              # PPO rollout buffer with GAE
 │   ├── obs_normalizer.py          # Welford running normalization
 │   ├── reward_normalizer.py       # Reward variance scaling
 │   ├── domain_random.py           # Sim-to-real randomization
-│   ├── train.py                   # Training with checkpoint/resume
-│   ├── record.py                  # MP4/GIF recording
-│   └── results/                   # Reward curve + agent GIF
+│   ├── train.py                   # State-based training loop
+│   ├── pixel_wrapper.py           # Image observation wrapper
+│   ├── pixel_ppo_agent.py         # Pixel PPO agent (CNN + augmentation)
+│   ├── pixel_ppo_buffer.py        # Buffer with uint8 image storage
+│   ├── augmentation.py            # DrQ-style random shift
+│   ├── pixel_train.py             # Pixel-based training loop
+│   ├── tests/                     # Unit and integration tests
+│   ├── tools/                     # Recording, plotting, exploration
+│   └── results/                   # Reward curves + agent demos
 ├── requirements.txt
 └── README.md
 ```
@@ -121,6 +140,8 @@ pytorch-learning-lab/
 - Sutton & Barto — [*Reinforcement Learning: An Introduction*](http://incompleteideas.net/book/the-book-2nd.html)
 - Schulman et al. — [*Proximal Policy Optimization Algorithms*](https://arxiv.org/abs/1707.06347)
 - Schulman et al. — [*Generalized Advantage Estimation*](https://arxiv.org/abs/1506.02438)
+- Mnih et al. — [*Human-level control through deep reinforcement learning*](https://www.nature.com/articles/nature14236) (2015)
+- Kostrikov et al. — [*Image Augmentation Is All You Need*](https://arxiv.org/abs/2004.13649) (2020)
 
 **NLP & Transformers**
 - Vaswani et al. — [*Attention Is All You Need*](https://arxiv.org/abs/1706.03762)
