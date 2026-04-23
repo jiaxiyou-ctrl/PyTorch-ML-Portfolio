@@ -1,490 +1,436 @@
-Update  220/2441 | Step  450,560 | Episodes 8210 | FPS   2328 | Mean reward    -22.4 | LR 2.73e-04 | Time    194s
-Update  225/2441 | Step  460,800 | Episodes 8301 | FPS   2329 | Mean reward    -35.2 | LR 2.72e-04 | Time    198s
-Update  230/2441 | Step  471,040 | Episodes 8434 | FPS   2328 | Mean reward    -17.6 | LR 2.72e-04 | Time    202s
-Update  235/2441 | Step  481,280 | Episodes 8602 | FPS   2329 | Mean reward    -10.0 | LR 2.71e-04 | Time    207s
-Update  240/2441 | Step  491,520 | Episodes 8677 | FPS   2329 | Mean reward     -5.3 | LR 2.71e-04 | Time    211s
-Update  245/2441 | Step  501,760 | Episodes 8733 | FPS   2330 | Mean reward    -22.0 | LR 2.70e-04 | Time    215s
-Update  250/2441 | Step  512,000 | Episodes 8806 | FPS   2330 | Mean reward     -6.4 | LR 2.69e-04 | Time    220s
-   ->  Model saved to checkpoints/ant_ppo_512000.pt
-Update  255/2441 | Step  522,240 | Episodes 8907 | FPS   2330 | Mean reward     -5.4 | LR 2.69e-04 | Time    224s
-Update  260/2441 | Step  532,480 | Episodes 8988 | FPS   2330 | Mean reward    -11.7 | LR 2.68e-04 | Time    229s
-Update  265/2441 | Step  542,720 | Episodes 9062 | FPS   2330 | Mean reward    -18.2 | LR 2.67e-04 | Time    233s
-Update  270/2441 | Step  552,960 | Episodes 9125 | FPS   2330 | Mean reward     -8.5 | LR 2.67e-04 | Time    237s
-Update  275/2441 | Step  563,200 | Episodes 9197 | FPS   2330 | Mean reward    -12.9 | LR 2.66e-04 | Time    242s
-Update  280/2441 | Step  573,440 | Episodes 9265 | FPS   2331 | Mean reward    -26.9 | LR 2.66e-04 | Time    246s
-Update  285/2441 | Step  583,680 | Episodes 9298 | FPS   2331 | Mean reward      8.5 | LR 2.65e-04 | Time    250s
-Update  290/2441 | Step  593,920 | Episodes 9367 | FPS   2331 | Mean reward     11.9 | LR 2.64e-04 | Time    255s
-Update  295/2441 | Step  604,160 | Episodes 9424 | FPS   2331 | Mean reward     17.5 | LR 2.64e-04 | Time    259s
-Update  300/2441 | Step  614,400 | Episodes 9465 | FPS   2332 | Mean reward     21.1 | LR 2.63e-04 | Time    264s
-   ->  Model saved to checkpoints/ant_ppo_614400.pt
-Update  305/2441 | Step  624,640 | Episodes 9520 | FPS   2331 | Mean reward     26.9 | LR 2.63e-04 | Time    268s
-Update  310/2441 | Step  634,880 | Episodes 9580 | FPS   2331 | Mean reward     23.5 | LR 2.62e-04 | Time    272s
-Update  315/2441 | Step  645,120 | Episodes 9667 | FPS   2331 | Mean reward     -3.2 | LR 2.61e-04 | Time    277s
-Update  320/2441 | Step  655,360 | Episodes 9718 | FPS   2331 | Mean reward      8.2 | LR 2.61e-04 | Time    281s
-Update  325/2441 | Step  665,600 | Episodes 9765 | FPS   2332 | Mean reward      5.6 | LR 2.60e-04 | Time    285s
-Update  330/2441 | Step  675,840 | Episodes 9817 | FPS   2332 | Mean reward     -8.8 | LR 2.59e-04 | Time    290s
-Update  335/2441 | Step  686,080 | Episodes 9882 | FPS   2332 | Mean reward      9.6 | LR 2.59e-04 | Time    294s
-Update  340/2441 | Step  696,320 | Episodes 9940 | FPS   2332 | Mean reward      4.3 | LR 2.58e-04 | Time    299s
-Update  345/2441 | Step  706,560 | Episodes 10004 | FPS   2332 | Mean reward     15.9 | LR 2.58e-04 | Time    303s
-Update  350/2441 | Step  716,800 | Episodes 10073 | FPS   2332 | Mean reward      5.8 | LR 2.57e-04 | Time    307s
-   ->  Model saved to checkpoints/ant_ppo_716800.pt
-Update  355/2441 | Step  727,040 | Episodes 10159 | FPS   2332 | Mean reward     -2.3 | LR 2.56e-04 | Time    312s
-Update  360/2441 | Step  737,280 | Episodes 10265 | FPS   2332 | Mean reward     13.8 | LR 2.56e-04 | Time    316s
-Update  365/2441 | Step  747,520 | Episodes 10322 | FPS   2332 | Mean reward     14.8 | LR 2.55e-04 | Time    321s
-Update  370/2441 | Step  757,760 | Episodes 10389 | FPS   2332 | Mean reward     -0.1 | LR 2.55e-04 | Time    325s
-Update  375/2441 | Step  768,000 | Episodes 10447 | FPS   2332 | Mean reward     19.4 | LR 2.54e-04 | Time    329s
-Update  380/2441 | Step  778,240 | Episodes 10523 | FPS   2333 | Mean reward     11.2 | LR 2.53e-04 | Time    334s
-Update  385/2441 | Step  788,480 | Episodes 10572 | FPS   2333 | Mean reward     23.1 | LR 2.53e-04 | Time    338s
-Update  390/2441 | Step  798,720 | Episodes 10630 | FPS   2333 | Mean reward     14.5 | LR 2.52e-04 | Time    342s
-Update  395/2441 | Step  808,960 | Episodes 10691 | FPS   2333 | Mean reward     21.5 | LR 2.51e-04 | Time    347s
-Update  400/2441 | Step  819,200 | Episodes 10742 | FPS   2333 | Mean reward     17.2 | LR 2.51e-04 | Time    351s
-   ->  Model saved to checkpoints/ant_ppo_819200.pt
-Update  405/2441 | Step  829,440 | Episodes 10801 | FPS   2333 | Mean reward      6.1 | LR 2.50e-04 | Time    356s
-Update  410/2441 | Step  839,680 | Episodes 10840 | FPS   2333 | Mean reward     40.6 | LR 2.50e-04 | Time    360s
-Update  415/2441 | Step  849,920 | Episodes 10897 | FPS   2333 | Mean reward     22.1 | LR 2.49e-04 | Time    364s
-Update  420/2441 | Step  860,160 | Episodes 10945 | FPS   2333 | Mean reward     34.9 | LR 2.48e-04 | Time    369s
-Update  425/2441 | Step  870,400 | Episodes 10999 | FPS   2333 | Mean reward     22.8 | LR 2.48e-04 | Time    373s
-Update  430/2441 | Step  880,640 | Episodes 11050 | FPS   2334 | Mean reward     36.1 | LR 2.47e-04 | Time    377s
-Update  435/2441 | Step  890,880 | Episodes 11110 | FPS   2334 | Mean reward     20.7 | LR 2.47e-04 | Time    382s
-Update  440/2441 | Step  901,120 | Episodes 11170 | FPS   2334 | Mean reward     11.4 | LR 2.46e-04 | Time    386s
-Update  445/2441 | Step  911,360 | Episodes 11206 | FPS   2335 | Mean reward     34.5 | LR 2.45e-04 | Time    390s
-Update  450/2441 | Step  921,600 | Episodes 11228 | FPS   2334 | Mean reward     59.2 | LR 2.45e-04 | Time    395s
-   ->  Model saved to checkpoints/ant_ppo_921600.pt
-Update  455/2441 | Step  931,840 | Episodes 11251 | FPS   2334 | Mean reward     43.5 | LR 2.44e-04 | Time    399s
-Update  460/2441 | Step  942,080 | Episodes 11293 | FPS   2334 | Mean reward     19.2 | LR 2.43e-04 | Time    404s
-Update  465/2441 | Step  952,320 | Episodes 11329 | FPS   2334 | Mean reward     27.3 | LR 2.43e-04 | Time    408s
-Update  470/2441 | Step  962,560 | Episodes 11371 | FPS   2334 | Mean reward     22.5 | LR 2.42e-04 | Time    412s
-Update  475/2441 | Step  972,800 | Episodes 11408 | FPS   2334 | Mean reward     27.0 | LR 2.42e-04 | Time    417s
-Update  480/2441 | Step  983,040 | Episodes 11436 | FPS   2334 | Mean reward     15.3 | LR 2.41e-04 | Time    421s
-Update  485/2441 | Step  993,280 | Episodes 11462 | FPS   2334 | Mean reward     28.7 | LR 2.40e-04 | Time    426s
-Update  490/2441 | Step 1,003,520 | Episodes 11489 | FPS   2334 | Mean reward     37.5 | LR 2.40e-04 | Time    430s
-Update  495/2441 | Step 1,013,760 | Episodes 11517 | FPS   2334 | Mean reward     37.4 | LR 2.39e-04 | Time    434s
-Update  500/2441 | Step 1,024,000 | Episodes 11545 | FPS   2334 | Mean reward     17.8 | LR 2.39e-04 | Time    439s
-   ->  Model saved to checkpoints/ant_ppo_1024000.pt
-Update  505/2441 | Step 1,034,240 | Episodes 11587 | FPS   2334 | Mean reward     44.3 | LR 2.38e-04 | Time    443s
-Update  510/2441 | Step 1,044,480 | Episodes 11636 | FPS   2334 | Mean reward     33.7 | LR 2.37e-04 | Time    447s
-Update  515/2441 | Step 1,054,720 | Episodes 11681 | FPS   2334 | Mean reward     24.4 | LR 2.37e-04 | Time    452s
-Update  520/2441 | Step 1,064,960 | Episodes 11721 | FPS   2335 | Mean reward     13.6 | LR 2.36e-04 | Time    456s
-Update  525/2441 | Step 1,075,200 | Episodes 11780 | FPS   2335 | Mean reward     16.8 | LR 2.35e-04 | Time    460s
-Update  530/2441 | Step 1,085,440 | Episodes 11835 | FPS   2335 | Mean reward     36.9 | LR 2.35e-04 | Time    465s
-Update  535/2441 | Step 1,095,680 | Episodes 11881 | FPS   2335 | Mean reward     23.7 | LR 2.34e-04 | Time    469s
-Update  540/2441 | Step 1,105,920 | Episodes 11935 | FPS   2336 | Mean reward     28.0 | LR 2.34e-04 | Time    473s
-Update  545/2441 | Step 1,116,160 | Episodes 11971 | FPS   2336 | Mean reward     35.6 | LR 2.33e-04 | Time    478s
-Update  550/2441 | Step 1,126,400 | Episodes 12009 | FPS   2336 | Mean reward     25.8 | LR 2.32e-04 | Time    482s
-   ->  Model saved to checkpoints/ant_ppo_1126400.pt
-Update  555/2441 | Step 1,136,640 | Episodes 12041 | FPS   2335 | Mean reward     45.2 | LR 2.32e-04 | Time    487s
-Update  560/2441 | Step 1,146,880 | Episodes 12101 | FPS   2335 | Mean reward     21.4 | LR 2.31e-04 | Time    491s
-Update  565/2441 | Step 1,157,120 | Episodes 12151 | FPS   2335 | Mean reward     12.5 | LR 2.31e-04 | Time    496s
-Update  570/2441 | Step 1,167,360 | Episodes 12192 | FPS   2335 | Mean reward     36.2 | LR 2.30e-04 | Time    500s
-Update  575/2441 | Step 1,177,600 | Episodes 12226 | FPS   2335 | Mean reward      2.4 | LR 2.29e-04 | Time    504s
-Update  580/2441 | Step 1,187,840 | Episodes 12273 | FPS   2335 | Mean reward     32.9 | LR 2.29e-04 | Time    509s
-Update  585/2441 | Step 1,198,080 | Episodes 12308 | FPS   2335 | Mean reward     22.4 | LR 2.28e-04 | Time    513s
-Update  590/2441 | Step 1,208,320 | Episodes 12352 | FPS   2335 | Mean reward      4.9 | LR 2.27e-04 | Time    517s
-Update  595/2441 | Step 1,218,560 | Episodes 12396 | FPS   2335 | Mean reward      6.3 | LR 2.27e-04 | Time    522s
-Update  600/2441 | Step 1,228,800 | Episodes 12430 | FPS   2335 | Mean reward     25.4 | LR 2.26e-04 | Time    526s
-   ->  Model saved to checkpoints/ant_ppo_1228800.pt
-Update  605/2441 | Step 1,239,040 | Episodes 12465 | FPS   2335 | Mean reward     17.5 | LR 2.26e-04 | Time    531s
-Update  610/2441 | Step 1,249,280 | Episodes 12532 | FPS   2335 | Mean reward     10.8 | LR 2.25e-04 | Time    535s
-Update  615/2441 | Step 1,259,520 | Episodes 12582 | FPS   2334 | Mean reward     16.0 | LR 2.24e-04 | Time    540s
-Update  620/2441 | Step 1,269,760 | Episodes 12630 | FPS   2334 | Mean reward     12.7 | LR 2.24e-04 | Time    544s
-Update  625/2441 | Step 1,280,000 | Episodes 12665 | FPS   2334 | Mean reward      1.8 | LR 2.23e-04 | Time    548s
-Update  630/2441 | Step 1,290,240 | Episodes 12694 | FPS   2334 | Mean reward      5.5 | LR 2.23e-04 | Time    553s
-Update  635/2441 | Step 1,300,480 | Episodes 12729 | FPS   2333 | Mean reward     10.1 | LR 2.22e-04 | Time    557s
-Update  640/2441 | Step 1,310,720 | Episodes 12760 | FPS   2332 | Mean reward      1.9 | LR 2.21e-04 | Time    562s
-Update  645/2441 | Step 1,320,960 | Episodes 12789 | FPS   2330 | Mean reward     42.5 | LR 2.21e-04 | Time    567s
-Update  650/2441 | Step 1,331,200 | Episodes 12812 | FPS   2329 | Mean reward     64.3 | LR 2.20e-04 | Time    572s
-   ->  Model saved to checkpoints/ant_ppo_1331200.pt
-Update  655/2441 | Step 1,341,440 | Episodes 12841 | FPS   2328 | Mean reward     40.4 | LR 2.20e-04 | Time    576s
-Update  660/2441 | Step 1,351,680 | Episodes 12868 | FPS   2320 | Mean reward     54.0 | LR 2.19e-04 | Time    583s
-Update  665/2441 | Step 1,361,920 | Episodes 12912 | FPS   2312 | Mean reward     24.9 | LR 2.18e-04 | Time    589s
-Update  670/2441 | Step 1,372,160 | Episodes 12941 | FPS   2297 | Mean reward     34.7 | LR 2.18e-04 | Time    597s
-Update  675/2441 | Step 1,382,400 | Episodes 12984 | FPS   2277 | Mean reward     26.5 | LR 2.17e-04 | Time    607s
-Update  680/2441 | Step 1,392,640 | Episodes 13013 | FPS   2257 | Mean reward     18.7 | LR 2.16e-04 | Time    617s
-Update  685/2441 | Step 1,402,880 | Episodes 13034 | FPS   2252 | Mean reward     53.8 | LR 2.16e-04 | Time    623s
-Update  690/2441 | Step 1,413,120 | Episodes 13054 | FPS   2250 | Mean reward     79.0 | LR 2.15e-04 | Time    628s
-Update  695/2441 | Step 1,423,360 | Episodes 13082 | FPS   2248 | Mean reward     29.6 | LR 2.15e-04 | Time    633s
-Update  700/2441 | Step 1,433,600 | Episodes 13106 | FPS   2246 | Mean reward     33.1 | LR 2.14e-04 | Time    638s
-   ->  Model saved to checkpoints/ant_ppo_1433600.pt
-Update  705/2441 | Step 1,443,840 | Episodes 13131 | FPS   2243 | Mean reward     55.9 | LR 2.13e-04 | Time    644s
-Update  710/2441 | Step 1,454,080 | Episodes 13156 | FPS   2240 | Mean reward     49.2 | LR 2.13e-04 | Time    649s
-Update  715/2441 | Step 1,464,320 | Episodes 13179 | FPS   2239 | Mean reward     41.9 | LR 2.12e-04 | Time    654s
-Update  720/2441 | Step 1,474,560 | Episodes 13208 | FPS   2239 | Mean reward     32.5 | LR 2.12e-04 | Time    659s
-Update  725/2441 | Step 1,484,800 | Episodes 13238 | FPS   2240 | Mean reward     42.9 | LR 2.11e-04 | Time    663s
-Update  730/2441 | Step 1,495,040 | Episodes 13269 | FPS   2240 | Mean reward     34.7 | LR 2.10e-04 | Time    667s
-Update  735/2441 | Step 1,505,280 | Episodes 13290 | FPS   2241 | Mean reward     60.5 | LR 2.10e-04 | Time    672s
-Update  740/2441 | Step 1,515,520 | Episodes 13313 | FPS   2242 | Mean reward     54.1 | LR 2.09e-04 | Time    676s
-Update  745/2441 | Step 1,525,760 | Episodes 13334 | FPS   2242 | Mean reward     40.9 | LR 2.08e-04 | Time    680s
-Update  750/2441 | Step 1,536,000 | Episodes 13365 | FPS   2243 | Mean reward     35.8 | LR 2.08e-04 | Time    685s
-   ->  Model saved to checkpoints/ant_ppo_1536000.pt
-Update  755/2441 | Step 1,546,240 | Episodes 13385 | FPS   2243 | Mean reward     68.5 | LR 2.07e-04 | Time    689s
-Update  760/2441 | Step 1,556,480 | Episodes 13402 | FPS   2242 | Mean reward     77.2 | LR 2.07e-04 | Time    694s
-Update  765/2441 | Step 1,566,720 | Episodes 13426 | FPS   2241 | Mean reward     29.3 | LR 2.06e-04 | Time    699s
-Update  770/2441 | Step 1,576,960 | Episodes 13448 | FPS   2242 | Mean reward     51.9 | LR 2.05e-04 | Time    703s
-Update  775/2441 | Step 1,587,200 | Episodes 13467 | FPS   2243 | Mean reward     57.5 | LR 2.05e-04 | Time    708s
-Update  780/2441 | Step 1,597,440 | Episodes 13485 | FPS   2243 | Mean reward     72.7 | LR 2.04e-04 | Time    712s
-Update  785/2441 | Step 1,607,680 | Episodes 13518 | FPS   2244 | Mean reward     56.5 | LR 2.04e-04 | Time    717s
-Update  790/2441 | Step 1,617,920 | Episodes 13545 | FPS   2244 | Mean reward     67.5 | LR 2.03e-04 | Time    721s
-Update  795/2441 | Step 1,628,160 | Episodes 13570 | FPS   2245 | Mean reward     68.7 | LR 2.02e-04 | Time    725s
-Update  800/2441 | Step 1,638,400 | Episodes 13590 | FPS   2246 | Mean reward     89.0 | LR 2.02e-04 | Time    730s
-   ->  Model saved to checkpoints/ant_ppo_1638400.pt
-Update  805/2441 | Step 1,648,640 | Episodes 13604 | FPS   2246 | Mean reward    100.1 | LR 2.01e-04 | Time    734s
-Update  810/2441 | Step 1,658,880 | Episodes 13629 | FPS   2246 | Mean reward     69.3 | LR 2.00e-04 | Time    738s
-Update  815/2441 | Step 1,669,120 | Episodes 13650 | FPS   2247 | Mean reward     76.9 | LR 2.00e-04 | Time    743s
-Update  820/2441 | Step 1,679,360 | Episodes 13673 | FPS   2247 | Mean reward     51.5 | LR 1.99e-04 | Time    747s
-Update  825/2441 | Step 1,689,600 | Episodes 13693 | FPS   2248 | Mean reward     74.2 | LR 1.99e-04 | Time    752s
-Update  830/2441 | Step 1,699,840 | Episodes 13720 | FPS   2249 | Mean reward      4.9 | LR 1.98e-04 | Time    756s
-Update  835/2441 | Step 1,710,080 | Episodes 13747 | FPS   2249 | Mean reward     40.5 | LR 1.97e-04 | Time    760s
-Update  840/2441 | Step 1,720,320 | Episodes 13770 | FPS   2250 | Mean reward     49.2 | LR 1.97e-04 | Time    765s
-Update  845/2441 | Step 1,730,560 | Episodes 13807 | FPS   2250 | Mean reward     29.5 | LR 1.96e-04 | Time    769s
-Update  850/2441 | Step 1,740,800 | Episodes 13832 | FPS   2251 | Mean reward     43.2 | LR 1.96e-04 | Time    773s
-   ->  Model saved to checkpoints/ant_ppo_1740800.pt
-Update  855/2441 | Step 1,751,040 | Episodes 13866 | FPS   2251 | Mean reward     55.0 | LR 1.95e-04 | Time    778s
-Update  860/2441 | Step 1,761,280 | Episodes 13912 | FPS   2252 | Mean reward     23.0 | LR 1.94e-04 | Time    782s
-Update  865/2441 | Step 1,771,520 | Episodes 13941 | FPS   2252 | Mean reward     41.0 | LR 1.94e-04 | Time    787s
-Update  870/2441 | Step 1,781,760 | Episodes 13989 | FPS   2253 | Mean reward     20.0 | LR 1.93e-04 | Time    791s
-Update  875/2441 | Step 1,792,000 | Episodes 14016 | FPS   2253 | Mean reward     38.9 | LR 1.92e-04 | Time    795s
-Update  880/2441 | Step 1,802,240 | Episodes 14046 | FPS   2254 | Mean reward     42.4 | LR 1.92e-04 | Time    800s
-Update  885/2441 | Step 1,812,480 | Episodes 14088 | FPS   2254 | Mean reward     24.2 | LR 1.91e-04 | Time    804s
-Update  890/2441 | Step 1,822,720 | Episodes 14113 | FPS   2255 | Mean reward     63.6 | LR 1.91e-04 | Time    808s
-Update  895/2441 | Step 1,832,960 | Episodes 14146 | FPS   2255 | Mean reward     62.1 | LR 1.90e-04 | Time    813s
-Update  900/2441 | Step 1,843,200 | Episodes 14174 | FPS   2256 | Mean reward     47.3 | LR 1.89e-04 | Time    817s
-   ->  Model saved to checkpoints/ant_ppo_1843200.pt
-Update  905/2441 | Step 1,853,440 | Episodes 14212 | FPS   2256 | Mean reward     35.7 | LR 1.89e-04 | Time    822s
-Update  910/2441 | Step 1,863,680 | Episodes 14243 | FPS   2256 | Mean reward     37.8 | LR 1.88e-04 | Time    826s
-Update  915/2441 | Step 1,873,920 | Episodes 14293 | FPS   2256 | Mean reward     15.7 | LR 1.88e-04 | Time    831s
-Update  920/2441 | Step 1,884,160 | Episodes 14336 | FPS   2256 | Mean reward     15.9 | LR 1.87e-04 | Time    835s
-Update  925/2441 | Step 1,894,400 | Episodes 14366 | FPS   2257 | Mean reward     44.2 | LR 1.86e-04 | Time    839s
-Update  930/2441 | Step 1,904,640 | Episodes 14407 | FPS   2257 | Mean reward     25.6 | LR 1.86e-04 | Time    844s
-Update  935/2441 | Step 1,914,880 | Episodes 14441 | FPS   2258 | Mean reward     32.6 | LR 1.85e-04 | Time    848s
-Update  940/2441 | Step 1,925,120 | Episodes 14481 | FPS   2258 | Mean reward     32.0 | LR 1.84e-04 | Time    852s
-Update  945/2441 | Step 1,935,360 | Episodes 14526 | FPS   2259 | Mean reward     20.4 | LR 1.84e-04 | Time    857s
-Update  950/2441 | Step 1,945,600 | Episodes 14558 | FPS   2259 | Mean reward     48.1 | LR 1.83e-04 | Time    861s
-   ->  Model saved to checkpoints/ant_ppo_1945600.pt
-Update  955/2441 | Step 1,955,840 | Episodes 14589 | FPS   2260 | Mean reward     43.6 | LR 1.83e-04 | Time    866s
-Update  960/2441 | Step 1,966,080 | Episodes 14642 | FPS   2260 | Mean reward     31.4 | LR 1.82e-04 | Time    870s
-Update  965/2441 | Step 1,976,320 | Episodes 14686 | FPS   2260 | Mean reward     23.9 | LR 1.81e-04 | Time    874s
-Update  970/2441 | Step 1,986,560 | Episodes 14725 | FPS   2261 | Mean reward     16.2 | LR 1.81e-04 | Time    879s
-Update  975/2441 | Step 1,996,800 | Episodes 14762 | FPS   2261 | Mean reward     61.1 | LR 1.80e-04 | Time    883s
-Update  980/2441 | Step 2,007,040 | Episodes 14791 | FPS   2261 | Mean reward     38.2 | LR 1.80e-04 | Time    888s
-Update  985/2441 | Step 2,017,280 | Episodes 14829 | FPS   2262 | Mean reward     12.7 | LR 1.79e-04 | Time    892s
-Update  990/2441 | Step 2,027,520 | Episodes 14869 | FPS   2262 | Mean reward     23.9 | LR 1.78e-04 | Time    896s
-Update  995/2441 | Step 2,037,760 | Episodes 14900 | FPS   2263 | Mean reward     41.3 | LR 1.78e-04 | Time    901s
-Update 1000/2441 | Step 2,048,000 | Episodes 14935 | FPS   2263 | Mean reward     26.2 | LR 1.77e-04 | Time    905s
-   ->  Model saved to checkpoints/ant_ppo_2048000.pt
-Update 1005/2441 | Step 2,058,240 | Episodes 14972 | FPS   2263 | Mean reward     19.0 | LR 1.76e-04 | Time    909s
-Update 1010/2441 | Step 2,068,480 | Episodes 15014 | FPS   2264 | Mean reward     43.5 | LR 1.76e-04 | Time    914s
-Update 1015/2441 | Step 2,078,720 | Episodes 15064 | FPS   2264 | Mean reward     22.1 | LR 1.75e-04 | Time    918s
-Update 1020/2441 | Step 2,088,960 | Episodes 15102 | FPS   2265 | Mean reward     16.6 | LR 1.75e-04 | Time    922s
-Update 1025/2441 | Step 2,099,200 | Episodes 15135 | FPS   2265 | Mean reward     39.1 | LR 1.74e-04 | Time    927s
-Update 1030/2441 | Step 2,109,440 | Episodes 15160 | FPS   2265 | Mean reward     36.5 | LR 1.73e-04 | Time    931s
-Update 1035/2441 | Step 2,119,680 | Episodes 15180 | FPS   2266 | Mean reward     61.6 | LR 1.73e-04 | Time    936s
-Update 1040/2441 | Step 2,129,920 | Episodes 15216 | FPS   2266 | Mean reward     26.1 | LR 1.72e-04 | Time    940s
-Update 1045/2441 | Step 2,140,160 | Episodes 15252 | FPS   2267 | Mean reward     21.9 | LR 1.72e-04 | Time    944s
-Update 1050/2441 | Step 2,150,400 | Episodes 15278 | FPS   2267 | Mean reward     33.9 | LR 1.71e-04 | Time    949s
-   ->  Model saved to checkpoints/ant_ppo_2150400.pt
-Update 1055/2441 | Step 2,160,640 | Episodes 15305 | FPS   2267 | Mean reward     57.1 | LR 1.70e-04 | Time    953s
-Update 1060/2441 | Step 2,170,880 | Episodes 15342 | FPS   2267 | Mean reward     26.1 | LR 1.70e-04 | Time    957s
-Update 1065/2441 | Step 2,181,120 | Episodes 15364 | FPS   2268 | Mean reward     51.6 | LR 1.69e-04 | Time    962s
-Update 1070/2441 | Step 2,191,360 | Episodes 15388 | FPS   2268 | Mean reward     41.2 | LR 1.68e-04 | Time    966s
-Update 1075/2441 | Step 2,201,600 | Episodes 15426 | FPS   2268 | Mean reward     15.7 | LR 1.68e-04 | Time    971s
-Update 1080/2441 | Step 2,211,840 | Episodes 15459 | FPS   2269 | Mean reward     31.8 | LR 1.67e-04 | Time    975s
-Update 1085/2441 | Step 2,222,080 | Episodes 15489 | FPS   2269 | Mean reward     36.5 | LR 1.67e-04 | Time    979s
-Update 1090/2441 | Step 2,232,320 | Episodes 15516 | FPS   2269 | Mean reward     44.3 | LR 1.66e-04 | Time    984s
-Update 1095/2441 | Step 2,242,560 | Episodes 15539 | FPS   2270 | Mean reward     37.2 | LR 1.65e-04 | Time    988s
-Update 1100/2441 | Step 2,252,800 | Episodes 15585 | FPS   2270 | Mean reward     -7.8 | LR 1.65e-04 | Time    992s
-   ->  Model saved to checkpoints/ant_ppo_2252800.pt
-Update 1105/2441 | Step 2,263,040 | Episodes 15628 | FPS   2271 | Mean reward     35.9 | LR 1.64e-04 | Time    997s
-Update 1110/2441 | Step 2,273,280 | Episodes 15663 | FPS   2271 | Mean reward     47.2 | LR 1.64e-04 | Time   1001s
-Update 1115/2441 | Step 2,283,520 | Episodes 15697 | FPS   2271 | Mean reward     50.7 | LR 1.63e-04 | Time   1005s
-Update 1120/2441 | Step 2,293,760 | Episodes 15756 | FPS   2271 | Mean reward     17.5 | LR 1.62e-04 | Time   1010s
-Update 1125/2441 | Step 2,304,000 | Episodes 15795 | FPS   2272 | Mean reward     38.0 | LR 1.62e-04 | Time   1014s
-Update 1130/2441 | Step 2,314,240 | Episodes 15835 | FPS   2272 | Mean reward     28.8 | LR 1.61e-04 | Time   1018s
-Update 1135/2441 | Step 2,324,480 | Episodes 15871 | FPS   2273 | Mean reward     29.0 | LR 1.61e-04 | Time   1023s
-Update 1140/2441 | Step 2,334,720 | Episodes 15912 | FPS   2273 | Mean reward     20.1 | LR 1.60e-04 | Time   1027s
-Update 1145/2441 | Step 2,344,960 | Episodes 15963 | FPS   2273 | Mean reward     30.5 | LR 1.59e-04 | Time   1032s
-Update 1150/2441 | Step 2,355,200 | Episodes 16000 | FPS   2274 | Mean reward     33.0 | LR 1.59e-04 | Time   1036s
-   ->  Model saved to checkpoints/ant_ppo_2355200.pt
-Update 1155/2441 | Step 2,365,440 | Episodes 16038 | FPS   2274 | Mean reward     39.4 | LR 1.58e-04 | Time   1040s
-Update 1160/2441 | Step 2,375,680 | Episodes 16078 | FPS   2274 | Mean reward     44.7 | LR 1.57e-04 | Time   1045s
-Update 1165/2441 | Step 2,385,920 | Episodes 16129 | FPS   2274 | Mean reward     38.5 | LR 1.57e-04 | Time   1049s
-Update 1170/2441 | Step 2,396,160 | Episodes 16164 | FPS   2274 | Mean reward     37.4 | LR 1.56e-04 | Time   1054s
-Update 1175/2441 | Step 2,406,400 | Episodes 16215 | FPS   2275 | Mean reward     22.9 | LR 1.56e-04 | Time   1058s
-Update 1180/2441 | Step 2,416,640 | Episodes 16245 | FPS   2275 | Mean reward     53.5 | LR 1.55e-04 | Time   1062s
-Update 1185/2441 | Step 2,426,880 | Episodes 16284 | FPS   2275 | Mean reward     43.5 | LR 1.54e-04 | Time   1067s
-Update 1190/2441 | Step 2,437,120 | Episodes 16323 | FPS   2276 | Mean reward     34.7 | LR 1.54e-04 | Time   1071s
-Update 1195/2441 | Step 2,447,360 | Episodes 16371 | FPS   2276 | Mean reward     29.7 | LR 1.53e-04 | Time   1075s
-Update 1200/2441 | Step 2,457,600 | Episodes 16413 | FPS   2276 | Mean reward     45.8 | LR 1.53e-04 | Time   1080s
-   ->  Model saved to checkpoints/ant_ppo_2457600.pt
-Update 1205/2441 | Step 2,467,840 | Episodes 16462 | FPS   2276 | Mean reward     32.5 | LR 1.52e-04 | Time   1084s
-Update 1210/2441 | Step 2,478,080 | Episodes 16519 | FPS   2277 | Mean reward     16.0 | LR 1.51e-04 | Time   1088s
-Update 1215/2441 | Step 2,488,320 | Episodes 16581 | FPS   2277 | Mean reward     40.5 | LR 1.51e-04 | Time   1093s
-Update 1220/2441 | Step 2,498,560 | Episodes 16628 | FPS   2277 | Mean reward     55.2 | LR 1.50e-04 | Time   1097s
-Update 1225/2441 | Step 2,508,800 | Episodes 16673 | FPS   2277 | Mean reward     33.6 | LR 1.49e-04 | Time   1102s
-Update 1230/2441 | Step 2,519,040 | Episodes 16729 | FPS   2278 | Mean reward     31.0 | LR 1.49e-04 | Time   1106s
-Update 1235/2441 | Step 2,529,280 | Episodes 16771 | FPS   2278 | Mean reward     27.7 | LR 1.48e-04 | Time   1110s
-Update 1240/2441 | Step 2,539,520 | Episodes 16812 | FPS   2278 | Mean reward     47.7 | LR 1.48e-04 | Time   1115s
-Update 1245/2441 | Step 2,549,760 | Episodes 16861 | FPS   2279 | Mean reward     40.7 | LR 1.47e-04 | Time   1119s
-Update 1250/2441 | Step 2,560,000 | Episodes 16909 | FPS   2279 | Mean reward     50.1 | LR 1.46e-04 | Time   1123s
-   ->  Model saved to checkpoints/ant_ppo_2560000.pt
-Update 1255/2441 | Step 2,570,240 | Episodes 16952 | FPS   2279 | Mean reward     22.4 | LR 1.46e-04 | Time   1128s
-Update 1260/2441 | Step 2,580,480 | Episodes 17013 | FPS   2279 | Mean reward     52.9 | LR 1.45e-04 | Time   1132s
-Update 1265/2441 | Step 2,590,720 | Episodes 17038 | FPS   2279 | Mean reward     47.1 | LR 1.45e-04 | Time   1137s
-Update 1270/2441 | Step 2,600,960 | Episodes 17065 | FPS   2279 | Mean reward     53.4 | LR 1.44e-04 | Time   1141s
-Update 1275/2441 | Step 2,611,200 | Episodes 17111 | FPS   2280 | Mean reward     47.9 | LR 1.43e-04 | Time   1145s
-Update 1280/2441 | Step 2,621,440 | Episodes 17158 | FPS   2280 | Mean reward     61.2 | LR 1.43e-04 | Time   1150s
-Update 1285/2441 | Step 2,631,680 | Episodes 17210 | FPS   2280 | Mean reward     30.8 | LR 1.42e-04 | Time   1154s
-Update 1290/2441 | Step 2,641,920 | Episodes 17257 | FPS   2281 | Mean reward     31.9 | LR 1.41e-04 | Time   1158s
-Update 1295/2441 | Step 2,652,160 | Episodes 17297 | FPS   2281 | Mean reward     25.6 | LR 1.41e-04 | Time   1163s
-Update 1300/2441 | Step 2,662,400 | Episodes 17346 | FPS   2281 | Mean reward     16.1 | LR 1.40e-04 | Time   1167s
-   ->  Model saved to checkpoints/ant_ppo_2662400.pt
-Update 1305/2441 | Step 2,672,640 | Episodes 17387 | FPS   2281 | Mean reward     34.9 | LR 1.40e-04 | Time   1172s
-Update 1310/2441 | Step 2,682,880 | Episodes 17438 | FPS   2281 | Mean reward     26.2 | LR 1.39e-04 | Time   1176s
-Update 1315/2441 | Step 2,693,120 | Episodes 17485 | FPS   2281 | Mean reward     33.2 | LR 1.38e-04 | Time   1181s
-Update 1320/2441 | Step 2,703,360 | Episodes 17514 | FPS   2281 | Mean reward     57.3 | LR 1.38e-04 | Time   1185s
-Update 1325/2441 | Step 2,713,600 | Episodes 17564 | FPS   2282 | Mean reward     45.6 | LR 1.37e-04 | Time   1189s
-Update 1330/2441 | Step 2,723,840 | Episodes 17609 | FPS   2282 | Mean reward     40.6 | LR 1.37e-04 | Time   1194s
-Update 1335/2441 | Step 2,734,080 | Episodes 17640 | FPS   2282 | Mean reward     43.1 | LR 1.36e-04 | Time   1198s
-Update 1340/2441 | Step 2,744,320 | Episodes 17668 | FPS   2282 | Mean reward     74.4 | LR 1.35e-04 | Time   1202s
-Update 1345/2441 | Step 2,754,560 | Episodes 17721 | FPS   2283 | Mean reward     43.3 | LR 1.35e-04 | Time   1207s
-Update 1350/2441 | Step 2,764,800 | Episodes 17775 | FPS   2283 | Mean reward     32.4 | LR 1.34e-04 | Time   1211s
-   ->  Model saved to checkpoints/ant_ppo_2764800.pt
-Update 1355/2441 | Step 2,775,040 | Episodes 17809 | FPS   2283 | Mean reward     61.5 | LR 1.33e-04 | Time   1216s
-Update 1360/2441 | Step 2,785,280 | Episodes 17847 | FPS   2283 | Mean reward     47.3 | LR 1.33e-04 | Time   1220s
-Update 1365/2441 | Step 2,795,520 | Episodes 17872 | FPS   2283 | Mean reward     92.1 | LR 1.32e-04 | Time   1224s
-Update 1370/2441 | Step 2,805,760 | Episodes 17908 | FPS   2284 | Mean reward     58.0 | LR 1.32e-04 | Time   1229s
-Update 1375/2441 | Step 2,816,000 | Episodes 17937 | FPS   2284 | Mean reward     66.7 | LR 1.31e-04 | Time   1233s
-Update 1380/2441 | Step 2,826,240 | Episodes 17973 | FPS   2284 | Mean reward     41.1 | LR 1.30e-04 | Time   1237s
-Update 1385/2441 | Step 2,836,480 | Episodes 18003 | FPS   2284 | Mean reward     76.0 | LR 1.30e-04 | Time   1242s
-Update 1390/2441 | Step 2,846,720 | Episodes 18047 | FPS   2285 | Mean reward     57.3 | LR 1.29e-04 | Time   1246s
-Update 1395/2441 | Step 2,856,960 | Episodes 18088 | FPS   2285 | Mean reward     54.9 | LR 1.29e-04 | Time   1250s
-Update 1400/2441 | Step 2,867,200 | Episodes 18126 | FPS   2285 | Mean reward     69.1 | LR 1.28e-04 | Time   1255s
-   ->  Model saved to checkpoints/ant_ppo_2867200.pt
-Update 1405/2441 | Step 2,877,440 | Episodes 18173 | FPS   2285 | Mean reward     47.3 | LR 1.27e-04 | Time   1259s
-Update 1410/2441 | Step 2,887,680 | Episodes 18198 | FPS   2285 | Mean reward    123.8 | LR 1.27e-04 | Time   1264s
-Update 1415/2441 | Step 2,897,920 | Episodes 18224 | FPS   2285 | Mean reward     81.4 | LR 1.26e-04 | Time   1268s
-Update 1420/2441 | Step 2,908,160 | Episodes 18261 | FPS   2286 | Mean reward     45.8 | LR 1.25e-04 | Time   1272s
-Update 1425/2441 | Step 2,918,400 | Episodes 18306 | FPS   2286 | Mean reward     83.7 | LR 1.25e-04 | Time   1277s
-Update 1430/2441 | Step 2,928,640 | Episodes 18343 | FPS   2286 | Mean reward    114.6 | LR 1.24e-04 | Time   1281s
-Update 1435/2441 | Step 2,938,880 | Episodes 18370 | FPS   2286 | Mean reward     71.3 | LR 1.24e-04 | Time   1285s
-Update 1440/2441 | Step 2,949,120 | Episodes 18404 | FPS   2287 | Mean reward     67.3 | LR 1.23e-04 | Time   1290s
-Update 1445/2441 | Step 2,959,360 | Episodes 18437 | FPS   2287 | Mean reward     76.0 | LR 1.22e-04 | Time   1294s
-Update 1450/2441 | Step 2,969,600 | Episodes 18472 | FPS   2287 | Mean reward    120.0 | LR 1.22e-04 | Time   1298s
-   ->  Model saved to checkpoints/ant_ppo_2969600.pt
-Update 1455/2441 | Step 2,979,840 | Episodes 18509 | FPS   2287 | Mean reward     50.6 | LR 1.21e-04 | Time   1303s
-Update 1460/2441 | Step 2,990,080 | Episodes 18537 | FPS   2287 | Mean reward    139.0 | LR 1.21e-04 | Time   1307s
-Update 1465/2441 | Step 3,000,320 | Episodes 18570 | FPS   2287 | Mean reward     90.3 | LR 1.20e-04 | Time   1312s
-Update 1470/2441 | Step 3,010,560 | Episodes 18593 | FPS   2287 | Mean reward    111.4 | LR 1.19e-04 | Time   1317s
-Update 1475/2441 | Step 3,020,800 | Episodes 18621 | FPS   2287 | Mean reward    107.6 | LR 1.19e-04 | Time   1321s
-Update 1480/2441 | Step 3,031,040 | Episodes 18659 | FPS   2287 | Mean reward     96.9 | LR 1.18e-04 | Time   1325s
-Update 1485/2441 | Step 3,041,280 | Episodes 18681 | FPS   2287 | Mean reward    149.9 | LR 1.17e-04 | Time   1330s
-Update 1490/2441 | Step 3,051,520 | Episodes 18705 | FPS   2287 | Mean reward    119.2 | LR 1.17e-04 | Time   1334s
-Update 1495/2441 | Step 3,061,760 | Episodes 18742 | FPS   2287 | Mean reward     91.5 | LR 1.16e-04 | Time   1339s
-Update 1500/2441 | Step 3,072,000 | Episodes 18789 | FPS   2287 | Mean reward     57.5 | LR 1.16e-04 | Time   1343s
-   ->  Model saved to checkpoints/ant_ppo_3072000.pt
-Update 1505/2441 | Step 3,082,240 | Episodes 18825 | FPS   2287 | Mean reward     73.9 | LR 1.15e-04 | Time   1348s
-Update 1510/2441 | Step 3,092,480 | Episodes 18868 | FPS   2286 | Mean reward     89.4 | LR 1.14e-04 | Time   1353s
-Update 1515/2441 | Step 3,102,720 | Episodes 18897 | FPS   2285 | Mean reward    108.7 | LR 1.14e-04 | Time   1358s
-Update 1520/2441 | Step 3,112,960 | Episodes 18929 | FPS   2285 | Mean reward    107.8 | LR 1.13e-04 | Time   1362s
-Update 1525/2441 | Step 3,123,200 | Episodes 18979 | FPS   2286 | Mean reward     95.4 | LR 1.13e-04 | Time   1366s
-Update 1530/2441 | Step 3,133,440 | Episodes 19010 | FPS   2286 | Mean reward    125.8 | LR 1.12e-04 | Time   1371s
-Update 1535/2441 | Step 3,143,680 | Episodes 19054 | FPS   2286 | Mean reward     78.0 | LR 1.11e-04 | Time   1375s
-Update 1540/2441 | Step 3,153,920 | Episodes 19096 | FPS   2286 | Mean reward    105.8 | LR 1.11e-04 | Time   1379s
-Update 1545/2441 | Step 3,164,160 | Episodes 19129 | FPS   2287 | Mean reward    122.6 | LR 1.10e-04 | Time   1384s
-Update 1550/2441 | Step 3,174,400 | Episodes 19160 | FPS   2287 | Mean reward    119.8 | LR 1.10e-04 | Time   1388s
-   ->  Model saved to checkpoints/ant_ppo_3174400.pt
-Update 1555/2441 | Step 3,184,640 | Episodes 19202 | FPS   2287 | Mean reward     69.1 | LR 1.09e-04 | Time   1392s
-Update 1560/2441 | Step 3,194,880 | Episodes 19263 | FPS   2287 | Mean reward     54.4 | LR 1.08e-04 | Time   1397s
-Update 1565/2441 | Step 3,205,120 | Episodes 19294 | FPS   2286 | Mean reward    116.9 | LR 1.08e-04 | Time   1402s
-Update 1570/2441 | Step 3,215,360 | Episodes 19332 | FPS   2287 | Mean reward     96.2 | LR 1.07e-04 | Time   1406s
-Update 1575/2441 | Step 3,225,600 | Episodes 19368 | FPS   2287 | Mean reward    106.0 | LR 1.06e-04 | Time   1410s
-Update 1580/2441 | Step 3,235,840 | Episodes 19414 | FPS   2287 | Mean reward    102.0 | LR 1.06e-04 | Time   1415s
-Update 1585/2441 | Step 3,246,080 | Episodes 19451 | FPS   2287 | Mean reward     99.7 | LR 1.05e-04 | Time   1419s
-Update 1590/2441 | Step 3,256,320 | Episodes 19503 | FPS   2288 | Mean reward     95.7 | LR 1.05e-04 | Time   1423s
-Update 1595/2441 | Step 3,266,560 | Episodes 19528 | FPS   2288 | Mean reward    156.4 | LR 1.04e-04 | Time   1428s
-Update 1600/2441 | Step 3,276,800 | Episodes 19571 | FPS   2288 | Mean reward     97.5 | LR 1.03e-04 | Time   1432s
-   ->  Model saved to checkpoints/ant_ppo_3276800.pt
-Update 1605/2441 | Step 3,287,040 | Episodes 19606 | FPS   2288 | Mean reward    116.5 | LR 1.03e-04 | Time   1436s
-Update 1610/2441 | Step 3,297,280 | Episodes 19644 | FPS   2289 | Mean reward     94.4 | LR 1.02e-04 | Time   1441s
-Update 1615/2441 | Step 3,307,520 | Episodes 19673 | FPS   2289 | Mean reward    125.6 | LR 1.02e-04 | Time   1445s
-Update 1620/2441 | Step 3,317,760 | Episodes 19715 | FPS   2288 | Mean reward    102.6 | LR 1.01e-04 | Time   1450s
-Update 1625/2441 | Step 3,328,000 | Episodes 19745 | FPS   2288 | Mean reward    143.3 | LR 1.00e-04 | Time   1455s
-Update 1630/2441 | Step 3,338,240 | Episodes 19797 | FPS   2287 | Mean reward    109.2 | LR 9.97e-05 | Time   1460s
-Update 1635/2441 | Step 3,348,480 | Episodes 19822 | FPS   2287 | Mean reward    161.8 | LR 9.91e-05 | Time   1464s
-Update 1640/2441 | Step 3,358,720 | Episodes 19860 | FPS   2287 | Mean reward    112.3 | LR 9.84e-05 | Time   1469s
-Update 1645/2441 | Step 3,368,960 | Episodes 19913 | FPS   2286 | Mean reward     95.8 | LR 9.78e-05 | Time   1474s
-Update 1650/2441 | Step 3,379,200 | Episodes 19947 | FPS   2286 | Mean reward    169.2 | LR 9.72e-05 | Time   1478s
-   ->  Model saved to checkpoints/ant_ppo_3379200.pt
-Update 1655/2441 | Step 3,389,440 | Episodes 19986 | FPS   2285 | Mean reward     98.0 | LR 9.66e-05 | Time   1483s
-Update 1660/2441 | Step 3,399,680 | Episodes 20028 | FPS   2283 | Mean reward    104.6 | LR 9.60e-05 | Time   1489s
-Update 1665/2441 | Step 3,409,920 | Episodes 20060 | FPS   2282 | Mean reward    129.8 | LR 9.54e-05 | Time   1495s
-Update 1670/2441 | Step 3,420,160 | Episodes 20100 | FPS   2281 | Mean reward    163.3 | LR 9.48e-05 | Time   1499s
-Update 1675/2441 | Step 3,430,400 | Episodes 20124 | FPS   2281 | Mean reward    164.9 | LR 9.41e-05 | Time   1504s
-Update 1680/2441 | Step 3,440,640 | Episodes 20159 | FPS   2281 | Mean reward    171.6 | LR 9.35e-05 | Time   1508s
-Update 1685/2441 | Step 3,450,880 | Episodes 20189 | FPS   2281 | Mean reward    171.8 | LR 9.29e-05 | Time   1513s
-Update 1690/2441 | Step 3,461,120 | Episodes 20221 | FPS   2282 | Mean reward    178.3 | LR 9.23e-05 | Time   1517s
-Update 1695/2441 | Step 3,471,360 | Episodes 20245 | FPS   2282 | Mean reward    190.6 | LR 9.17e-05 | Time   1521s
-Update 1700/2441 | Step 3,481,600 | Episodes 20271 | FPS   2282 | Mean reward    168.5 | LR 9.11e-05 | Time   1526s
-   ->  Model saved to checkpoints/ant_ppo_3481600.pt
-Update 1705/2441 | Step 3,491,840 | Episodes 20297 | FPS   2282 | Mean reward    136.6 | LR 9.05e-05 | Time   1530s
-Update 1710/2441 | Step 3,502,080 | Episodes 20321 | FPS   2281 | Mean reward    189.2 | LR 8.98e-05 | Time   1535s
-Update 1715/2441 | Step 3,512,320 | Episodes 20349 | FPS   2281 | Mean reward    144.9 | LR 8.92e-05 | Time   1540s
-Update 1720/2441 | Step 3,522,560 | Episodes 20371 | FPS   2281 | Mean reward    242.4 | LR 8.86e-05 | Time   1544s
-Update 1725/2441 | Step 3,532,800 | Episodes 20398 | FPS   2282 | Mean reward    219.7 | LR 8.80e-05 | Time   1548s
-Update 1730/2441 | Step 3,543,040 | Episodes 20420 | FPS   2282 | Mean reward    233.5 | LR 8.74e-05 | Time   1553s
-Update 1735/2441 | Step 3,553,280 | Episodes 20448 | FPS   2282 | Mean reward    182.2 | LR 8.68e-05 | Time   1557s
-Update 1740/2441 | Step 3,563,520 | Episodes 20468 | FPS   2282 | Mean reward    293.2 | LR 8.62e-05 | Time   1561s
-Update 1745/2441 | Step 3,573,760 | Episodes 20502 | FPS   2282 | Mean reward    173.8 | LR 8.55e-05 | Time   1566s
-Update 1750/2441 | Step 3,584,000 | Episodes 20526 | FPS   2283 | Mean reward    286.7 | LR 8.49e-05 | Time   1570s
-   ->  Model saved to checkpoints/ant_ppo_3584000.pt
-Update 1755/2441 | Step 3,594,240 | Episodes 20554 | FPS   2283 | Mean reward    255.5 | LR 8.43e-05 | Time   1574s
-Update 1760/2441 | Step 3,604,480 | Episodes 20584 | FPS   2283 | Mean reward    260.8 | LR 8.37e-05 | Time   1579s
-Update 1765/2441 | Step 3,614,720 | Episodes 20617 | FPS   2283 | Mean reward    234.9 | LR 8.31e-05 | Time   1583s
-Update 1770/2441 | Step 3,624,960 | Episodes 20648 | FPS   2284 | Mean reward    159.8 | LR 8.25e-05 | Time   1587s
-Update 1775/2441 | Step 3,635,200 | Episodes 20670 | FPS   2284 | Mean reward    323.3 | LR 8.19e-05 | Time   1592s
-Update 1780/2441 | Step 3,645,440 | Episodes 20702 | FPS   2284 | Mean reward    250.4 | LR 8.12e-05 | Time   1596s
-Update 1785/2441 | Step 3,655,680 | Episodes 20725 | FPS   2284 | Mean reward    246.3 | LR 8.06e-05 | Time   1600s
-Update 1790/2441 | Step 3,665,920 | Episodes 20750 | FPS   2284 | Mean reward    307.4 | LR 8.00e-05 | Time   1605s
-Update 1795/2441 | Step 3,676,160 | Episodes 20778 | FPS   2285 | Mean reward    232.8 | LR 7.94e-05 | Time   1609s
-Update 1800/2441 | Step 3,686,400 | Episodes 20810 | FPS   2285 | Mean reward    268.4 | LR 7.88e-05 | Time   1613s
-   ->  Model saved to checkpoints/ant_ppo_3686400.pt
-Update 1805/2441 | Step 3,696,640 | Episodes 20839 | FPS   2285 | Mean reward    276.4 | LR 7.82e-05 | Time   1618s
-Update 1810/2441 | Step 3,706,880 | Episodes 20869 | FPS   2285 | Mean reward    233.6 | LR 7.76e-05 | Time   1622s
-Update 1815/2441 | Step 3,717,120 | Episodes 20899 | FPS   2285 | Mean reward    302.1 | LR 7.69e-05 | Time   1626s
-Update 1820/2441 | Step 3,727,360 | Episodes 20926 | FPS   2286 | Mean reward    332.6 | LR 7.63e-05 | Time   1631s
-Update 1825/2441 | Step 3,737,600 | Episodes 20947 | FPS   2286 | Mean reward    352.4 | LR 7.57e-05 | Time   1635s
-Update 1830/2441 | Step 3,747,840 | Episodes 20966 | FPS   2286 | Mean reward    442.7 | LR 7.51e-05 | Time   1639s
-Update 1835/2441 | Step 3,758,080 | Episodes 20990 | FPS   2286 | Mean reward    368.0 | LR 7.45e-05 | Time   1644s
-Update 1840/2441 | Step 3,768,320 | Episodes 21019 | FPS   2286 | Mean reward    242.3 | LR 7.39e-05 | Time   1649s
-Update 1845/2441 | Step 3,778,560 | Episodes 21049 | FPS   2285 | Mean reward    225.8 | LR 7.32e-05 | Time   1654s
-Update 1850/2441 | Step 3,788,800 | Episodes 21076 | FPS   2284 | Mean reward    423.2 | LR 7.26e-05 | Time   1658s
-   ->  Model saved to checkpoints/ant_ppo_3788800.pt
-Update 1855/2441 | Step 3,799,040 | Episodes 21102 | FPS   2284 | Mean reward    239.8 | LR 7.20e-05 | Time   1664s
-Update 1860/2441 | Step 3,809,280 | Episodes 21120 | FPS   2283 | Mean reward    347.4 | LR 7.14e-05 | Time   1669s
-Update 1865/2441 | Step 3,819,520 | Episodes 21142 | FPS   2282 | Mean reward    408.8 | LR 7.08e-05 | Time   1674s
-Update 1870/2441 | Step 3,829,760 | Episodes 21178 | FPS   2281 | Mean reward    199.0 | LR 7.02e-05 | Time   1679s
-Update 1875/2441 | Step 3,840,000 | Episodes 21212 | FPS   2281 | Mean reward    255.5 | LR 6.96e-05 | Time   1684s
-Update 1880/2441 | Step 3,850,240 | Episodes 21247 | FPS   2280 | Mean reward    271.8 | LR 6.89e-05 | Time   1688s
-Update 1885/2441 | Step 3,860,480 | Episodes 21279 | FPS   2280 | Mean reward    301.5 | LR 6.83e-05 | Time   1693s
-Update 1890/2441 | Step 3,870,720 | Episodes 21314 | FPS   2279 | Mean reward    251.2 | LR 6.77e-05 | Time   1698s
-Update 1895/2441 | Step 3,880,960 | Episodes 21341 | FPS   2279 | Mean reward    337.1 | LR 6.71e-05 | Time   1703s
-Update 1900/2441 | Step 3,891,200 | Episodes 21364 | FPS   2278 | Mean reward    413.1 | LR 6.65e-05 | Time   1708s
-   ->  Model saved to checkpoints/ant_ppo_3891200.pt
-Update 1905/2441 | Step 3,901,440 | Episodes 21397 | FPS   2277 | Mean reward    330.9 | LR 6.59e-05 | Time   1713s
-Update 1910/2441 | Step 3,911,680 | Episodes 21429 | FPS   2277 | Mean reward    220.4 | LR 6.53e-05 | Time   1718s
-Update 1915/2441 | Step 3,921,920 | Episodes 21458 | FPS   2276 | Mean reward    400.5 | LR 6.46e-05 | Time   1723s
-Update 1920/2441 | Step 3,932,160 | Episodes 21487 | FPS   2275 | Mean reward    312.9 | LR 6.40e-05 | Time   1728s
-Update 1925/2441 | Step 3,942,400 | Episodes 21520 | FPS   2275 | Mean reward    255.2 | LR 6.34e-05 | Time   1733s
-Update 1930/2441 | Step 3,952,640 | Episodes 21557 | FPS   2274 | Mean reward    279.6 | LR 6.28e-05 | Time   1738s
-Update 1935/2441 | Step 3,962,880 | Episodes 21580 | FPS   2274 | Mean reward    439.1 | LR 6.22e-05 | Time   1743s
-Update 1940/2441 | Step 3,973,120 | Episodes 21606 | FPS   2273 | Mean reward    387.8 | LR 6.16e-05 | Time   1748s
-Update 1945/2441 | Step 3,983,360 | Episodes 21632 | FPS   2273 | Mean reward    331.8 | LR 6.10e-05 | Time   1753s
-Update 1950/2441 | Step 3,993,600 | Episodes 21662 | FPS   2272 | Mean reward    268.5 | LR 6.03e-05 | Time   1758s
-   ->  Model saved to checkpoints/ant_ppo_3993600.pt
-Update 1955/2441 | Step 4,003,840 | Episodes 21691 | FPS   2272 | Mean reward    339.7 | LR 5.97e-05 | Time   1763s
-Update 1960/2441 | Step 4,014,080 | Episodes 21728 | FPS   2271 | Mean reward    255.1 | LR 5.91e-05 | Time   1768s
-Update 1965/2441 | Step 4,024,320 | Episodes 21750 | FPS   2270 | Mean reward    467.1 | LR 5.85e-05 | Time   1772s
-Update 1970/2441 | Step 4,034,560 | Episodes 21782 | FPS   2270 | Mean reward    316.3 | LR 5.79e-05 | Time   1777s
-Update 1975/2441 | Step 4,044,800 | Episodes 21808 | FPS   2269 | Mean reward    392.7 | LR 5.73e-05 | Time   1782s
-Update 1980/2441 | Step 4,055,040 | Episodes 21839 | FPS   2269 | Mean reward    356.3 | LR 5.67e-05 | Time   1787s
-Update 1985/2441 | Step 4,065,280 | Episodes 21860 | FPS   2268 | Mean reward    491.4 | LR 5.60e-05 | Time   1792s
-Update 1990/2441 | Step 4,075,520 | Episodes 21882 | FPS   2268 | Mean reward    390.5 | LR 5.54e-05 | Time   1797s
-Update 1995/2441 | Step 4,085,760 | Episodes 21910 | FPS   2267 | Mean reward    363.4 | LR 5.48e-05 | Time   1802s
-Update 2000/2441 | Step 4,096,000 | Episodes 21930 | FPS   2267 | Mean reward    632.3 | LR 5.42e-05 | Time   1807s
-   ->  Model saved to checkpoints/ant_ppo_4096000.pt
-Update 2005/2441 | Step 4,106,240 | Episodes 21959 | FPS   2266 | Mean reward    349.9 | LR 5.36e-05 | Time   1812s
-Update 2010/2441 | Step 4,116,480 | Episodes 21988 | FPS   2266 | Mean reward    473.3 | LR 5.30e-05 | Time   1817s
-Update 2015/2441 | Step 4,126,720 | Episodes 22011 | FPS   2265 | Mean reward    499.3 | LR 5.24e-05 | Time   1822s
-Update 2020/2441 | Step 4,136,960 | Episodes 22045 | FPS   2264 | Mean reward    397.4 | LR 5.17e-05 | Time   1827s
-Update 2025/2441 | Step 4,147,200 | Episodes 22071 | FPS   2263 | Mean reward    415.5 | LR 5.11e-05 | Time   1832s
-Update 2030/2441 | Step 4,157,440 | Episodes 22103 | FPS   2263 | Mean reward    335.7 | LR 5.05e-05 | Time   1837s
-Update 2035/2441 | Step 4,167,680 | Episodes 22124 | FPS   2262 | Mean reward    466.3 | LR 4.99e-05 | Time   1842s
-Update 2040/2441 | Step 4,177,920 | Episodes 22153 | FPS   2262 | Mean reward    398.3 | LR 4.93e-05 | Time   1847s
-Update 2045/2441 | Step 4,188,160 | Episodes 22182 | FPS   2261 | Mean reward    435.2 | LR 4.87e-05 | Time   1852s
-Update 2050/2441 | Step 4,198,400 | Episodes 22215 | FPS   2261 | Mean reward    377.6 | LR 4.81e-05 | Time   1857s
-   ->  Model saved to checkpoints/ant_ppo_4198400.pt
-Update 2055/2441 | Step 4,208,640 | Episodes 22242 | FPS   2260 | Mean reward    353.2 | LR 4.74e-05 | Time   1862s
-Update 2060/2441 | Step 4,218,880 | Episodes 22276 | FPS   2258 | Mean reward    331.7 | LR 4.68e-05 | Time   1868s
-Update 2065/2441 | Step 4,229,120 | Episodes 22300 | FPS   2258 | Mean reward    455.2 | LR 4.62e-05 | Time   1873s
-Update 2070/2441 | Step 4,239,360 | Episodes 22329 | FPS   2257 | Mean reward    478.7 | LR 4.56e-05 | Time   1878s
-Update 2075/2441 | Step 4,249,600 | Episodes 22359 | FPS   2257 | Mean reward    384.2 | LR 4.50e-05 | Time   1883s
-Update 2080/2441 | Step 4,259,840 | Episodes 22385 | FPS   2256 | Mean reward    417.1 | LR 4.44e-05 | Time   1888s
-Update 2085/2441 | Step 4,270,080 | Episodes 22405 | FPS   2256 | Mean reward    524.9 | LR 4.38e-05 | Time   1893s
-Update 2090/2441 | Step 4,280,320 | Episodes 22436 | FPS   2255 | Mean reward    271.1 | LR 4.31e-05 | Time   1898s
-Update 2095/2441 | Step 4,290,560 | Episodes 22472 | FPS   2255 | Mean reward    273.6 | LR 4.25e-05 | Time   1903s
-Update 2100/2441 | Step 4,300,800 | Episodes 22494 | FPS   2255 | Mean reward    413.8 | LR 4.19e-05 | Time   1908s
-   ->  Model saved to checkpoints/ant_ppo_4300800.pt
-Update 2105/2441 | Step 4,311,040 | Episodes 22526 | FPS   2254 | Mean reward    392.4 | LR 4.13e-05 | Time   1913s
-Update 2110/2441 | Step 4,321,280 | Episodes 22556 | FPS   2253 | Mean reward    294.3 | LR 4.07e-05 | Time   1918s
-Update 2115/2441 | Step 4,331,520 | Episodes 22579 | FPS   2253 | Mean reward    446.6 | LR 4.01e-05 | Time   1923s
-Update 2120/2441 | Step 4,341,760 | Episodes 22604 | FPS   2252 | Mean reward    416.6 | LR 3.95e-05 | Time   1928s
-Update 2125/2441 | Step 4,352,000 | Episodes 22636 | FPS   2252 | Mean reward    279.7 | LR 3.88e-05 | Time   1933s
-Update 2130/2441 | Step 4,362,240 | Episodes 22660 | FPS   2251 | Mean reward    374.9 | LR 3.82e-05 | Time   1938s
-Update 2135/2441 | Step 4,372,480 | Episodes 22696 | FPS   2251 | Mean reward    361.8 | LR 3.76e-05 | Time   1942s
-Update 2140/2441 | Step 4,382,720 | Episodes 22721 | FPS   2251 | Mean reward    460.4 | LR 3.70e-05 | Time   1947s
-Update 2145/2441 | Step 4,392,960 | Episodes 22747 | FPS   2250 | Mean reward    479.3 | LR 3.64e-05 | Time   1952s
-Update 2150/2441 | Step 4,403,200 | Episodes 22774 | FPS   2250 | Mean reward    306.8 | LR 3.58e-05 | Time   1957s
-   ->  Model saved to checkpoints/ant_ppo_4403200.pt
-Update 2155/2441 | Step 4,413,440 | Episodes 22806 | FPS   2249 | Mean reward    343.5 | LR 3.51e-05 | Time   1962s
-Update 2160/2441 | Step 4,423,680 | Episodes 22833 | FPS   2249 | Mean reward    332.4 | LR 3.45e-05 | Time   1967s
-Update 2165/2441 | Step 4,433,920 | Episodes 22865 | FPS   2248 | Mean reward    336.2 | LR 3.39e-05 | Time   1972s
-Update 2170/2441 | Step 4,444,160 | Episodes 22896 | FPS   2248 | Mean reward    417.2 | LR 3.33e-05 | Time   1977s
-Update 2175/2441 | Step 4,454,400 | Episodes 22926 | FPS   2247 | Mean reward    336.9 | LR 3.27e-05 | Time   1982s
-Update 2180/2441 | Step 4,464,640 | Episodes 22947 | FPS   2247 | Mean reward    586.7 | LR 3.21e-05 | Time   1987s
-Update 2185/2441 | Step 4,474,880 | Episodes 22979 | FPS   2247 | Mean reward    419.7 | LR 3.15e-05 | Time   1992s
-Update 2190/2441 | Step 4,485,120 | Episodes 23009 | FPS   2246 | Mean reward    377.4 | LR 3.08e-05 | Time   1997s
-Update 2195/2441 | Step 4,495,360 | Episodes 23035 | FPS   2246 | Mean reward    487.9 | LR 3.02e-05 | Time   2002s
-Update 2200/2441 | Step 4,505,600 | Episodes 23062 | FPS   2245 | Mean reward    409.4 | LR 2.96e-05 | Time   2007s
-   ->  Model saved to checkpoints/ant_ppo_4505600.pt
-Update 2205/2441 | Step 4,515,840 | Episodes 23092 | FPS   2244 | Mean reward    316.2 | LR 2.90e-05 | Time   2013s
-Update 2210/2441 | Step 4,526,080 | Episodes 23119 | FPS   2241 | Mean reward    467.8 | LR 2.84e-05 | Time   2019s
-Update 2215/2441 | Step 4,536,320 | Episodes 23147 | FPS   2240 | Mean reward    442.9 | LR 2.78e-05 | Time   2025s
-Update 2220/2441 | Step 4,546,560 | Episodes 23177 | FPS   2239 | Mean reward    304.8 | LR 2.72e-05 | Time   2030s
-Update 2225/2441 | Step 4,556,800 | Episodes 23211 | FPS   2238 | Mean reward    412.0 | LR 2.65e-05 | Time   2036s
-Update 2230/2441 | Step 4,567,040 | Episodes 23245 | FPS   2237 | Mean reward    307.4 | LR 2.59e-05 | Time   2042s
-Update 2235/2441 | Step 4,577,280 | Episodes 23280 | FPS   2236 | Mean reward    317.0 | LR 2.53e-05 | Time   2047s
-Update 2240/2441 | Step 4,587,520 | Episodes 23312 | FPS   2235 | Mean reward    400.3 | LR 2.47e-05 | Time   2052s
-Update 2245/2441 | Step 4,597,760 | Episodes 23342 | FPS   2235 | Mean reward    396.0 | LR 2.41e-05 | Time   2057s
-Update 2250/2441 | Step 4,608,000 | Episodes 23367 | FPS   2234 | Mean reward    499.3 | LR 2.35e-05 | Time   2062s
-   ->  Model saved to checkpoints/ant_ppo_4608000.pt
-Update 2255/2441 | Step 4,618,240 | Episodes 23395 | FPS   2233 | Mean reward    407.5 | LR 2.29e-05 | Time   2068s
-Update 2260/2441 | Step 4,628,480 | Episodes 23423 | FPS   2232 | Mean reward    395.4 | LR 2.22e-05 | Time   2074s
-Update 2265/2441 | Step 4,638,720 | Episodes 23446 | FPS   2232 | Mean reward    529.3 | LR 2.16e-05 | Time   2079s
-Update 2270/2441 | Step 4,648,960 | Episodes 23474 | FPS   2231 | Mean reward    409.1 | LR 2.10e-05 | Time   2084s
-Update 2275/2441 | Step 4,659,200 | Episodes 23498 | FPS   2231 | Mean reward    486.7 | LR 2.04e-05 | Time   2088s
-Update 2280/2441 | Step 4,669,440 | Episodes 23526 | FPS   2231 | Mean reward    424.2 | LR 1.98e-05 | Time   2093s
-Update 2285/2441 | Step 4,679,680 | Episodes 23560 | FPS   2230 | Mean reward    361.0 | LR 1.92e-05 | Time   2098s
-Update 2290/2441 | Step 4,689,920 | Episodes 23581 | FPS   2230 | Mean reward    517.4 | LR 1.86e-05 | Time   2103s
-Update 2295/2441 | Step 4,700,160 | Episodes 23610 | FPS   2230 | Mean reward    366.4 | LR 1.79e-05 | Time   2108s
-Update 2300/2441 | Step 4,710,400 | Episodes 23633 | FPS   2229 | Mean reward    444.1 | LR 1.73e-05 | Time   2113s
-   ->  Model saved to checkpoints/ant_ppo_4710400.pt
-Update 2305/2441 | Step 4,720,640 | Episodes 23664 | FPS   2229 | Mean reward    311.4 | LR 1.67e-05 | Time   2118s
-Update 2310/2441 | Step 4,730,880 | Episodes 23689 | FPS   2228 | Mean reward    516.9 | LR 1.61e-05 | Time   2123s
-Update 2315/2441 | Step 4,741,120 | Episodes 23713 | FPS   2227 | Mean reward    531.3 | LR 1.55e-05 | Time   2128s
-Update 2320/2441 | Step 4,751,360 | Episodes 23740 | FPS   2227 | Mean reward    410.0 | LR 1.49e-05 | Time   2133s
-Update 2325/2441 | Step 4,761,600 | Episodes 23762 | FPS   2227 | Mean reward    626.0 | LR 1.43e-05 | Time   2138s
-Update 2330/2441 | Step 4,771,840 | Episodes 23784 | FPS   2227 | Mean reward    543.6 | LR 1.36e-05 | Time   2143s
-Update 2335/2441 | Step 4,782,080 | Episodes 23807 | FPS   2226 | Mean reward    510.0 | LR 1.30e-05 | Time   2148s
-Update 2340/2441 | Step 4,792,320 | Episodes 23834 | FPS   2226 | Mean reward    357.1 | LR 1.24e-05 | Time   2153s
-Update 2345/2441 | Step 4,802,560 | Episodes 23861 | FPS   2226 | Mean reward    395.8 | LR 1.18e-05 | Time   2158s
-Update 2350/2441 | Step 4,812,800 | Episodes 23884 | FPS   2225 | Mean reward    408.6 | LR 1.12e-05 | Time   2163s
-   ->  Model saved to checkpoints/ant_ppo_4812800.pt
-Update 2355/2441 | Step 4,823,040 | Episodes 23904 | FPS   2225 | Mean reward    617.7 | LR 1.06e-05 | Time   2168s
-Update 2360/2441 | Step 4,833,280 | Episodes 23927 | FPS   2224 | Mean reward    483.9 | LR 9.95e-06 | Time   2173s
-Update 2365/2441 | Step 4,843,520 | Episodes 23952 | FPS   2224 | Mean reward    447.3 | LR 9.34e-06 | Time   2178s
-Update 2370/2441 | Step 4,853,760 | Episodes 23975 | FPS   2224 | Mean reward    609.3 | LR 8.73e-06 | Time   2183s
-Update 2375/2441 | Step 4,864,000 | Episodes 24017 | FPS   2223 | Mean reward    281.0 | LR 8.11e-06 | Time   2188s
-Update 2380/2441 | Step 4,874,240 | Episodes 24045 | FPS   2223 | Mean reward    409.7 | LR 7.50e-06 | Time   2193s
-Update 2385/2441 | Step 4,884,480 | Episodes 24069 | FPS   2223 | Mean reward    394.6 | LR 6.88e-06 | Time   2198s
-Update 2390/2441 | Step 4,894,720 | Episodes 24092 | FPS   2222 | Mean reward    547.9 | LR 6.27e-06 | Time   2202s
-Update 2395/2441 | Step 4,904,960 | Episodes 24118 | FPS   2222 | Mean reward    490.0 | LR 5.65e-06 | Time   2207s
-Update 2400/2441 | Step 4,915,200 | Episodes 24144 | FPS   2222 | Mean reward    447.8 | LR 5.04e-06 | Time   2212s
-   ->  Model saved to checkpoints/ant_ppo_4915200.pt
-Update 2405/2441 | Step 4,925,440 | Episodes 24170 | FPS   2222 | Mean reward    518.1 | LR 4.42e-06 | Time   2217s
-Update 2410/2441 | Step 4,935,680 | Episodes 24195 | FPS   2221 | Mean reward    467.4 | LR 3.81e-06 | Time   2223s
-Update 2415/2441 | Step 4,945,920 | Episodes 24220 | FPS   2220 | Mean reward    529.5 | LR 3.20e-06 | Time   2228s
-Update 2420/2441 | Step 4,956,160 | Episodes 24244 | FPS   2220 | Mean reward    530.9 | LR 2.58e-06 | Time   2233s
-Update 2425/2441 | Step 4,966,400 | Episodes 24280 | FPS   2219 | Mean reward    332.3 | LR 1.97e-06 | Time   2238s
-Update 2430/2441 | Step 4,976,640 | Episodes 24311 | FPS   2219 | Mean reward    345.2 | LR 1.35e-06 | Time   2243s
-Update 2435/2441 | Step 4,986,880 | Episodes 24346 | FPS   2219 | Mean reward    267.8 | LR 7.37e-07 | Time   2248s
-Update 2440/2441 | Step 4,997,120 | Episodes 24387 | FPS   2218 | Mean reward    280.4 | LR 1.23e-07 | Time   2252s
-Training complete. Final model saved to checkpoints/ant_ppo_final.pt
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+============================================================
+VLA-PPO Training for Ant-v5
+============================================================
+  Image:        84×84
+  Frame stack:  3
+  Tasks:        walk_forward, walk_backward, turn_left, turn_right, stand_still
+  Total steps:  5,000,000
+============================================================
+Loading weights:   0%|          | 0/196 [00:00<?, ?it/s]Loading weights:   1%|          | 1/196 [00:00<00:00, 2792.48it/s, Materializing param=text_model.embeddings.position_embedding.weight]Loading weights:   1%|          | 1/196 [00:00<00:00, 1147.87it/s, Materializing param=text_model.embeddings.position_embedding.weight]Loading weights:   1%|          | 2/196 [00:00<00:00, 1057.57it/s, Materializing param=text_model.embeddings.token_embedding.weight]   Loading weights:   1%|          | 2/196 [00:00<00:00, 1038.32it/s, Materializing param=text_model.embeddings.token_embedding.weight]Loading weights:   2%|▏         | 3/196 [00:00<00:00, 1508.20it/s, Materializing param=text_model.encoder.layers.0.layer_norm1.bias]Loading weights:   2%|▏         | 3/196 [00:00<00:00, 1277.06it/s, Materializing param=text_model.encoder.layers.0.layer_norm1.bias]Loading weights:   2%|▏         | 4/196 [00:00<00:00, 1600.57it/s, Materializing param=text_model.encoder.layers.0.layer_norm1.weight]Loading weights:   2%|▏         | 4/196 [00:00<00:00, 1583.35it/s, Materializing param=text_model.encoder.layers.0.layer_norm1.weight]Loading weights:   3%|▎         | 5/196 [00:00<00:00, 1943.25it/s, Materializing param=text_model.encoder.layers.0.layer_norm2.bias]  Loading weights:   3%|▎         | 5/196 [00:00<00:00, 1925.94it/s, Materializing param=text_model.encoder.layers.0.layer_norm2.bias]Loading weights:   3%|▎         | 6/196 [00:00<00:00, 2237.16it/s, Materializing param=text_model.encoder.layers.0.layer_norm2.weight]Loading weights:   3%|▎         | 6/196 [00:00<00:00, 2217.25it/s, Materializing param=text_model.encoder.layers.0.layer_norm2.weight]Loading weights:   4%|▎         | 7/196 [00:00<00:00, 2470.77it/s, Materializing param=text_model.encoder.layers.0.mlp.fc1.bias]      Loading weights:   4%|▎         | 7/196 [00:00<00:00, 2437.33it/s, Materializing param=text_model.encoder.layers.0.mlp.fc1.bias]Loading weights:   4%|▍         | 8/196 [00:00<00:00, 2710.81it/s, Materializing param=text_model.encoder.layers.0.mlp.fc1.weight]Loading weights:   4%|▍         | 8/196 [00:00<00:00, 2668.56it/s, Materializing param=text_model.encoder.layers.0.mlp.fc1.weight]Loading weights:   5%|▍         | 9/196 [00:00<00:00, 2889.30it/s, Materializing param=text_model.encoder.layers.0.mlp.fc2.bias]  Loading weights:   5%|▍         | 9/196 [00:00<00:00, 2856.07it/s, Materializing param=text_model.encoder.layers.0.mlp.fc2.bias]Loading weights:   5%|▌         | 10/196 [00:00<00:00, 3117.98it/s, Materializing param=text_model.encoder.layers.0.mlp.fc2.weight]Loading weights:   5%|▌         | 10/196 [00:00<00:00, 3093.14it/s, Materializing param=text_model.encoder.layers.0.mlp.fc2.weight]Loading weights:   6%|▌         | 11/196 [00:00<00:00, 3351.54it/s, Materializing param=text_model.encoder.layers.0.self_attn.k_proj.bias]Loading weights:   6%|▌         | 11/196 [00:00<00:00, 3329.05it/s, Materializing param=text_model.encoder.layers.0.self_attn.k_proj.bias]Loading weights:   6%|▌         | 12/196 [00:00<00:00, 3582.07it/s, Materializing param=text_model.encoder.layers.0.self_attn.k_proj.weight]Loading weights:   6%|▌         | 12/196 [00:00<00:00, 3555.50it/s, Materializing param=text_model.encoder.layers.0.self_attn.k_proj.weight]Loading weights:   7%|▋         | 13/196 [00:00<00:00, 3803.43it/s, Materializing param=text_model.encoder.layers.0.self_attn.out_proj.bias]Loading weights:   7%|▋         | 13/196 [00:00<00:00, 3779.96it/s, Materializing param=text_model.encoder.layers.0.self_attn.out_proj.bias]Loading weights:   7%|▋         | 14/196 [00:00<00:00, 3978.07it/s, Materializing param=text_model.encoder.layers.0.self_attn.out_proj.weight]Loading weights:   7%|▋         | 14/196 [00:00<00:00, 3954.49it/s, Materializing param=text_model.encoder.layers.0.self_attn.out_proj.weight]Loading weights:   8%|▊         | 15/196 [00:00<00:00, 4192.07it/s, Materializing param=text_model.encoder.layers.0.self_attn.q_proj.bias]    Loading weights:   8%|▊         | 15/196 [00:00<00:00, 4170.12it/s, Materializing param=text_model.encoder.layers.0.self_attn.q_proj.bias]Loading weights:   8%|▊         | 16/196 [00:00<00:00, 4402.60it/s, Materializing param=text_model.encoder.layers.0.self_attn.q_proj.weight]Loading weights:   8%|▊         | 16/196 [00:00<00:00, 4378.76it/s, Materializing param=text_model.encoder.layers.0.self_attn.q_proj.weight]Loading weights:   9%|▊         | 17/196 [00:00<00:00, 4606.74it/s, Materializing param=text_model.encoder.layers.0.self_attn.v_proj.bias]  Loading weights:   9%|▊         | 17/196 [00:00<00:00, 4583.35it/s, Materializing param=text_model.encoder.layers.0.self_attn.v_proj.bias]Loading weights:   9%|▉         | 18/196 [00:00<00:00, 4746.78it/s, Materializing param=text_model.encoder.layers.0.self_attn.v_proj.weight]Loading weights:   9%|▉         | 18/196 [00:00<00:00, 4723.02it/s, Materializing param=text_model.encoder.layers.0.self_attn.v_proj.weight]Loading weights:  10%|▉         | 19/196 [00:00<00:00, 4937.53it/s, Materializing param=text_model.encoder.layers.1.layer_norm1.bias]       Loading weights:  10%|▉         | 19/196 [00:00<00:00, 4913.18it/s, Materializing param=text_model.encoder.layers.1.layer_norm1.bias]Loading weights:  10%|█         | 20/196 [00:00<00:00, 5123.13it/s, Materializing param=text_model.encoder.layers.1.layer_norm1.weight]Loading weights:  10%|█         | 20/196 [00:00<00:00, 5097.91it/s, Materializing param=text_model.encoder.layers.1.layer_norm1.weight]Loading weights:  11%|█         | 21/196 [00:00<00:00, 5304.45it/s, Materializing param=text_model.encoder.layers.1.layer_norm2.bias]  Loading weights:  11%|█         | 21/196 [00:00<00:00, 5277.75it/s, Materializing param=text_model.encoder.layers.1.layer_norm2.bias]Loading weights:  11%|█         | 22/196 [00:00<00:00, 5479.49it/s, Materializing param=text_model.encoder.layers.1.layer_norm2.weight]Loading weights:  11%|█         | 22/196 [00:00<00:00, 5453.59it/s, Materializing param=text_model.encoder.layers.1.layer_norm2.weight]Loading weights:  12%|█▏        | 23/196 [00:00<00:00, 5631.58it/s, Materializing param=text_model.encoder.layers.1.mlp.fc1.bias]      Loading weights:  12%|█▏        | 23/196 [00:00<00:00, 5605.40it/s, Materializing param=text_model.encoder.layers.1.mlp.fc1.bias]Loading weights:  12%|█▏        | 24/196 [00:00<00:00, 5791.24it/s, Materializing param=text_model.encoder.layers.1.mlp.fc1.weight]Loading weights:  12%|█▏        | 24/196 [00:00<00:00, 5765.04it/s, Materializing param=text_model.encoder.layers.1.mlp.fc1.weight]Loading weights:  13%|█▎        | 25/196 [00:00<00:00, 5956.46it/s, Materializing param=text_model.encoder.layers.1.mlp.fc2.bias]  Loading weights:  13%|█▎        | 25/196 [00:00<00:00, 5929.85it/s, Materializing param=text_model.encoder.layers.1.mlp.fc2.bias]Loading weights:  13%|█▎        | 26/196 [00:00<00:00, 6116.20it/s, Materializing param=text_model.encoder.layers.1.mlp.fc2.weight]Loading weights:  13%|█▎        | 26/196 [00:00<00:00, 6088.88it/s, Materializing param=text_model.encoder.layers.1.mlp.fc2.weight]Loading weights:  14%|█▍        | 27/196 [00:00<00:00, 6267.08it/s, Materializing param=text_model.encoder.layers.1.self_attn.k_proj.bias]Loading weights:  14%|█▍        | 27/196 [00:00<00:00, 6229.85it/s, Materializing param=text_model.encoder.layers.1.self_attn.k_proj.bias]Loading weights:  14%|█▍        | 28/196 [00:00<00:00, 6373.63it/s, Materializing param=text_model.encoder.layers.1.self_attn.k_proj.weight]Loading weights:  14%|█▍        | 28/196 [00:00<00:00, 6344.71it/s, Materializing param=text_model.encoder.layers.1.self_attn.k_proj.weight]Loading weights:  15%|█▍        | 29/196 [00:00<00:00, 6500.71it/s, Materializing param=text_model.encoder.layers.1.self_attn.out_proj.bias]Loading weights:  15%|█▍        | 29/196 [00:00<00:00, 6470.28it/s, Materializing param=text_model.encoder.layers.1.self_attn.out_proj.bias]Loading weights:  15%|█▌        | 30/196 [00:00<00:00, 6632.71it/s, Materializing param=text_model.encoder.layers.1.self_attn.out_proj.weight]Loading weights:  15%|█▌        | 30/196 [00:00<00:00, 6602.08it/s, Materializing param=text_model.encoder.layers.1.self_attn.out_proj.weight]Loading weights:  16%|█▌        | 31/196 [00:00<00:00, 6759.38it/s, Materializing param=text_model.encoder.layers.1.self_attn.q_proj.bias]    Loading weights:  16%|█▌        | 31/196 [00:00<00:00, 6728.60it/s, Materializing param=text_model.encoder.layers.1.self_attn.q_proj.bias]Loading weights:  16%|█▋        | 32/196 [00:00<00:00, 6884.37it/s, Materializing param=text_model.encoder.layers.1.self_attn.q_proj.weight]Loading weights:  16%|█▋        | 32/196 [00:00<00:00, 6853.44it/s, Materializing param=text_model.encoder.layers.1.self_attn.q_proj.weight]Loading weights:  17%|█▋        | 33/196 [00:00<00:00, 7012.46it/s, Materializing param=text_model.encoder.layers.1.self_attn.v_proj.bias]  Loading weights:  17%|█▋        | 33/196 [00:00<00:00, 6982.75it/s, Materializing param=text_model.encoder.layers.1.self_attn.v_proj.bias]Loading weights:  17%|█▋        | 34/196 [00:00<00:00, 7134.95it/s, Materializing param=text_model.encoder.layers.1.self_attn.v_proj.weight]Loading weights:  17%|█▋        | 34/196 [00:00<00:00, 7105.45it/s, Materializing param=text_model.encoder.layers.1.self_attn.v_proj.weight]Loading weights:  18%|█▊        | 35/196 [00:00<00:00, 7256.94it/s, Materializing param=text_model.encoder.layers.2.layer_norm1.bias]       Loading weights:  18%|█▊        | 35/196 [00:00<00:00, 7223.73it/s, Materializing param=text_model.encoder.layers.2.layer_norm1.bias]Loading weights:  18%|█▊        | 36/196 [00:00<00:00, 7336.62it/s, Materializing param=text_model.encoder.layers.2.layer_norm1.weight]Loading weights:  18%|█▊        | 36/196 [00:00<00:00, 7305.38it/s, Materializing param=text_model.encoder.layers.2.layer_norm1.weight]Loading weights:  19%|█▉        | 37/196 [00:00<00:00, 7450.63it/s, Materializing param=text_model.encoder.layers.2.layer_norm2.bias]  Loading weights:  19%|█▉        | 37/196 [00:00<00:00, 7419.29it/s, Materializing param=text_model.encoder.layers.2.layer_norm2.bias]Loading weights:  19%|█▉        | 38/196 [00:00<00:00, 7562.32it/s, Materializing param=text_model.encoder.layers.2.layer_norm2.weight]Loading weights:  19%|█▉        | 38/196 [00:00<00:00, 7529.10it/s, Materializing param=text_model.encoder.layers.2.layer_norm2.weight]Loading weights:  20%|█▉        | 39/196 [00:00<00:00, 7672.51it/s, Materializing param=text_model.encoder.layers.2.mlp.fc1.bias]      Loading weights:  20%|█▉        | 39/196 [00:00<00:00, 7640.97it/s, Materializing param=text_model.encoder.layers.2.mlp.fc1.bias]Loading weights:  20%|██        | 40/196 [00:00<00:00, 7772.99it/s, Materializing param=text_model.encoder.layers.2.mlp.fc1.weight]Loading weights:  20%|██        | 40/196 [00:00<00:00, 7741.42it/s, Materializing param=text_model.encoder.layers.2.mlp.fc1.weight]Loading weights:  21%|██        | 41/196 [00:00<00:00, 7877.17it/s, Materializing param=text_model.encoder.layers.2.mlp.fc2.bias]  Loading weights:  21%|██        | 41/196 [00:00<00:00, 7846.62it/s, Materializing param=text_model.encoder.layers.2.mlp.fc2.bias]Loading weights:  21%|██▏       | 42/196 [00:00<00:00, 7978.66it/s, Materializing param=text_model.encoder.layers.2.mlp.fc2.weight]Loading weights:  21%|██▏       | 42/196 [00:00<00:00, 7948.42it/s, Materializing param=text_model.encoder.layers.2.mlp.fc2.weight]Loading weights:  22%|██▏       | 43/196 [00:00<00:00, 8078.25it/s, Materializing param=text_model.encoder.layers.2.self_attn.k_proj.bias]Loading weights:  22%|██▏       | 43/196 [00:00<00:00, 8041.87it/s, Materializing param=text_model.encoder.layers.2.self_attn.k_proj.bias]Loading weights:  22%|██▏       | 44/196 [00:00<00:00, 8163.01it/s, Materializing param=text_model.encoder.layers.2.self_attn.k_proj.weight]Loading weights:  22%|██▏       | 44/196 [00:00<00:00, 8129.93it/s, Materializing param=text_model.encoder.layers.2.self_attn.k_proj.weight]Loading weights:  23%|██▎       | 45/196 [00:00<00:00, 8253.98it/s, Materializing param=text_model.encoder.layers.2.self_attn.out_proj.bias]Loading weights:  23%|██▎       | 45/196 [00:00<00:00, 8223.77it/s, Materializing param=text_model.encoder.layers.2.self_attn.out_proj.bias]Loading weights:  23%|██▎       | 46/196 [00:00<00:00, 8349.76it/s, Materializing param=text_model.encoder.layers.2.self_attn.out_proj.weight]Loading weights:  23%|██▎       | 46/196 [00:00<00:00, 8319.52it/s, Materializing param=text_model.encoder.layers.2.self_attn.out_proj.weight]Loading weights:  24%|██▍       | 47/196 [00:00<00:00, 8442.13it/s, Materializing param=text_model.encoder.layers.2.self_attn.q_proj.bias]    Loading weights:  24%|██▍       | 47/196 [00:00<00:00, 8410.44it/s, Materializing param=text_model.encoder.layers.2.self_attn.q_proj.bias]Loading weights:  24%|██▍       | 48/196 [00:00<00:00, 8533.32it/s, Materializing param=text_model.encoder.layers.2.self_attn.q_proj.weight]Loading weights:  24%|██▍       | 48/196 [00:00<00:00, 8499.81it/s, Materializing param=text_model.encoder.layers.2.self_attn.q_proj.weight]Loading weights:  25%|██▌       | 49/196 [00:00<00:00, 8620.48it/s, Materializing param=text_model.encoder.layers.2.self_attn.v_proj.bias]  Loading weights:  25%|██▌       | 49/196 [00:00<00:00, 8590.22it/s, Materializing param=text_model.encoder.layers.2.self_attn.v_proj.bias]Loading weights:  26%|██▌       | 50/196 [00:00<00:00, 8707.66it/s, Materializing param=text_model.encoder.layers.2.self_attn.v_proj.weight]Loading weights:  26%|██▌       | 50/196 [00:00<00:00, 8675.96it/s, Materializing param=text_model.encoder.layers.2.self_attn.v_proj.weight]Loading weights:  26%|██▌       | 51/196 [00:00<00:00, 8791.28it/s, Materializing param=text_model.encoder.layers.3.layer_norm1.bias]       Loading weights:  26%|██▌       | 51/196 [00:00<00:00, 8759.60it/s, Materializing param=text_model.encoder.layers.3.layer_norm1.bias]Loading weights:  27%|██▋       | 52/196 [00:00<00:00, 8868.89it/s, Materializing param=text_model.encoder.layers.3.layer_norm1.weight]Loading weights:  27%|██▋       | 52/196 [00:00<00:00, 8838.70it/s, Materializing param=text_model.encoder.layers.3.layer_norm1.weight]Loading weights:  27%|██▋       | 53/196 [00:00<00:00, 8951.36it/s, Materializing param=text_model.encoder.layers.3.layer_norm2.bias]  Loading weights:  27%|██▋       | 53/196 [00:00<00:00, 8919.75it/s, Materializing param=text_model.encoder.layers.3.layer_norm2.bias]Loading weights:  28%|██▊       | 54/196 [00:00<00:00, 9028.28it/s, Materializing param=text_model.encoder.layers.3.layer_norm2.weight]Loading weights:  28%|██▊       | 54/196 [00:00<00:00, 8996.72it/s, Materializing param=text_model.encoder.layers.3.layer_norm2.weight]Loading weights:  28%|██▊       | 55/196 [00:00<00:00, 9107.61it/s, Materializing param=text_model.encoder.layers.3.mlp.fc1.bias]      Loading weights:  28%|██▊       | 55/196 [00:00<00:00, 9077.51it/s, Materializing param=text_model.encoder.layers.3.mlp.fc1.bias]Loading weights:  29%|██▊       | 56/196 [00:00<00:00, 9183.29it/s, Materializing param=text_model.encoder.layers.3.mlp.fc1.weight]Loading weights:  29%|██▊       | 56/196 [00:00<00:00, 9153.23it/s, Materializing param=text_model.encoder.layers.3.mlp.fc1.weight]Loading weights:  29%|██▉       | 57/196 [00:00<00:00, 9259.31it/s, Materializing param=text_model.encoder.layers.3.mlp.fc2.bias]  Loading weights:  29%|██▉       | 57/196 [00:00<00:00, 9208.31it/s, Materializing param=text_model.encoder.layers.3.mlp.fc2.bias]Loading weights:  30%|██▉       | 58/196 [00:00<00:00, 9311.40it/s, Materializing param=text_model.encoder.layers.3.mlp.fc2.weight]Loading weights:  30%|██▉       | 58/196 [00:00<00:00, 9279.79it/s, Materializing param=text_model.encoder.layers.3.mlp.fc2.weight]Loading weights:  30%|███       | 59/196 [00:00<00:00, 9385.72it/s, Materializing param=text_model.encoder.layers.3.self_attn.k_proj.bias]Loading weights:  30%|███       | 59/196 [00:00<00:00, 9354.50it/s, Materializing param=text_model.encoder.layers.3.self_attn.k_proj.bias]Loading weights:  31%|███       | 60/196 [00:00<00:00, 9451.95it/s, Materializing param=text_model.encoder.layers.3.self_attn.k_proj.weight]Loading weights:  31%|███       | 60/196 [00:00<00:00, 9420.82it/s, Materializing param=text_model.encoder.layers.3.self_attn.k_proj.weight]Loading weights:  31%|███       | 61/196 [00:00<00:00, 9519.03it/s, Materializing param=text_model.encoder.layers.3.self_attn.out_proj.bias]Loading weights:  31%|███       | 61/196 [00:00<00:00, 9487.97it/s, Materializing param=text_model.encoder.layers.3.self_attn.out_proj.bias]Loading weights:  32%|███▏      | 62/196 [00:00<00:00, 9586.98it/s, Materializing param=text_model.encoder.layers.3.self_attn.out_proj.weight]Loading weights:  32%|███▏      | 62/196 [00:00<00:00, 9557.73it/s, Materializing param=text_model.encoder.layers.3.self_attn.out_proj.weight]Loading weights:  32%|███▏      | 63/196 [00:00<00:00, 9655.11it/s, Materializing param=text_model.encoder.layers.3.self_attn.q_proj.bias]    Loading weights:  32%|███▏      | 63/196 [00:00<00:00, 9623.82it/s, Materializing param=text_model.encoder.layers.3.self_attn.q_proj.bias]Loading weights:  33%|███▎      | 64/196 [00:00<00:00, 9717.47it/s, Materializing param=text_model.encoder.layers.3.self_attn.q_proj.weight]Loading weights:  33%|███▎      | 64/196 [00:00<00:00, 9685.22it/s, Materializing param=text_model.encoder.layers.3.self_attn.q_proj.weight]Loading weights:  33%|███▎      | 65/196 [00:00<00:00, 9735.04it/s, Materializing param=text_model.encoder.layers.3.self_attn.v_proj.bias]  Loading weights:  33%|███▎      | 65/196 [00:00<00:00, 9702.82it/s, Materializing param=text_model.encoder.layers.3.self_attn.v_proj.bias]Loading weights:  34%|███▎      | 66/196 [00:00<00:00, 9798.04it/s, Materializing param=text_model.encoder.layers.3.self_attn.v_proj.weight]Loading weights:  34%|███▎      | 66/196 [00:00<00:00, 9767.62it/s, Materializing param=text_model.encoder.layers.3.self_attn.v_proj.weight]Loading weights:  34%|███▍      | 67/196 [00:00<00:00, 9861.33it/s, Materializing param=text_model.encoder.layers.4.layer_norm1.bias]       Loading weights:  34%|███▍      | 67/196 [00:00<00:00, 9830.97it/s, Materializing param=text_model.encoder.layers.4.layer_norm1.bias]Loading weights:  35%|███▍      | 68/196 [00:00<00:00, 9922.51it/s, Materializing param=text_model.encoder.layers.4.layer_norm1.weight]Loading weights:  35%|███▍      | 68/196 [00:00<00:00, 9892.23it/s, Materializing param=text_model.encoder.layers.4.layer_norm1.weight]Loading weights:  35%|███▌      | 69/196 [00:00<00:00, 9983.68it/s, Materializing param=text_model.encoder.layers.4.layer_norm2.bias]  Loading weights:  35%|███▌      | 69/196 [00:00<00:00, 9953.47it/s, Materializing param=text_model.encoder.layers.4.layer_norm2.bias]Loading weights:  36%|███▌      | 70/196 [00:00<00:00, 10018.47it/s, Materializing param=text_model.encoder.layers.4.layer_norm2.weight]Loading weights:  36%|███▌      | 70/196 [00:00<00:00, 9988.48it/s, Materializing param=text_model.encoder.layers.4.layer_norm2.weight] Loading weights:  36%|███▌      | 71/196 [00:00<00:00, 10079.39it/s, Materializing param=text_model.encoder.layers.4.mlp.fc1.bias]     Loading weights:  36%|███▌      | 71/196 [00:00<00:00, 10042.34it/s, Materializing param=text_model.encoder.layers.4.mlp.fc1.bias]Loading weights:  37%|███▋      | 72/196 [00:00<00:00, 10127.77it/s, Materializing param=text_model.encoder.layers.4.mlp.fc1.weight]Loading weights:  37%|███▋      | 72/196 [00:00<00:00, 10099.66it/s, Materializing param=text_model.encoder.layers.4.mlp.fc1.weight]Loading weights:  37%|███▋      | 73/196 [00:00<00:00, 10185.43it/s, Materializing param=text_model.encoder.layers.4.mlp.fc2.bias]  Loading weights:  37%|███▋      | 73/196 [00:00<00:00, 10157.05it/s, Materializing param=text_model.encoder.layers.4.mlp.fc2.bias]Loading weights:  38%|███▊      | 74/196 [00:00<00:00, 10242.16it/s, Materializing param=text_model.encoder.layers.4.mlp.fc2.weight]Loading weights:  38%|███▊      | 74/196 [00:00<00:00, 10213.85it/s, Materializing param=text_model.encoder.layers.4.mlp.fc2.weight]Loading weights:  38%|███▊      | 75/196 [00:00<00:00, 10293.61it/s, Materializing param=text_model.encoder.layers.4.self_attn.k_proj.bias]Loading weights:  38%|███▊      | 75/196 [00:00<00:00, 10264.06it/s, Materializing param=text_model.encoder.layers.4.self_attn.k_proj.bias]Loading weights:  39%|███▉      | 76/196 [00:00<00:00, 10340.18it/s, Materializing param=text_model.encoder.layers.4.self_attn.k_proj.weight]Loading weights:  39%|███▉      | 76/196 [00:00<00:00, 10310.75it/s, Materializing param=text_model.encoder.layers.4.self_attn.k_proj.weight]Loading weights:  39%|███▉      | 77/196 [00:00<00:00, 10393.97it/s, Materializing param=text_model.encoder.layers.4.self_attn.out_proj.bias]Loading weights:  39%|███▉      | 77/196 [00:00<00:00, 10363.28it/s, Materializing param=text_model.encoder.layers.4.self_attn.out_proj.bias]Loading weights:  40%|███▉      | 78/196 [00:00<00:00, 10444.58it/s, Materializing param=text_model.encoder.layers.4.self_attn.out_proj.weight]Loading weights:  40%|███▉      | 78/196 [00:00<00:00, 10415.32it/s, Materializing param=text_model.encoder.layers.4.self_attn.out_proj.weight]Loading weights:  40%|████      | 79/196 [00:00<00:00, 10491.07it/s, Materializing param=text_model.encoder.layers.4.self_attn.q_proj.bias]    Loading weights:  40%|████      | 79/196 [00:00<00:00, 10461.92it/s, Materializing param=text_model.encoder.layers.4.self_attn.q_proj.bias]Loading weights:  41%|████      | 80/196 [00:00<00:00, 10542.76it/s, Materializing param=text_model.encoder.layers.4.self_attn.q_proj.weight]Loading weights:  41%|████      | 80/196 [00:00<00:00, 10515.33it/s, Materializing param=text_model.encoder.layers.4.self_attn.q_proj.weight]Loading weights:  41%|████▏     | 81/196 [00:00<00:00, 10592.01it/s, Materializing param=text_model.encoder.layers.4.self_attn.v_proj.bias]  Loading weights:  41%|████▏     | 81/196 [00:00<00:00, 10564.67it/s, Materializing param=text_model.encoder.layers.4.self_attn.v_proj.bias]Loading weights:  42%|████▏     | 82/196 [00:00<00:00, 10640.83it/s, Materializing param=text_model.encoder.layers.4.self_attn.v_proj.weight]Loading weights:  42%|████▏     | 82/196 [00:00<00:00, 10613.58it/s, Materializing param=text_model.encoder.layers.4.self_attn.v_proj.weight]Loading weights:  42%|████▏     | 83/196 [00:00<00:00, 10692.85it/s, Materializing param=text_model.encoder.layers.5.layer_norm1.bias]       Loading weights:  42%|████▏     | 83/196 [00:00<00:00, 10664.03it/s, Materializing param=text_model.encoder.layers.5.layer_norm1.bias]Loading weights:  43%|████▎     | 84/196 [00:00<00:00, 10740.20it/s, Materializing param=text_model.encoder.layers.5.layer_norm1.weight]Loading weights:  43%|████▎     | 84/196 [00:00<00:00, 10712.77it/s, Materializing param=text_model.encoder.layers.5.layer_norm1.weight]Loading weights:  43%|████▎     | 85/196 [00:00<00:00, 10783.90it/s, Materializing param=text_model.encoder.layers.5.layer_norm2.bias]  Loading weights:  43%|████▎     | 85/196 [00:00<00:00, 10749.76it/s, Materializing param=text_model.encoder.layers.5.layer_norm2.bias]Loading weights:  44%|████▍     | 86/196 [00:00<00:00, 10824.01it/s, Materializing param=text_model.encoder.layers.5.layer_norm2.weight]Loading weights:  44%|████▍     | 86/196 [00:00<00:00, 10795.50it/s, Materializing param=text_model.encoder.layers.5.layer_norm2.weight]Loading weights:  44%|████▍     | 87/196 [00:00<00:00, 10869.63it/s, Materializing param=text_model.encoder.layers.5.mlp.fc1.bias]      Loading weights:  44%|████▍     | 87/196 [00:00<00:00, 10840.89it/s, Materializing param=text_model.encoder.layers.5.mlp.fc1.bias]Loading weights:  45%|████▍     | 88/196 [00:00<00:00, 10916.53it/s, Materializing param=text_model.encoder.layers.5.mlp.fc1.weight]Loading weights:  45%|████▍     | 88/196 [00:00<00:00, 10888.19it/s, Materializing param=text_model.encoder.layers.5.mlp.fc1.weight]Loading weights:  45%|████▌     | 89/196 [00:00<00:00, 10961.80it/s, Materializing param=text_model.encoder.layers.5.mlp.fc2.bias]  Loading weights:  45%|████▌     | 89/196 [00:00<00:00, 10933.54it/s, Materializing param=text_model.encoder.layers.5.mlp.fc2.bias]Loading weights:  46%|████▌     | 90/196 [00:00<00:00, 11002.25it/s, Materializing param=text_model.encoder.layers.5.mlp.fc2.weight]Loading weights:  46%|████▌     | 90/196 [00:00<00:00, 10975.38it/s, Materializing param=text_model.encoder.layers.5.mlp.fc2.weight]Loading weights:  46%|████▋     | 91/196 [00:00<00:00, 11047.55it/s, Materializing param=text_model.encoder.layers.5.self_attn.k_proj.bias]Loading weights:  46%|████▋     | 91/196 [00:00<00:00, 11019.48it/s, Materializing param=text_model.encoder.layers.5.self_attn.k_proj.bias]Loading weights:  47%|████▋     | 92/196 [00:00<00:00, 11090.94it/s, Materializing param=text_model.encoder.layers.5.self_attn.k_proj.weight]Loading weights:  47%|████▋     | 92/196 [00:00<00:00, 11060.10it/s, Materializing param=text_model.encoder.layers.5.self_attn.k_proj.weight]Loading weights:  47%|████▋     | 93/196 [00:00<00:00, 11130.87it/s, Materializing param=text_model.encoder.layers.5.self_attn.out_proj.bias]Loading weights:  47%|████▋     | 93/196 [00:00<00:00, 11104.57it/s, Materializing param=text_model.encoder.layers.5.self_attn.out_proj.bias]Loading weights:  48%|████▊     | 94/196 [00:00<00:00, 11174.35it/s, Materializing param=text_model.encoder.layers.5.self_attn.out_proj.weight]Loading weights:  48%|████▊     | 94/196 [00:00<00:00, 11146.55it/s, Materializing param=text_model.encoder.layers.5.self_attn.out_proj.weight]Loading weights:  48%|████▊     | 95/196 [00:00<00:00, 11215.98it/s, Materializing param=text_model.encoder.layers.5.self_attn.q_proj.bias]    Loading weights:  48%|████▊     | 95/196 [00:00<00:00, 11189.21it/s, Materializing param=text_model.encoder.layers.5.self_attn.q_proj.bias]Loading weights:  49%|████▉     | 96/196 [00:00<00:00, 11255.47it/s, Materializing param=text_model.encoder.layers.5.self_attn.q_proj.weight]Loading weights:  49%|████▉     | 96/196 [00:00<00:00, 11227.85it/s, Materializing param=text_model.encoder.layers.5.self_attn.q_proj.weight]Loading weights:  49%|████▉     | 97/196 [00:00<00:00, 11292.22it/s, Materializing param=text_model.encoder.layers.5.self_attn.v_proj.bias]  Loading weights:  49%|████▉     | 97/196 [00:00<00:00, 11264.71it/s, Materializing param=text_model.encoder.layers.5.self_attn.v_proj.bias]Loading weights:  50%|█████     | 98/196 [00:00<00:00, 11331.89it/s, Materializing param=text_model.encoder.layers.5.self_attn.v_proj.weight]Loading weights:  50%|█████     | 98/196 [00:00<00:00, 11304.47it/s, Materializing param=text_model.encoder.layers.5.self_attn.v_proj.weight]Loading weights:  51%|█████     | 99/196 [00:00<00:00, 11370.10it/s, Materializing param=text_model.encoder.layers.6.layer_norm1.bias]       Loading weights:  51%|█████     | 99/196 [00:00<00:00, 11338.74it/s, Materializing param=text_model.encoder.layers.6.layer_norm1.bias]Loading weights:  51%|█████     | 100/196 [00:00<00:00, 11401.28it/s, Materializing param=text_model.encoder.layers.6.layer_norm1.weight]Loading weights:  51%|█████     | 100/196 [00:00<00:00, 11374.08it/s, Materializing param=text_model.encoder.layers.6.layer_norm1.weight]Loading weights:  52%|█████▏    | 101/196 [00:00<00:00, 11436.64it/s, Materializing param=text_model.encoder.layers.6.layer_norm2.bias]  Loading weights:  52%|█████▏    | 101/196 [00:00<00:00, 11411.07it/s, Materializing param=text_model.encoder.layers.6.layer_norm2.bias]Loading weights:  52%|█████▏    | 102/196 [00:00<00:00, 11476.14it/s, Materializing param=text_model.encoder.layers.6.layer_norm2.weight]Loading weights:  52%|█████▏    | 102/196 [00:00<00:00, 11450.34it/s, Materializing param=text_model.encoder.layers.6.layer_norm2.weight]Loading weights:  53%|█████▎    | 103/196 [00:00<00:00, 11517.28it/s, Materializing param=text_model.encoder.layers.6.mlp.fc1.bias]      Loading weights:  53%|█████▎    | 103/196 [00:00<00:00, 11491.55it/s, Materializing param=text_model.encoder.layers.6.mlp.fc1.bias]Loading weights:  53%|█████▎    | 104/196 [00:00<00:00, 11555.47it/s, Materializing param=text_model.encoder.layers.6.mlp.fc1.weight]Loading weights:  53%|█████▎    | 104/196 [00:00<00:00, 11529.82it/s, Materializing param=text_model.encoder.layers.6.mlp.fc1.weight]Loading weights:  54%|█████▎    | 105/196 [00:00<00:00, 11594.71it/s, Materializing param=text_model.encoder.layers.6.mlp.fc2.bias]  Loading weights:  54%|█████▎    | 105/196 [00:00<00:00, 11568.82it/s, Materializing param=text_model.encoder.layers.6.mlp.fc2.bias]Loading weights:  54%|█████▍    | 106/196 [00:00<00:00, 11634.38it/s, Materializing param=text_model.encoder.layers.6.mlp.fc2.weight]Loading weights:  54%|█████▍    | 106/196 [00:00<00:00, 11608.86it/s, Materializing param=text_model.encoder.layers.6.mlp.fc2.weight]Loading weights:  55%|█████▍    | 107/196 [00:00<00:00, 11672.36it/s, Materializing param=text_model.encoder.layers.6.self_attn.k_proj.bias]Loading weights:  55%|█████▍    | 107/196 [00:00<00:00, 11645.40it/s, Materializing param=text_model.encoder.layers.6.self_attn.k_proj.bias]Loading weights:  55%|█████▌    | 108/196 [00:00<00:00, 11707.15it/s, Materializing param=text_model.encoder.layers.6.self_attn.k_proj.weight]Loading weights:  55%|█████▌    | 108/196 [00:00<00:00, 11680.59it/s, Materializing param=text_model.encoder.layers.6.self_attn.k_proj.weight]Loading weights:  56%|█████▌    | 109/196 [00:00<00:00, 11741.81it/s, Materializing param=text_model.encoder.layers.6.self_attn.out_proj.bias]Loading weights:  56%|█████▌    | 109/196 [00:00<00:00, 11714.13it/s, Materializing param=text_model.encoder.layers.6.self_attn.out_proj.bias]Loading weights:  56%|█████▌    | 110/196 [00:00<00:00, 11770.93it/s, Materializing param=text_model.encoder.layers.6.self_attn.out_proj.weight]Loading weights:  56%|█████▌    | 110/196 [00:00<00:00, 11744.56it/s, Materializing param=text_model.encoder.layers.6.self_attn.out_proj.weight]Loading weights:  57%|█████▋    | 111/196 [00:00<00:00, 11803.26it/s, Materializing param=text_model.encoder.layers.6.self_attn.q_proj.bias]    Loading weights:  57%|█████▋    | 111/196 [00:00<00:00, 11778.18it/s, Materializing param=text_model.encoder.layers.6.self_attn.q_proj.bias]Loading weights:  57%|█████▋    | 112/196 [00:00<00:00, 11711.55it/s, Materializing param=text_model.encoder.layers.6.self_attn.q_proj.weight]Loading weights:  57%|█████▋    | 112/196 [00:00<00:00, 11674.01it/s, Materializing param=text_model.encoder.layers.6.self_attn.q_proj.weight]Loading weights:  58%|█████▊    | 113/196 [00:00<00:00, 11689.06it/s, Materializing param=text_model.encoder.layers.6.self_attn.v_proj.bias]  Loading weights:  58%|█████▊    | 113/196 [00:00<00:00, 11648.27it/s, Materializing param=text_model.encoder.layers.6.self_attn.v_proj.bias]Loading weights:  58%|█████▊    | 114/196 [00:00<00:00, 11694.44it/s, Materializing param=text_model.encoder.layers.6.self_attn.v_proj.weight]Loading weights:  58%|█████▊    | 114/196 [00:00<00:00, 11667.33it/s, Materializing param=text_model.encoder.layers.6.self_attn.v_proj.weight]Loading weights:  59%|█████▊    | 115/196 [00:00<00:00, 11715.65it/s, Materializing param=text_model.encoder.layers.7.layer_norm1.bias]       Loading weights:  59%|█████▊    | 115/196 [00:00<00:00, 11689.24it/s, Materializing param=text_model.encoder.layers.7.layer_norm1.bias]Loading weights:  59%|█████▉    | 116/196 [00:00<00:00, 11733.45it/s, Materializing param=text_model.encoder.layers.7.layer_norm1.weight]Loading weights:  59%|█████▉    | 116/196 [00:00<00:00, 11707.48it/s, Materializing param=text_model.encoder.layers.7.layer_norm1.weight]Loading weights:  60%|█████▉    | 117/196 [00:00<00:00, 11763.40it/s, Materializing param=text_model.encoder.layers.7.layer_norm2.bias]  Loading weights:  60%|█████▉    | 117/196 [00:00<00:00, 11738.63it/s, Materializing param=text_model.encoder.layers.7.layer_norm2.bias]Loading weights:  60%|██████    | 118/196 [00:00<00:00, 11745.68it/s, Materializing param=text_model.encoder.layers.7.layer_norm2.weight]Loading weights:  60%|██████    | 118/196 [00:00<00:00, 11719.26it/s, Materializing param=text_model.encoder.layers.7.layer_norm2.weight]Loading weights:  61%|██████    | 119/196 [00:00<00:00, 11775.08it/s, Materializing param=text_model.encoder.layers.7.mlp.fc1.bias]      Loading weights:  61%|██████    | 119/196 [00:00<00:00, 11749.58it/s, Materializing param=text_model.encoder.layers.7.mlp.fc1.bias]Loading weights:  61%|██████    | 120/196 [00:00<00:00, 11798.05it/s, Materializing param=text_model.encoder.layers.7.mlp.fc1.weight]Loading weights:  61%|██████    | 120/196 [00:00<00:00, 11773.76it/s, Materializing param=text_model.encoder.layers.7.mlp.fc1.weight]Loading weights:  62%|██████▏   | 121/196 [00:00<00:00, 11827.88it/s, Materializing param=text_model.encoder.layers.7.mlp.fc2.bias]  Loading weights:  62%|██████▏   | 121/196 [00:00<00:00, 11802.58it/s, Materializing param=text_model.encoder.layers.7.mlp.fc2.bias]Loading weights:  62%|██████▏   | 122/196 [00:00<00:00, 11854.90it/s, Materializing param=text_model.encoder.layers.7.mlp.fc2.weight]Loading weights:  62%|██████▏   | 122/196 [00:00<00:00, 11829.42it/s, Materializing param=text_model.encoder.layers.7.mlp.fc2.weight]Loading weights:  63%|██████▎   | 123/196 [00:00<00:00, 11881.61it/s, Materializing param=text_model.encoder.layers.7.self_attn.k_proj.bias]Loading weights:  63%|██████▎   | 123/196 [00:00<00:00, 11856.49it/s, Materializing param=text_model.encoder.layers.7.self_attn.k_proj.bias]Loading weights:  63%|██████▎   | 124/196 [00:00<00:00, 11906.91it/s, Materializing param=text_model.encoder.layers.7.self_attn.k_proj.weight]Loading weights:  63%|██████▎   | 124/196 [00:00<00:00, 11882.97it/s, Materializing param=text_model.encoder.layers.7.self_attn.k_proj.weight]Loading weights:  64%|██████▍   | 125/196 [00:00<00:00, 11936.53it/s, Materializing param=text_model.encoder.layers.7.self_attn.out_proj.bias]Loading weights:  64%|██████▍   | 125/196 [00:00<00:00, 11912.66it/s, Materializing param=text_model.encoder.layers.7.self_attn.out_proj.bias]Loading weights:  64%|██████▍   | 126/196 [00:00<00:00, 11964.73it/s, Materializing param=text_model.encoder.layers.7.self_attn.out_proj.weight]Loading weights:  64%|██████▍   | 126/196 [00:00<00:00, 11936.09it/s, Materializing param=text_model.encoder.layers.7.self_attn.out_proj.weight]Loading weights:  65%|██████▍   | 127/196 [00:00<00:00, 11987.77it/s, Materializing param=text_model.encoder.layers.7.self_attn.q_proj.bias]    Loading weights:  65%|██████▍   | 127/196 [00:00<00:00, 11964.08it/s, Materializing param=text_model.encoder.layers.7.self_attn.q_proj.bias]Loading weights:  65%|██████▌   | 128/196 [00:00<00:00, 12016.45it/s, Materializing param=text_model.encoder.layers.7.self_attn.q_proj.weight]Loading weights:  65%|██████▌   | 128/196 [00:00<00:00, 11992.83it/s, Materializing param=text_model.encoder.layers.7.self_attn.q_proj.weight]Loading weights:  66%|██████▌   | 129/196 [00:00<00:00, 12043.74it/s, Materializing param=text_model.encoder.layers.7.self_attn.v_proj.bias]  Loading weights:  66%|██████▌   | 129/196 [00:00<00:00, 12018.86it/s, Materializing param=text_model.encoder.layers.7.self_attn.v_proj.bias]Loading weights:  66%|██████▋   | 130/196 [00:00<00:00, 12069.14it/s, Materializing param=text_model.encoder.layers.7.self_attn.v_proj.weight]Loading weights:  66%|██████▋   | 130/196 [00:00<00:00, 12045.67it/s, Materializing param=text_model.encoder.layers.7.self_attn.v_proj.weight]Loading weights:  67%|██████▋   | 131/196 [00:00<00:00, 12092.65it/s, Materializing param=text_model.encoder.layers.8.layer_norm1.bias]       Loading weights:  67%|██████▋   | 131/196 [00:00<00:00, 12067.95it/s, Materializing param=text_model.encoder.layers.8.layer_norm1.bias]Loading weights:  67%|██████▋   | 132/196 [00:00<00:00, 12113.25it/s, Materializing param=text_model.encoder.layers.8.layer_norm1.weight]Loading weights:  67%|██████▋   | 132/196 [00:00<00:00, 12089.97it/s, Materializing param=text_model.encoder.layers.8.layer_norm1.weight]Loading weights:  68%|██████▊   | 133/196 [00:00<00:00, 12116.21it/s, Materializing param=text_model.encoder.layers.8.layer_norm2.bias]  Loading weights:  68%|██████▊   | 133/196 [00:00<00:00, 12093.10it/s, Materializing param=text_model.encoder.layers.8.layer_norm2.bias]Loading weights:  68%|██████▊   | 134/196 [00:00<00:00, 12141.91it/s, Materializing param=text_model.encoder.layers.8.layer_norm2.weight]Loading weights:  68%|██████▊   | 134/196 [00:00<00:00, 12118.87it/s, Materializing param=text_model.encoder.layers.8.layer_norm2.weight]Loading weights:  69%|██████▉   | 135/196 [00:00<00:00, 12167.59it/s, Materializing param=text_model.encoder.layers.8.mlp.fc1.bias]      Loading weights:  69%|██████▉   | 135/196 [00:00<00:00, 12144.63it/s, Materializing param=text_model.encoder.layers.8.mlp.fc1.bias]Loading weights:  69%|██████▉   | 136/196 [00:00<00:00, 12191.70it/s, Materializing param=text_model.encoder.layers.8.mlp.fc1.weight]Loading weights:  69%|██████▉   | 136/196 [00:00<00:00, 12168.81it/s, Materializing param=text_model.encoder.layers.8.mlp.fc1.weight]Loading weights:  70%|██████▉   | 137/196 [00:00<00:00, 12218.93it/s, Materializing param=text_model.encoder.layers.8.mlp.fc2.bias]  Loading weights:  70%|██████▉   | 137/196 [00:00<00:00, 12196.11it/s, Materializing param=text_model.encoder.layers.8.mlp.fc2.bias]Loading weights:  70%|███████   | 138/196 [00:00<00:00, 12240.45it/s, Materializing param=text_model.encoder.layers.8.mlp.fc2.weight]Loading weights:  70%|███████   | 138/196 [00:00<00:00, 12217.45it/s, Materializing param=text_model.encoder.layers.8.mlp.fc2.weight]Loading weights:  71%|███████   | 139/196 [00:00<00:00, 12263.79it/s, Materializing param=text_model.encoder.layers.8.self_attn.k_proj.bias]Loading weights:  71%|███████   | 139/196 [00:00<00:00, 12241.13it/s, Materializing param=text_model.encoder.layers.8.self_attn.k_proj.bias]Loading weights:  71%|███████▏  | 140/196 [00:00<00:00, 12277.38it/s, Materializing param=text_model.encoder.layers.8.self_attn.k_proj.weight]Loading weights:  71%|███████▏  | 140/196 [00:00<00:00, 12254.83it/s, Materializing param=text_model.encoder.layers.8.self_attn.k_proj.weight]Loading weights:  72%|███████▏  | 141/196 [00:00<00:00, 12301.29it/s, Materializing param=text_model.encoder.layers.8.self_attn.out_proj.bias]Loading weights:  72%|███████▏  | 141/196 [00:00<00:00, 12278.82it/s, Materializing param=text_model.encoder.layers.8.self_attn.out_proj.bias]Loading weights:  72%|███████▏  | 142/196 [00:00<00:00, 12324.19it/s, Materializing param=text_model.encoder.layers.8.self_attn.out_proj.weight]Loading weights:  72%|███████▏  | 142/196 [00:00<00:00, 12300.77it/s, Materializing param=text_model.encoder.layers.8.self_attn.out_proj.weight]Loading weights:  73%|███████▎  | 143/196 [00:00<00:00, 12342.53it/s, Materializing param=text_model.encoder.layers.8.self_attn.q_proj.bias]    Loading weights:  73%|███████▎  | 143/196 [00:00<00:00, 12320.22it/s, Materializing param=text_model.encoder.layers.8.self_attn.q_proj.bias]Loading weights:  73%|███████▎  | 144/196 [00:00<00:00, 12364.47it/s, Materializing param=text_model.encoder.layers.8.self_attn.q_proj.weight]Loading weights:  73%|███████▎  | 144/196 [00:00<00:00, 12341.23it/s, Materializing param=text_model.encoder.layers.8.self_attn.q_proj.weight]Loading weights:  74%|███████▍  | 145/196 [00:00<00:00, 12386.69it/s, Materializing param=text_model.encoder.layers.8.self_attn.v_proj.bias]  Loading weights:  74%|███████▍  | 145/196 [00:00<00:00, 12364.53it/s, Materializing param=text_model.encoder.layers.8.self_attn.v_proj.bias]Loading weights:  74%|███████▍  | 146/196 [00:00<00:00, 12407.67it/s, Materializing param=text_model.encoder.layers.8.self_attn.v_proj.weight]Loading weights:  74%|███████▍  | 146/196 [00:00<00:00, 12385.59it/s, Materializing param=text_model.encoder.layers.8.self_attn.v_proj.weight]Loading weights:  75%|███████▌  | 147/196 [00:00<00:00, 12431.20it/s, Materializing param=text_model.encoder.layers.9.layer_norm1.bias]       Loading weights:  75%|███████▌  | 147/196 [00:00<00:00, 12405.94it/s, Materializing param=text_model.encoder.layers.9.layer_norm1.bias]Loading weights:  76%|███████▌  | 148/196 [00:00<00:00, 12447.25it/s, Materializing param=text_model.encoder.layers.9.layer_norm1.weight]Loading weights:  76%|███████▌  | 148/196 [00:00<00:00, 12424.33it/s, Materializing param=text_model.encoder.layers.9.layer_norm1.weight]Loading weights:  76%|███████▌  | 149/196 [00:00<00:00, 12471.84it/s, Materializing param=text_model.encoder.layers.9.layer_norm2.bias]  Loading weights:  76%|███████▌  | 149/196 [00:00<00:00, 12451.71it/s, Materializing param=text_model.encoder.layers.9.layer_norm2.bias]Loading weights:  77%|███████▋  | 150/196 [00:00<00:00, 12497.93it/s, Materializing param=text_model.encoder.layers.9.layer_norm2.weight]Loading weights:  77%|███████▋  | 150/196 [00:00<00:00, 12473.89it/s, Materializing param=text_model.encoder.layers.9.layer_norm2.weight]Loading weights:  77%|███████▋  | 151/196 [00:00<00:00, 12519.57it/s, Materializing param=text_model.encoder.layers.9.mlp.fc1.bias]      Loading weights:  77%|███████▋  | 151/196 [00:00<00:00, 12496.84it/s, Materializing param=text_model.encoder.layers.9.mlp.fc1.bias]Loading weights:  78%|███████▊  | 152/196 [00:00<00:00, 12539.03it/s, Materializing param=text_model.encoder.layers.9.mlp.fc1.weight]Loading weights:  78%|███████▊  | 152/196 [00:00<00:00, 12518.59it/s, Materializing param=text_model.encoder.layers.9.mlp.fc1.weight]Loading weights:  78%|███████▊  | 153/196 [00:00<00:00, 12557.30it/s, Materializing param=text_model.encoder.layers.9.mlp.fc2.bias]  Loading weights:  78%|███████▊  | 153/196 [00:00<00:00, 12535.72it/s, Materializing param=text_model.encoder.layers.9.mlp.fc2.bias]Loading weights:  79%|███████▊  | 154/196 [00:00<00:00, 12577.36it/s, Materializing param=text_model.encoder.layers.9.mlp.fc2.weight]Loading weights:  79%|███████▊  | 154/196 [00:00<00:00, 12559.02it/s, Materializing param=text_model.encoder.layers.9.mlp.fc2.weight]Loading weights:  79%|███████▉  | 155/196 [00:00<00:00, 12605.52it/s, Materializing param=text_model.encoder.layers.9.self_attn.k_proj.bias]Loading weights:  79%|███████▉  | 155/196 [00:00<00:00, 12584.05it/s, Materializing param=text_model.encoder.layers.9.self_attn.k_proj.bias]Loading weights:  80%|███████▉  | 156/196 [00:00<00:00, 12618.34it/s, Materializing param=text_model.encoder.layers.9.self_attn.k_proj.weight]Loading weights:  80%|███████▉  | 156/196 [00:00<00:00, 12597.69it/s, Materializing param=text_model.encoder.layers.9.self_attn.k_proj.weight]Loading weights:  80%|████████  | 157/196 [00:00<00:00, 12641.93it/s, Materializing param=text_model.encoder.layers.9.self_attn.out_proj.bias]Loading weights:  80%|████████  | 157/196 [00:00<00:00, 12621.58it/s, Materializing param=text_model.encoder.layers.9.self_attn.out_proj.bias]Loading weights:  81%|████████  | 158/196 [00:00<00:00, 12656.13it/s, Materializing param=text_model.encoder.layers.9.self_attn.out_proj.weight]Loading weights:  81%|████████  | 158/196 [00:00<00:00, 12631.76it/s, Materializing param=text_model.encoder.layers.9.self_attn.out_proj.weight]Loading weights:  81%|████████  | 159/196 [00:00<00:00, 12671.37it/s, Materializing param=text_model.encoder.layers.9.self_attn.q_proj.bias]    Loading weights:  81%|████████  | 159/196 [00:00<00:00, 12650.22it/s, Materializing param=text_model.encoder.layers.9.self_attn.q_proj.bias]Loading weights:  82%|████████▏ | 160/196 [00:00<00:00, 12688.38it/s, Materializing param=text_model.encoder.layers.9.self_attn.q_proj.weight]Loading weights:  82%|████████▏ | 160/196 [00:00<00:00, 12669.22it/s, Materializing param=text_model.encoder.layers.9.self_attn.q_proj.weight]Loading weights:  82%|████████▏ | 161/196 [00:00<00:00, 12714.08it/s, Materializing param=text_model.encoder.layers.9.self_attn.v_proj.bias]  Loading weights:  82%|████████▏ | 161/196 [00:00<00:00, 12693.05it/s, Materializing param=text_model.encoder.layers.9.self_attn.v_proj.bias]Loading weights:  83%|████████▎ | 162/196 [00:00<00:00, 12726.68it/s, Materializing param=text_model.encoder.layers.9.self_attn.v_proj.weight]Loading weights:  83%|████████▎ | 162/196 [00:00<00:00, 12705.73it/s, Materializing param=text_model.encoder.layers.9.self_attn.v_proj.weight]Loading weights:  83%|████████▎ | 163/196 [00:00<00:00, 12747.22it/s, Materializing param=text_model.encoder.layers.10.layer_norm1.bias]      Loading weights:  83%|████████▎ | 163/196 [00:00<00:00, 12721.36it/s, Materializing param=text_model.encoder.layers.10.layer_norm1.bias]Loading weights:  84%|████████▎ | 164/196 [00:00<00:00, 12757.63it/s, Materializing param=text_model.encoder.layers.10.layer_norm1.weight]Loading weights:  84%|████████▎ | 164/196 [00:00<00:00, 12738.73it/s, Materializing param=text_model.encoder.layers.10.layer_norm1.weight]Loading weights:  84%|████████▍ | 165/196 [00:00<00:00, 12782.79it/s, Materializing param=text_model.encoder.layers.10.layer_norm2.bias]  Loading weights:  84%|████████▍ | 165/196 [00:00<00:00, 12762.99it/s, Materializing param=text_model.encoder.layers.10.layer_norm2.bias]Loading weights:  85%|████████▍ | 166/196 [00:00<00:00, 12791.74it/s, Materializing param=text_model.encoder.layers.10.layer_norm2.weight]Loading weights:  85%|████████▍ | 166/196 [00:00<00:00, 12770.16it/s, Materializing param=text_model.encoder.layers.10.layer_norm2.weight]Loading weights:  85%|████████▌ | 167/196 [00:00<00:00, 12811.60it/s, Materializing param=text_model.encoder.layers.10.mlp.fc1.bias]      Loading weights:  85%|████████▌ | 167/196 [00:00<00:00, 12792.88it/s, Materializing param=text_model.encoder.layers.10.mlp.fc1.bias]Loading weights:  86%|████████▌ | 168/196 [00:00<00:00, 12832.22it/s, Materializing param=text_model.encoder.layers.10.mlp.fc1.weight]Loading weights:  86%|████████▌ | 168/196 [00:00<00:00, 12813.56it/s, Materializing param=text_model.encoder.layers.10.mlp.fc1.weight]Loading weights:  86%|████████▌ | 169/196 [00:00<00:00, 12857.56it/s, Materializing param=text_model.encoder.layers.10.mlp.fc2.bias]  Loading weights:  86%|████████▌ | 169/196 [00:00<00:00, 12838.93it/s, Materializing param=text_model.encoder.layers.10.mlp.fc2.bias]Loading weights:  87%|████████▋ | 170/196 [00:00<00:00, 12881.77it/s, Materializing param=text_model.encoder.layers.10.mlp.fc2.weight]Loading weights:  87%|████████▋ | 170/196 [00:00<00:00, 12862.25it/s, Materializing param=text_model.encoder.layers.10.mlp.fc2.weight]Loading weights:  87%|████████▋ | 171/196 [00:00<00:00, 12896.04it/s, Materializing param=text_model.encoder.layers.10.self_attn.k_proj.bias]Loading weights:  87%|████████▋ | 171/196 [00:00<00:00, 12875.43it/s, Materializing param=text_model.encoder.layers.10.self_attn.k_proj.bias]Loading weights:  88%|████████▊ | 172/196 [00:00<00:00, 12917.80it/s, Materializing param=text_model.encoder.layers.10.self_attn.k_proj.weight]Loading weights:  88%|████████▊ | 172/196 [00:00<00:00, 12899.32it/s, Materializing param=text_model.encoder.layers.10.self_attn.k_proj.weight]Loading weights:  88%|████████▊ | 173/196 [00:00<00:00, 12939.38it/s, Materializing param=text_model.encoder.layers.10.self_attn.out_proj.bias]Loading weights:  88%|████████▊ | 173/196 [00:00<00:00, 12915.20it/s, Materializing param=text_model.encoder.layers.10.self_attn.out_proj.bias]Loading weights:  89%|████████▉ | 174/196 [00:00<00:00, 12951.13it/s, Materializing param=text_model.encoder.layers.10.self_attn.out_proj.weight]Loading weights:  89%|████████▉ | 174/196 [00:00<00:00, 12931.85it/s, Materializing param=text_model.encoder.layers.10.self_attn.out_proj.weight]Loading weights:  89%|████████▉ | 175/196 [00:00<00:00, 12970.55it/s, Materializing param=text_model.encoder.layers.10.self_attn.q_proj.bias]    Loading weights:  89%|████████▉ | 175/196 [00:00<00:00, 12952.24it/s, Materializing param=text_model.encoder.layers.10.self_attn.q_proj.bias]Loading weights:  90%|████████▉ | 176/196 [00:00<00:00, 12988.89it/s, Materializing param=text_model.encoder.layers.10.self_attn.q_proj.weight]Loading weights:  90%|████████▉ | 176/196 [00:00<00:00, 12965.85it/s, Materializing param=text_model.encoder.layers.10.self_attn.q_proj.weight]Loading weights:  90%|█████████ | 177/196 [00:00<00:00, 13005.02it/s, Materializing param=text_model.encoder.layers.10.self_attn.v_proj.bias]  Loading weights:  90%|█████████ | 177/196 [00:00<00:00, 12985.92it/s, Materializing param=text_model.encoder.layers.10.self_attn.v_proj.bias]Loading weights:  91%|█████████ | 178/196 [00:00<00:00, 13021.02it/s, Materializing param=text_model.encoder.layers.10.self_attn.v_proj.weight]Loading weights:  91%|█████████ | 178/196 [00:00<00:00, 12997.22it/s, Materializing param=text_model.encoder.layers.10.self_attn.v_proj.weight]Loading weights:  91%|█████████▏| 179/196 [00:00<00:00, 13032.35it/s, Materializing param=text_model.encoder.layers.11.layer_norm1.bias]       Loading weights:  91%|█████████▏| 179/196 [00:00<00:00, 13015.18it/s, Materializing param=text_model.encoder.layers.11.layer_norm1.bias]Loading weights:  92%|█████████▏| 180/196 [00:00<00:00, 13054.62it/s, Materializing param=text_model.encoder.layers.11.layer_norm1.weight]Loading weights:  92%|█████████▏| 180/196 [00:00<00:00, 13033.88it/s, Materializing param=text_model.encoder.layers.11.layer_norm1.weight]Loading weights:  92%|█████████▏| 181/196 [00:00<00:00, 13066.59it/s, Materializing param=text_model.encoder.layers.11.layer_norm2.bias]  Loading weights:  92%|█████████▏| 181/196 [00:00<00:00, 13047.73it/s, Materializing param=text_model.encoder.layers.11.layer_norm2.bias]Loading weights:  93%|█████████▎| 182/196 [00:00<00:00, 13080.25it/s, Materializing param=text_model.encoder.layers.11.layer_norm2.weight]Loading weights:  93%|█████████▎| 182/196 [00:00<00:00, 13057.65it/s, Materializing param=text_model.encoder.layers.11.layer_norm2.weight]Loading weights:  93%|█████████▎| 183/196 [00:00<00:00, 13094.90it/s, Materializing param=text_model.encoder.layers.11.mlp.fc1.bias]      Loading weights:  93%|█████████▎| 183/196 [00:00<00:00, 13072.38it/s, Materializing param=text_model.encoder.layers.11.mlp.fc1.bias]Loading weights:  94%|█████████▍| 184/196 [00:00<00:00, 13106.31it/s, Materializing param=text_model.encoder.layers.11.mlp.fc1.weight]Loading weights:  94%|█████████▍| 184/196 [00:00<00:00, 13088.53it/s, Materializing param=text_model.encoder.layers.11.mlp.fc1.weight]Loading weights:  94%|█████████▍| 185/196 [00:00<00:00, 13128.05it/s, Materializing param=text_model.encoder.layers.11.mlp.fc2.bias]  Loading weights:  94%|█████████▍| 185/196 [00:00<00:00, 13109.41it/s, Materializing param=text_model.encoder.layers.11.mlp.fc2.bias]Loading weights:  95%|█████████▍| 186/196 [00:00<00:00, 13140.32it/s, Materializing param=text_model.encoder.layers.11.mlp.fc2.weight]Loading weights:  95%|█████████▍| 186/196 [00:00<00:00, 13121.53it/s, Materializing param=text_model.encoder.layers.11.mlp.fc2.weight]Loading weights:  95%|█████████▌| 187/196 [00:00<00:00, 13158.88it/s, Materializing param=text_model.encoder.layers.11.self_attn.k_proj.bias]Loading weights:  95%|█████████▌| 187/196 [00:00<00:00, 13141.24it/s, Materializing param=text_model.encoder.layers.11.self_attn.k_proj.bias]Loading weights:  96%|█████████▌| 188/196 [00:00<00:00, 13168.05it/s, Materializing param=text_model.encoder.layers.11.self_attn.k_proj.weight]Loading weights:  96%|█████████▌| 188/196 [00:00<00:00, 13148.51it/s, Materializing param=text_model.encoder.layers.11.self_attn.k_proj.weight]Loading weights:  96%|█████████▋| 189/196 [00:00<00:00, 13179.77it/s, Materializing param=text_model.encoder.layers.11.self_attn.out_proj.bias]Loading weights:  96%|█████████▋| 189/196 [00:00<00:00, 13157.67it/s, Materializing param=text_model.encoder.layers.11.self_attn.out_proj.bias]Loading weights:  97%|█████████▋| 190/196 [00:00<00:00, 13185.93it/s, Materializing param=text_model.encoder.layers.11.self_attn.out_proj.weight]Loading weights:  97%|█████████▋| 190/196 [00:00<00:00, 13168.71it/s, Materializing param=text_model.encoder.layers.11.self_attn.out_proj.weight]Loading weights:  97%|█████████▋| 191/196 [00:00<00:00, 13206.81it/s, Materializing param=text_model.encoder.layers.11.self_attn.q_proj.bias]    Loading weights:  97%|█████████▋| 191/196 [00:00<00:00, 13186.81it/s, Materializing param=text_model.encoder.layers.11.self_attn.q_proj.bias]Loading weights:  98%|█████████▊| 192/196 [00:00<00:00, 13218.43it/s, Materializing param=text_model.encoder.layers.11.self_attn.q_proj.weight]Loading weights:  98%|█████████▊| 192/196 [00:00<00:00, 13196.77it/s, Materializing param=text_model.encoder.layers.11.self_attn.q_proj.weight]Loading weights:  98%|█████████▊| 193/196 [00:00<00:00, 13228.00it/s, Materializing param=text_model.encoder.layers.11.self_attn.v_proj.bias]  Loading weights:  98%|█████████▊| 193/196 [00:00<00:00, 13209.01it/s, Materializing param=text_model.encoder.layers.11.self_attn.v_proj.bias]Loading weights:  99%|█████████▉| 194/196 [00:00<00:00, 13239.42it/s, Materializing param=text_model.encoder.layers.11.self_attn.v_proj.weight]Loading weights:  99%|█████████▉| 194/196 [00:00<00:00, 13217.92it/s, Materializing param=text_model.encoder.layers.11.self_attn.v_proj.weight]Loading weights:  99%|█████████▉| 195/196 [00:00<00:00, 13253.54it/s, Materializing param=text_model.final_layer_norm.bias]                    Loading weights:  99%|█████████▉| 195/196 [00:00<00:00, 13232.74it/s, Materializing param=text_model.final_layer_norm.bias]Loading weights: 100%|██████████| 196/196 [00:00<00:00, 13264.76it/s, Materializing param=text_model.final_layer_norm.weight]Loading weights: 100%|██████████| 196/196 [00:00<00:00, 13247.66it/s, Materializing param=text_model.final_layer_norm.weight]Loading weights: 100%|██████████| 196/196 [00:00<00:00, 13195.99it/s, Materializing param=text_model.final_layer_norm.weight]
+[1mCLIPTextModel LOAD REPORT[0m from: openai/clip-vit-base-patch32
+Key                                                            | Status     |  | 
+---------------------------------------------------------------+------------+--+-
+vision_model.encoder.layers.{0...11}.self_attn.q_proj.weight   | UNEXPECTED |  | 
+vision_model.encoder.layers.{0...11}.mlp.fc2.bias              | UNEXPECTED |  | 
+vision_model.encoder.layers.{0...11}.self_attn.out_proj.bias   | UNEXPECTED |  | 
+vision_model.encoder.layers.{0...11}.self_attn.v_proj.weight   | UNEXPECTED |  | 
+text_model.embeddings.position_ids                             | UNEXPECTED |  | 
+vision_model.encoder.layers.{0...11}.layer_norm1.bias          | UNEXPECTED |  | 
+vision_model.embeddings.class_embedding                        | UNEXPECTED |  | 
+logit_scale                                                    | UNEXPECTED |  | 
+vision_model.encoder.layers.{0...11}.self_attn.v_proj.bias     | UNEXPECTED |  | 
+vision_model.encoder.layers.{0...11}.mlp.fc1.bias              | UNEXPECTED |  | 
+vision_model.encoder.layers.{0...11}.self_attn.k_proj.bias     | UNEXPECTED |  | 
+vision_model.encoder.layers.{0...11}.self_attn.k_proj.weight   | UNEXPECTED |  | 
+vision_model.encoder.layers.{0...11}.mlp.fc1.weight            | UNEXPECTED |  | 
+vision_model.encoder.layers.{0...11}.self_attn.out_proj.weight | UNEXPECTED |  | 
+vision_model.encoder.layers.{0...11}.layer_norm1.weight        | UNEXPECTED |  | 
+vision_model.encoder.layers.{0...11}.mlp.fc2.weight            | UNEXPECTED |  | 
+vision_model.encoder.layers.{0...11}.layer_norm2.bias          | UNEXPECTED |  | 
+vision_model.encoder.layers.{0...11}.self_attn.q_proj.bias     | UNEXPECTED |  | 
+vision_model.encoder.layers.{0...11}.layer_norm2.weight        | UNEXPECTED |  | 
+vision_model.post_layernorm.bias                               | UNEXPECTED |  | 
+vision_model.embeddings.patch_embedding.weight                 | UNEXPECTED |  | 
+vision_model.pre_layrnorm.bias                                 | UNEXPECTED |  | 
+vision_model.embeddings.position_ids                           | UNEXPECTED |  | 
+vision_model.pre_layrnorm.weight                               | UNEXPECTED |  | 
+vision_model.embeddings.position_embedding.weight              | UNEXPECTED |  | 
+visual_projection.weight                                       | UNEXPECTED |  | 
+vision_model.post_layernorm.weight                             | UNEXPECTED |  | 
+text_projection.weight                                         | UNEXPECTED |  | 
+
+[3mNotes:
+- UNEXPECTED[3m	:can be ignored when loading from different task/architecture; not ok if you expect identical arch.[0m
+   ->  Training started!
+Iter    1 | Step    2,048 | Reward   171.9 | Episodes    7 | Speed: 98 sps | Time 0.3 m | 
+  Per-Task: walk_forward: 131.2 | walk_backward: 42.5 | turn_left: 460.2 | turn_right: 33.3 | 
+Iter    2 | Step    4,096 | Reward    44.1 | Episodes   27 | Speed: 96 sps | Time 0.7 m | 
+  Per-Task: walk_forward: 40.8 | walk_backward: 26.8 | turn_left: 52.3 | turn_right: 177.6 | stand_still: -25.4 | 
+Iter    3 | Step    6,144 | Reward    51.1 | Episodes   61 | Speed: 100 sps | Time 1.0 m | 
+  Per-Task: walk_forward: 61.0 | walk_backward: 44.7 | turn_left: 95.9 | turn_right: 60.1 | stand_still: -23.2 | 
+Iter    4 | Step    8,192 | Reward    38.6 | Episodes   89 | Speed: 94 sps | Time 1.4 m | 
+  Per-Task: walk_forward: 59.6 | walk_backward: 28.6 | turn_left: 82.4 | turn_right: 52.6 | stand_still: -8.0 | 
+Iter    5 | Step   10,240 | Reward   154.0 | Episodes   98 | Speed: 96 sps | Time 1.8 m | 
+  Per-Task: walk_forward: 74.2 | walk_backward: 36.2 | turn_left: 228.7 | turn_right: 57.4 | stand_still: 26.4 | 
+Iter    6 | Step   12,288 | Reward   131.8 | Episodes  117 | Speed: 87 sps | Time 2.2 m | 
+  Per-Task: walk_forward: 81.0 | walk_backward: 224.9 | turn_left: 19.3 | turn_right: 28.6 | stand_still: 21.6 | 
+Iter    7 | Step   14,336 | Reward    64.5 | Episodes  122 | Speed: 91 sps | Time 2.5 m | 
+  Per-Task: walk_forward: 81.0 | walk_backward: 224.9 | turn_left: 50.1 | turn_right: 18.5 | stand_still: 67.7 | 
+Iter    8 | Step   16,384 | Reward   160.6 | Episodes  128 | Speed: 102 sps | Time 2.9 m | 
+  Per-Task: walk_forward: 81.0 | walk_backward: 231.3 | turn_left: 47.0 | turn_right: 229.1 | stand_still: 59.9 | 
+Iter    9 | Step   18,432 | Reward   182.7 | Episodes  141 | Speed: 102 sps | Time 3.2 m | 
+  Per-Task: walk_forward: 94.1 | walk_backward: 247.3 | turn_left: 300.5 | turn_right: 237.7 | stand_still: 69.5 | 
+Iter   10 | Step   20,480 | Reward   214.3 | Episodes  149 | Speed: 102 sps | Time 3.5 m | 
+  Per-Task: walk_forward: 94.1 | walk_backward: 87.0 | turn_left: 302.5 | turn_right: 30.5 | stand_still: 130.2 | 
+Iter   11 | Step   22,528 | Reward    41.4 | Episodes  163 | Speed: 99 sps | Time 3.9 m | 
+  Per-Task: walk_forward: 223.9 | walk_backward: 89.1 | turn_left: 92.2 | turn_right: 45.8 | stand_still: 69.3 | 
+Iter   12 | Step   24,576 | Reward   169.0 | Episodes  170 | Speed: 99 sps | Time 4.2 m | 
+  Per-Task: walk_forward: 223.9 | walk_backward: 271.9 | turn_left: 113.4 | turn_right: 90.3 | stand_still: -9.6 | 
+Iter   13 | Step   26,624 | Reward   282.9 | Episodes  173 | Speed: 85 sps | Time 4.6 m | 
+  Per-Task: walk_forward: 223.9 | walk_backward: 262.0 | turn_left: 113.4 | turn_right: 345.0 | stand_still: -30.7 | 
+Iter   14 | Step   28,672 | Reward   303.9 | Episodes  181 | Speed: 91 sps | Time 5.0 m | 
+  Per-Task: walk_forward: 223.9 | walk_backward: 350.7 | turn_left: 144.7 | turn_right: 328.9 | stand_still: 122.7 | 
+Iter   15 | Step   30,720 | Reward   231.3 | Episodes  188 | Speed: 93 sps | Time 5.4 m | 
+  Per-Task: walk_forward: 247.9 | walk_backward: 226.6 | turn_left: 270.9 | turn_right: 328.8 | stand_still: 122.7 | 
+Iter   16 | Step   32,768 | Reward   365.7 | Episodes  192 | Speed: 89 sps | Time 5.7 m | 
+  Per-Task: walk_forward: 257.0 | walk_backward: 226.6 | turn_left: 582.9 | turn_right: 328.8 | stand_still: 122.7 | 
+Iter   17 | Step   34,816 | Reward    58.0 | Episodes  214 | Speed: 100 sps | Time 6.1 m | 
+  Per-Task: walk_forward: 94.0 | walk_backward: 202.6 | turn_left: 105.2 | turn_right: 76.2 | stand_still: 145.4 | 
+Iter   18 | Step   36,864 | Reward    64.0 | Episodes  225 | Speed: 96 sps | Time 6.4 m | 
+  Per-Task: walk_forward: 121.5 | walk_backward: 202.6 | turn_left: 324.5 | turn_right: 83.8 | stand_still: -22.6 | 
+Iter   19 | Step   38,912 | Reward    89.7 | Episodes  231 | Speed: 89 sps | Time 6.8 m | 
+  Per-Task: walk_forward: 119.2 | walk_backward: 202.6 | turn_left: 47.3 | turn_right: 83.8 | stand_still: 24.9 | 
+Iter   20 | Step   40,960 | Reward   199.4 | Episodes  242 | Speed: 97 sps | Time 7.2 m | 
+  Per-Task: walk_forward: 92.0 | walk_backward: 137.6 | turn_left: 54.1 | turn_right: 530.9 | stand_still: 25.0 | 
+Iter   21 | Step   43,008 | Reward   199.5 | Episodes  249 | Speed: 95 sps | Time 7.5 m | 
+  Per-Task: walk_forward: 71.7 | walk_backward: 203.2 | turn_left: 236.6 | turn_right: 530.9 | stand_still: 24.8 | 
+Iter   22 | Step   45,056 | Reward   261.1 | Episodes  253 | Speed: 93 sps | Time 7.9 m | 
+  Per-Task: walk_forward: 71.7 | walk_backward: 258.5 | turn_left: 222.0 | turn_right: 556.8 | stand_still: 110.9 | 
+Iter   23 | Step   47,104 | Reward   327.4 | Episodes  259 | Speed: 50 sps | Time 8.6 m | 
+  Per-Task: walk_forward: 56.1 | walk_backward: 601.6 | turn_left: 244.2 | turn_right: 540.7 | stand_still: 110.9 | 
+Iter   24 | Step   49,152 | Reward   424.9 | Episodes  262 | Speed: 82 sps | Time 9.0 m | 
+  Per-Task: walk_forward: 142.6 | walk_backward: 796.7 | turn_left: 244.2 | turn_right: 540.7 | stand_still: 110.9 | 
+Iter   25 | Step   51,200 | Reward   460.0 | Episodes  264 | Speed: 96 sps | Time 9.4 m | 
+  Per-Task: walk_forward: 142.6 | walk_backward: 796.7 | turn_left: 584.2 | turn_right: 540.7 | stand_still: 110.9 | 
+Iter   26 | Step   53,248 | Reward   524.0 | Episodes  270 | Speed: 100 sps | Time 9.7 m | 
+  Per-Task: walk_forward: 324.4 | walk_backward: 721.0 | turn_left: 584.2 | turn_right: 516.1 | stand_still: 60.6 | 
+Iter   27 | Step   55,296 | Reward    85.5 | Episodes  279 | Speed: 101 sps | Time 10.0 m | 
+  Per-Task: walk_forward: 279.0 | walk_backward: 477.7 | turn_left: 390.4 | turn_right: 528.2 | stand_still: 138.4 | 
+Iter   28 | Step   57,344 | Reward   268.8 | Episodes  283 | Speed: 96 sps | Time 10.4 m | 
+  Per-Task: walk_forward: 441.1 | walk_backward: 477.7 | turn_left: 595.4 | turn_right: 283.3 | stand_still: 138.4 | 
+Iter   29 | Step   59,392 | Reward   135.4 | Episodes  296 | Speed: 96 sps | Time 10.8 m | 
+  Per-Task: walk_forward: 453.2 | walk_backward: 291.2 | turn_left: 58.2 | turn_right: 294.8 | stand_still: -14.6 | 
+Iter   30 | Step   61,440 | Reward   370.8 | Episodes  299 | Speed: 99 sps | Time 11.1 m | 
+  Per-Task: walk_forward: 453.2 | walk_backward: 488.7 | turn_left: 303.3 | turn_right: 294.8 | stand_still: -14.6 | 
+Iter   31 | Step   63,488 | Reward   443.8 | Episodes  303 | Speed: 100 sps | Time 11.4 m | 
+  Per-Task: walk_forward: 422.6 | walk_backward: 496.0 | turn_left: 463.3 | turn_right: 294.8 | stand_still: -13.0 | 
+Iter   32 | Step   65,536 | Reward   321.0 | Episodes  312 | Speed: 99 sps | Time 11.8 m | 
+  Per-Task: walk_forward: 477.7 | walk_backward: 300.1 | turn_left: 489.0 | turn_right: 294.8 | stand_still: -13.0 | 
+Iter   33 | Step   67,584 | Reward   212.6 | Episodes  318 | Speed: 101 sps | Time 12.1 m | 
+  Per-Task: walk_forward: 469.4 | walk_backward: 94.5 | turn_left: 344.6 | turn_right: 123.1 | stand_still: -13.0 | 
+Iter   34 | Step   69,632 | Reward   317.6 | Episodes  322 | Speed: 101 sps | Time 12.5 m | 
+  Per-Task: walk_forward: 495.8 | walk_backward: 84.7 | turn_left: 344.6 | turn_right: 299.9 | stand_still: 62.6 | 
+Iter   35 | Step   71,680 | Reward   428.3 | Episodes  326 | Speed: 95 sps | Time 12.8 m | 
+  Per-Task: walk_forward: 528.9 | walk_backward: 84.7 | turn_left: 554.7 | turn_right: 299.9 | stand_still: 61.8 | 
+Iter   36 | Step   73,728 | Reward   437.0 | Episodes  329 | Speed: 102 sps | Time 13.2 m | 
+  Per-Task: walk_forward: 491.3 | walk_backward: 84.7 | turn_left: 335.5 | turn_right: 299.9 | stand_still: 144.9 | 
+Iter   37 | Step   75,776 | Reward   310.1 | Episodes  336 | Speed: 99 sps | Time 13.5 m | 
+  Per-Task: walk_forward: 473.7 | walk_backward: 89.5 | turn_left: 306.0 | turn_right: 475.2 | stand_still: 144.9 | 
+Iter   38 | Step   77,824 | Reward   322.1 | Episodes  340 | Speed: 100 sps | Time 13.8 m | 
+  Per-Task: walk_forward: 473.7 | walk_backward: 113.7 | turn_left: 325.6 | turn_right: 691.3 | stand_still: 230.4 | 
+Iter   39 | Step   79,872 | Reward   337.5 | Episodes  346 | Speed: 101 sps | Time 14.2 m | 
+  Per-Task: walk_forward: 481.8 | walk_backward: 112.4 | turn_left: 133.2 | turn_right: 482.9 | stand_still: 230.4 | 
+Iter   40 | Step   81,920 | Reward   397.3 | Episodes  349 | Speed: 99 sps | Time 14.5 m | 
+  Per-Task: walk_forward: 435.1 | walk_backward: 291.1 | turn_left: 133.2 | turn_right: 574.8 | stand_still: 230.4 | 
+Iter   41 | Step   83,968 | Reward   470.8 | Episodes  351 | Speed: 100 sps | Time 14.9 m | 
+  Per-Task: walk_forward: 603.8 | walk_backward: 460.2 | turn_left: 133.2 | turn_right: 574.8 | stand_still: 230.4 | 
+Iter   42 | Step   86,016 | Reward   228.1 | Episodes  361 | Speed: 101 sps | Time 15.2 m | 
+  Per-Task: walk_forward: 428.6 | walk_backward: 438.2 | turn_left: 125.6 | turn_right: 574.8 | stand_still: 144.5 | 
+Iter   43 | Step   88,064 | Reward   269.3 | Episodes  364 | Speed: 99 sps | Time 15.5 m | 
+  Per-Task: walk_forward: 234.8 | walk_backward: 438.2 | turn_left: 347.3 | turn_right: 574.8 | stand_still: 144.5 | 
+Iter   44 | Step   90,112 | Reward   166.5 | Episodes  373 | Speed: 98 sps | Time 15.9 m | 
+  Per-Task: walk_forward: 67.2 | walk_backward: 409.8 | turn_left: 523.7 | turn_right: 551.7 | stand_still: 49.6 | 
+Iter   45 | Step   92,160 | Reward   227.0 | Episodes  378 | Speed: 97 sps | Time 16.2 m | 
+  Per-Task: walk_forward: 91.1 | walk_backward: 409.8 | turn_left: 523.7 | turn_right: 513.7 | stand_still: 46.4 | 
+Iter   46 | Step   94,208 | Reward   258.0 | Episodes  385 | Speed: 91 sps | Time 16.6 m | 
+  Per-Task: walk_forward: 300.7 | walk_backward: 593.8 | turn_left: 488.0 | turn_right: 252.9 | stand_still: 55.3 | 
+Iter   47 | Step   96,256 | Reward   380.7 | Episodes  388 | Speed: 93 sps | Time 17.0 m | 
+  Per-Task: walk_forward: 300.7 | walk_backward: 593.8 | turn_left: 352.5 | turn_right: 394.2 | stand_still: 55.3 | 
+Iter   48 | Step   98,304 | Reward   455.5 | Episodes  391 | Speed: 96 sps | Time 17.3 m | 
+  Per-Task: walk_forward: 300.7 | walk_backward: 412.1 | turn_left: 473.3 | turn_right: 394.2 | stand_still: 61.0 | 
+Iter   49 | Step  100,352 | Reward   312.7 | Episodes  400 | Speed: 92 sps | Time 17.7 m | 
+  Per-Task: walk_forward: 300.7 | walk_backward: 412.1 | turn_left: 671.5 | turn_right: 395.8 | stand_still: 50.9 | 
+Iter   50 | Step  102,400 | Reward   357.4 | Episodes  402 | Speed: 89 sps | Time 18.1 m | 
+  Per-Task: walk_forward: 300.7 | walk_backward: 436.6 | turn_left: 671.5 | turn_right: 530.9 | stand_still: 50.9 | 
+   ->  Checkpoint saved: checkpoints_vla/vla_ppo_iter_50.pt
+Iter   51 | Step  104,448 | Reward   263.9 | Episodes  411 | Speed: 89 sps | Time 18.5 m | 
+  Per-Task: walk_forward: 281.8 | walk_backward: 517.2 | turn_left: 670.1 | turn_right: 414.4 | stand_still: -15.8 | 
+Iter   52 | Step  106,496 | Reward   250.8 | Episodes  416 | Speed: 87 sps | Time 18.9 m | 
+  Per-Task: walk_forward: 281.8 | walk_backward: 705.8 | turn_left: 363.7 | turn_right: 219.5 | stand_still: 46.9 | 
+Iter   53 | Step  108,544 | Reward   137.1 | Episodes  423 | Speed: 92 sps | Time 19.2 m | 
+  Per-Task: walk_forward: 281.8 | walk_backward: 499.5 | turn_left: 321.2 | turn_right: 222.5 | stand_still: 54.6 | 
+Iter   54 | Step  110,592 | Reward   309.2 | Episodes  425 | Speed: 90 sps | Time 19.6 m | 
+  Per-Task: walk_forward: 281.8 | walk_backward: 632.0 | turn_left: 321.2 | turn_right: 374.8 | stand_still: 54.6 | 
+Iter   55 | Step  112,640 | Reward   547.3 | Episodes  430 | Speed: 91 sps | Time 20.0 m | 
+  Per-Task: walk_forward: 484.4 | walk_backward: 636.9 | turn_left: 321.2 | turn_right: 374.8 | stand_still: -8.6 | 
+Iter   56 | Step  114,688 | Reward   245.3 | Episodes  440 | Speed: 92 sps | Time 20.4 m | 
+  Per-Task: walk_forward: 196.8 | walk_backward: 636.9 | turn_left: 518.1 | turn_right: 215.4 | stand_still: -10.0 | 
+Iter   57 | Step  116,736 | Reward   132.2 | Episodes  447 | Speed: 88 sps | Time 20.8 m | 
+  Per-Task: walk_forward: 196.8 | walk_backward: 330.6 | turn_left: 518.1 | turn_right: 51.9 | stand_still: 58.2 | 
+Iter   58 | Step  118,784 | Reward   231.8 | Episodes  451 | Speed: 93 sps | Time 21.1 m | 
+  Per-Task: walk_forward: 196.8 | walk_backward: 330.6 | turn_left: 712.1 | turn_right: 194.3 | stand_still: 48.0 | 
+Iter   59 | Step  120,832 | Reward   282.5 | Episodes  457 | Speed: 87 sps | Time 21.5 m | 
+  Per-Task: walk_forward: 308.6 | walk_backward: 330.6 | turn_left: 712.1 | turn_right: 186.0 | stand_still: -28.3 | 
+Iter   60 | Step  122,880 | Reward   338.9 | Episodes  460 | Speed: 92 sps | Time 21.9 m | 
+  Per-Task: walk_forward: 308.6 | walk_backward: 331.2 | turn_left: 691.8 | turn_right: 186.0 | stand_still: 58.9 | 
+Iter   61 | Step  124,928 | Reward   421.1 | Episodes  466 | Speed: 90 sps | Time 22.3 m | 
+  Per-Task: walk_forward: 311.8 | walk_backward: 654.8 | turn_left: 691.8 | turn_right: 245.7 | stand_still: 58.9 | 
+Iter   62 | Step  126,976 | Reward   457.7 | Episodes  470 | Speed: 89 sps | Time 22.7 m | 
+  Per-Task: walk_forward: 463.0 | walk_backward: 652.8 | turn_left: 691.8 | turn_right: 265.0 | stand_still: 66.8 | 
+Iter   63 | Step  129,024 | Reward   440.0 | Episodes  472 | Speed: 89 sps | Time 23.0 m | 
+  Per-Task: walk_forward: 463.0 | walk_backward: 652.8 | turn_left: 691.8 | turn_right: 410.4 | stand_still: 129.8 | 
+Iter   64 | Step  131,072 | Reward   343.4 | Episodes  477 | Speed: 88 sps | Time 23.4 m | 
+  Per-Task: walk_forward: 463.0 | walk_backward: 477.7 | turn_left: 691.8 | turn_right: 367.7 | stand_still: 129.8 | 
+Iter   65 | Step  133,120 | Reward   257.1 | Episodes  484 | Speed: 92 sps | Time 23.8 m | 
+  Per-Task: walk_forward: 656.7 | walk_backward: 286.2 | turn_left: 495.0 | turn_right: 167.0 | stand_still: 221.1 | 
+Iter   66 | Step  135,168 | Reward   364.9 | Episodes  487 | Speed: 89 sps | Time 24.2 m | 
+  Per-Task: walk_forward: 656.7 | walk_backward: 450.1 | turn_left: 495.0 | turn_right: 167.0 | stand_still: 229.4 | 
+Iter   67 | Step  137,216 | Reward   353.5 | Episodes  491 | Speed: 91 sps | Time 24.6 m | 
+  Per-Task: walk_forward: 652.1 | walk_backward: 261.5 | turn_left: 495.0 | turn_right: 167.0 | stand_still: 174.4 | 
+Iter   68 | Step  139,264 | Reward   402.7 | Episodes  496 | Speed: 93 sps | Time 24.9 m | 
+  Per-Task: walk_forward: 1016.0 | walk_backward: 362.5 | turn_left: 263.9 | turn_right: 193.7 | stand_still: 174.4 | 
+Iter   69 | Step  141,312 | Reward   575.3 | Episodes  499 | Speed: 91 sps | Time 25.3 m | 
+  Per-Task: walk_forward: 958.9 | walk_backward: 362.5 | turn_left: 263.9 | turn_right: 170.3 | stand_still: 174.4 | 
+Iter   70 | Step  143,360 | Reward   618.3 | Episodes  501 | Speed: 90 sps | Time 25.7 m | 
+  Per-Task: walk_forward: 958.9 | walk_backward: 618.4 | turn_left: 263.9 | turn_right: 170.3 | stand_still: 174.4 | 
+Iter   71 | Step  145,408 | Reward   482.1 | Episodes  506 | Speed: 90 sps | Time 26.1 m | 
+  Per-Task: walk_forward: 960.1 | walk_backward: 461.8 | turn_left: 261.9 | turn_right: 170.3 | stand_still: 77.3 | 
+Iter   72 | Step  147,456 | Reward   425.8 | Episodes  511 | Speed: 92 sps | Time 26.4 m | 
+  Per-Task: walk_forward: 960.1 | walk_backward: 461.8 | turn_left: 565.0 | turn_right: 170.3 | stand_still: 74.1 | 
+Iter   73 | Step  149,504 | Reward   431.3 | Episodes  513 | Speed: 93 sps | Time 26.8 m | 
+  Per-Task: walk_forward: 768.4 | walk_backward: 461.8 | turn_left: 565.0 | turn_right: 170.3 | stand_still: 156.2 | 
+Iter   74 | Step  151,552 | Reward   576.3 | Episodes  516 | Speed: 86 sps | Time 27.2 m | 
+  Per-Task: walk_forward: 768.4 | walk_backward: 657.7 | turn_left: 847.4 | turn_right: 170.3 | stand_still: 156.2 | 
+Iter   75 | Step  153,600 | Reward   513.9 | Episodes  520 | Speed: 87 sps | Time 27.6 m | 
+  Per-Task: walk_forward: 636.2 | walk_backward: 738.9 | turn_left: 847.4 | turn_right: 170.3 | stand_still: 78.4 | 
+Iter   76 | Step  155,648 | Reward   244.2 | Episodes  528 | Speed: 90 sps | Time 28.0 m | 
+  Per-Task: walk_forward: 437.3 | walk_backward: 486.9 | turn_left: 847.4 | turn_right: 170.3 | stand_still: 75.0 | 
+Iter   77 | Step  157,696 | Reward   228.1 | Episodes  530 | Speed: 90 sps | Time 28.3 m | 
+  Per-Task: walk_forward: 437.3 | walk_backward: 486.9 | turn_left: 839.3 | turn_right: 170.3 | stand_still: -12.3 | 
+Iter   78 | Step  159,744 | Reward   311.3 | Episodes  537 | Speed: 90 sps | Time 28.7 m | 
+  Per-Task: walk_forward: 477.0 | walk_backward: 341.5 | turn_left: 511.4 | turn_right: 350.4 | stand_still: 77.1 | 
+Iter   79 | Step  161,792 | Reward   411.5 | Episodes  540 | Speed: 91 sps | Time 29.1 m | 
+  Per-Task: walk_forward: 477.0 | walk_backward: 341.5 | turn_left: 589.5 | turn_right: 245.8 | stand_still: 77.1 | 
+Iter   80 | Step  163,840 | Reward   398.5 | Episodes  544 | Speed: 91 sps | Time 29.5 m | 
+  Per-Task: walk_forward: 499.6 | walk_backward: 177.7 | turn_left: 589.5 | turn_right: 245.8 | stand_still: 63.2 | 
+Iter   81 | Step  165,888 | Reward   495.0 | Episodes  547 | Speed: 94 sps | Time 29.8 m | 
+  Per-Task: walk_forward: 499.6 | walk_backward: 177.7 | turn_left: 568.7 | turn_right: 418.9 | stand_still: 65.4 | 
+Iter   82 | Step  167,936 | Reward   529.1 | Episodes  550 | Speed: 95 sps | Time 30.2 m | 
+  Per-Task: walk_forward: 345.9 | walk_backward: 368.0 | turn_left: 568.7 | turn_right: 617.6 | stand_still: 65.4 | 
+Iter   83 | Step  169,984 | Reward   606.6 | Episodes  554 | Speed: 87 sps | Time 30.6 m | 
+  Per-Task: walk_forward: 345.9 | walk_backward: 368.0 | turn_left: 779.7 | turn_right: 798.2 | stand_still: 62.7 | 
+Iter   84 | Step  172,032 | Reward   575.7 | Episodes  557 | Speed: 91 sps | Time 31.0 m | 
+  Per-Task: walk_forward: 458.3 | walk_backward: 368.0 | turn_left: 779.7 | turn_right: 693.4 | stand_still: 62.7 | 
+Iter   85 | Step  174,080 | Reward   414.1 | Episodes  561 | Speed: 92 sps | Time 31.3 m | 
+  Per-Task: walk_forward: 458.3 | walk_backward: 395.3 | turn_left: 741.6 | turn_right: 685.1 | stand_still: 70.4 | 
+Iter   86 | Step  176,128 | Reward   346.1 | Episodes  567 | Speed: 92 sps | Time 31.7 m | 
+  Per-Task: walk_forward: 478.6 | walk_backward: 380.6 | turn_left: 720.2 | turn_right: 333.0 | stand_still: 152.9 | 
+Iter   87 | Step  178,176 | Reward   348.7 | Episodes  572 | Speed: 93 sps | Time 32.1 m | 
+  Per-Task: walk_forward: 437.0 | walk_backward: 380.6 | turn_left: 576.1 | turn_right: 346.9 | stand_still: 164.9 | 
+Iter   88 | Step  180,224 | Reward   452.7 | Episodes  574 | Speed: 92 sps | Time 32.4 m | 
+  Per-Task: walk_forward: 437.0 | walk_backward: 380.6 | turn_left: 566.7 | turn_right: 346.9 | stand_still: 237.2 | 
+Iter   89 | Step  182,272 | Reward   391.5 | Episodes  579 | Speed: 89 sps | Time 32.8 m | 
+  Per-Task: walk_forward: 437.0 | walk_backward: 340.9 | turn_left: 535.8 | turn_right: 307.2 | stand_still: 237.2 | 
+Iter   90 | Step  184,320 | Reward   208.6 | Episodes  585 | Speed: 92 sps | Time 33.2 m | 
+  Per-Task: walk_forward: 361.0 | walk_backward: 290.6 | turn_left: 535.8 | turn_right: 340.4 | stand_still: 151.6 | 
+Iter   91 | Step  186,368 | Reward   270.1 | Episodes  590 | Speed: 91 sps | Time 33.6 m | 
+  Per-Task: walk_forward: 288.5 | walk_backward: 363.2 | turn_left: 535.8 | turn_right: 568.4 | stand_still: 230.2 | 
+Iter   92 | Step  188,416 | Reward   396.1 | Episodes  593 | Speed: 91 sps | Time 33.9 m | 
+  Per-Task: walk_forward: 274.0 | walk_backward: 363.2 | turn_left: 521.4 | turn_right: 568.4 | stand_still: 255.4 | 
+Iter   93 | Step  190,464 | Reward   533.4 | Episodes  597 | Speed: 90 sps | Time 34.3 m | 
+  Per-Task: walk_forward: 274.0 | walk_backward: 363.2 | turn_left: 365.3 | turn_right: 734.6 | stand_still: 255.4 | 
+Iter   94 | Step  192,512 | Reward   349.5 | Episodes  603 | Speed: 90 sps | Time 34.7 m | 
+  Per-Task: walk_forward: 269.4 | walk_backward: 363.2 | turn_left: 356.6 | turn_right: 745.4 | stand_still: 166.0 | 
+Iter   95 | Step  194,560 | Reward   337.1 | Episodes  607 | Speed: 94 sps | Time 35.1 m | 
+  Per-Task: walk_forward: 80.6 | walk_backward: 546.4 | turn_left: 356.6 | turn_right: 570.5 | stand_still: 251.1 | 
+Iter   96 | Step  196,608 | Reward   403.3 | Episodes  611 | Speed: 90 sps | Time 35.4 m | 
+  Per-Task: walk_forward: 409.7 | walk_backward: 546.4 | turn_left: 223.0 | turn_right: 374.2 | stand_still: 251.1 | 
+Iter   97 | Step  198,656 | Reward   580.7 | Episodes  613 | Speed: 91 sps | Time 35.8 m | 
+  Per-Task: walk_forward: 409.7 | walk_backward: 546.4 | turn_left: 321.9 | turn_right: 358.2 | stand_still: 251.1 | 
+Iter   98 | Step  200,704 | Reward   583.6 | Episodes  616 | Speed: 93 sps | Time 36.2 m | 
+  Per-Task: walk_forward: 596.4 | walk_backward: 546.4 | turn_left: 321.9 | turn_right: 325.3 | stand_still: 352.6 | 
+Iter   99 | Step  202,752 | Reward   651.2 | Episodes  618 | Speed: 89 sps | Time 36.6 m | 
+  Per-Task: walk_forward: 793.1 | walk_backward: 537.4 | turn_left: 321.9 | turn_right: 325.3 | stand_still: 352.6 | 
+Iter  100 | Step  204,800 | Reward   563.3 | Episodes  622 | Speed: 95 sps | Time 36.9 m | 
+  Per-Task: walk_forward: 794.4 | walk_backward: 571.2 | turn_left: 346.3 | turn_right: 325.3 | stand_still: 361.2 | 
+   ->  Checkpoint saved: checkpoints_vla/vla_ppo_iter_100.pt
+Iter  101 | Step  206,848 | Reward   591.8 | Episodes  625 | Speed: 92 sps | Time 37.3 m | 
+  Per-Task: walk_forward: 800.0 | walk_backward: 582.7 | turn_left: 415.5 | turn_right: 325.3 | stand_still: 361.2 | 
+Iter  102 | Step  208,896 | Reward   539.4 | Episodes  628 | Speed: 90 sps | Time 37.7 m | 
+  Per-Task: walk_forward: 800.0 | walk_backward: 486.3 | turn_left: 642.5 | turn_right: 537.2 | stand_still: 361.2 | 
+Iter  103 | Step  210,944 | Reward   599.6 | Episodes  632 | Speed: 92 sps | Time 38.1 m | 
+  Per-Task: walk_forward: 800.0 | walk_backward: 486.3 | turn_left: 681.2 | turn_right: 481.9 | stand_still: 347.1 | 
+Iter  104 | Step  212,992 | Reward   369.6 | Episodes  638 | Speed: 92 sps | Time 38.4 m | 
+  Per-Task: walk_forward: 820.1 | walk_backward: 419.8 | turn_left: 681.2 | turn_right: 329.5 | stand_still: 348.7 | 
+Iter  105 | Step  215,040 | Reward   316.5 | Episodes  641 | Speed: 84 sps | Time 38.8 m | 
+  Per-Task: walk_forward: 656.3 | walk_backward: 272.7 | turn_left: 681.2 | turn_right: 329.5 | stand_still: 353.9 | 
+Iter  106 | Step  217,088 | Reward   325.4 | Episodes  646 | Speed: 89 sps | Time 39.2 m | 
+  Per-Task: walk_forward: 656.3 | walk_backward: 423.4 | turn_left: 661.1 | turn_right: 164.0 | stand_still: 253.2 | 
+Iter  107 | Step  219,136 | Reward   453.2 | Episodes  648 | Speed: 87 sps | Time 39.6 m | 
+  Per-Task: walk_forward: 656.3 | walk_backward: 598.6 | turn_left: 661.1 | turn_right: 164.0 | stand_still: 251.9 | 
+Iter  108 | Step  221,184 | Reward   583.5 | Episodes  650 | Speed: 90 sps | Time 40.0 m | 
+  Per-Task: walk_forward: 656.3 | walk_backward: 598.6 | turn_left: 608.9 | turn_right: 363.2 | stand_still: 251.9 | 
+Iter  109 | Step  223,232 | Reward   634.1 | Episodes  652 | Speed: 89 sps | Time 40.4 m | 
+  Per-Task: walk_forward: 656.3 | walk_backward: 673.7 | turn_left: 608.9 | turn_right: 546.4 | stand_still: 251.9 | 
+Iter  110 | Step  225,280 | Reward   715.0 | Episodes  656 | Speed: 85 sps | Time 40.8 m | 
+  Per-Task: walk_forward: 656.3 | walk_backward: 626.2 | turn_left: 520.6 | turn_right: 546.4 | stand_still: 251.9 | 
+Iter  111 | Step  227,328 | Reward   704.7 | Episodes  658 | Speed: 89 sps | Time 41.2 m | 
+  Per-Task: walk_forward: 656.3 | walk_backward: 626.2 | turn_left: 695.1 | turn_right: 546.4 | stand_still: 250.0 | 
+Iter  112 | Step  229,376 | Reward   457.6 | Episodes  663 | Speed: 88 sps | Time 41.5 m | 
+  Per-Task: walk_forward: 656.3 | walk_backward: 600.1 | turn_left: 618.4 | turn_right: 618.4 | stand_still: 250.0 | 
+Iter  113 | Step  231,424 | Reward   523.8 | Episodes  665 | Speed: 89 sps | Time 41.9 m | 
+  Per-Task: walk_forward: 814.3 | walk_backward: 600.1 | turn_left: 618.4 | turn_right: 618.4 | stand_still: 250.0 | 
+Iter  114 | Step  233,472 | Reward   620.2 | Episodes  667 | Speed: 87 sps | Time 42.3 m | 
+  Per-Task: walk_forward: 814.3 | walk_backward: 600.1 | turn_left: 638.4 | turn_right: 762.5 | stand_still: 250.0 | 
+Iter  115 | Step  235,520 | Reward   690.2 | Episodes  669 | Speed: 88 sps | Time 42.7 m | 
+  Per-Task: walk_forward: 814.3 | walk_backward: 600.1 | turn_left: 805.4 | turn_right: 749.8 | stand_still: 250.0 | 
+Iter  116 | Step  237,568 | Reward   802.7 | Episodes  673 | Speed: 80 sps | Time 43.1 m | 
+  Per-Task: walk_forward: 636.0 | walk_backward: 477.0 | turn_left: 805.4 | turn_right: 682.3 | stand_still: 250.0 | 
+Iter  117 | Step  239,616 | Reward   809.9 | Episodes  675 | Speed: 45 sps | Time 43.9 m | 
+  Per-Task: walk_forward: 636.0 | walk_backward: 570.7 | turn_left: 805.4 | turn_right: 682.3 | stand_still: 250.0 | 
+Iter  118 | Step  241,664 | Reward   660.2 | Episodes  679 | Speed: 55 sps | Time 44.5 m | 
+  Per-Task: walk_forward: 489.1 | walk_backward: 686.0 | turn_left: 805.4 | turn_right: 682.3 | stand_still: 250.0 | 
+Iter  119 | Step  243,712 | Reward   608.1 | Episodes  683 | Speed: 74 sps | Time 45.0 m | 
+  Per-Task: walk_forward: 490.4 | walk_backward: 717.1 | turn_left: 642.7 | turn_right: 682.3 | stand_still: 250.0 | 
+Iter  120 | Step  245,760 | Reward   535.3 | Episodes  686 | Speed: 85 sps | Time 45.4 m | 
+  Per-Task: walk_forward: 490.4 | walk_backward: 717.1 | turn_left: 528.2 | turn_right: 971.5 | stand_still: 250.0 | 
+Iter  121 | Step  247,808 | Reward   552.8 | Episodes  689 | Speed: 81 sps | Time 45.8 m | 
+  Per-Task: walk_forward: 580.6 | walk_backward: 704.7 | turn_left: 528.2 | turn_right: 782.8 | stand_still: 250.0 | 
+Iter  122 | Step  249,856 | Reward   407.1 | Episodes  695 | Speed: 78 sps | Time 46.2 m | 
+  Per-Task: walk_forward: 555.9 | walk_backward: 350.4 | turn_left: 593.0 | turn_right: 816.1 | stand_still: 260.7 | 
+Iter  123 | Step  251,904 | Reward   415.4 | Episodes  698 | Speed: 76 sps | Time 46.7 m | 
+  Per-Task: walk_forward: 582.6 | walk_backward: 518.3 | turn_left: 593.0 | turn_right: 816.1 | stand_still: 260.7 | 
+Iter  124 | Step  253,952 | Reward   526.8 | Episodes  701 | Speed: 74 sps | Time 47.1 m | 
+  Per-Task: walk_forward: 624.1 | walk_backward: 518.3 | turn_left: 581.1 | turn_right: 659.5 | stand_still: 260.7 | 
+Iter  125 | Step  256,000 | Reward   591.0 | Episodes  703 | Speed: 77 sps | Time 47.6 m | 
+  Per-Task: walk_forward: 624.1 | walk_backward: 518.3 | turn_left: 558.5 | turn_right: 679.1 | stand_still: 260.7 | 
+Iter  126 | Step  258,048 | Reward   721.3 | Episodes  705 | Speed: 88 sps | Time 48.0 m | 
+  Per-Task: walk_forward: 624.1 | walk_backward: 518.3 | turn_left: 725.4 | turn_right: 679.1 | stand_still: 282.6 | 
+Iter  127 | Step  260,096 | Reward   746.6 | Episodes  708 | Speed: 86 sps | Time 48.4 m | 
+  Per-Task: walk_forward: 612.3 | walk_backward: 518.3 | turn_left: 788.2 | turn_right: 679.1 | stand_still: 389.0 | 
+Iter  128 | Step  262,144 | Reward   729.6 | Episodes  711 | Speed: 80 sps | Time 48.8 m | 
+  Per-Task: walk_forward: 612.3 | walk_backward: 534.0 | turn_left: 788.2 | turn_right: 620.1 | stand_still: 389.0 | 
+Iter  129 | Step  264,192 | Reward   728.7 | Episodes  713 | Speed: 78 sps | Time 49.2 m | 
+  Per-Task: walk_forward: 736.1 | walk_backward: 534.0 | turn_left: 788.2 | turn_right: 542.0 | stand_still: 389.0 | 
+Iter  130 | Step  266,240 | Reward   732.3 | Episodes  715 | Speed: 74 sps | Time 49.7 m | 
+  Per-Task: walk_forward: 912.4 | walk_backward: 534.0 | turn_left: 788.2 | turn_right: 542.0 | stand_still: 414.0 | 
+Iter  131 | Step  268,288 | Reward   713.9 | Episodes  717 | Speed: 84 sps | Time 50.1 m | 
+  Per-Task: walk_forward: 912.4 | walk_backward: 534.0 | turn_left: 788.2 | turn_right: 542.0 | stand_still: 503.6 | 
+Iter  132 | Step  270,336 | Reward   568.6 | Episodes  722 | Speed: 73 sps | Time 50.6 m | 
+  Per-Task: walk_forward: 708.6 | walk_backward: 719.2 | turn_left: 788.2 | turn_right: 550.8 | stand_still: 503.6 | 
+Iter  133 | Step  272,384 | Reward   523.3 | Episodes  725 | Speed: 78 sps | Time 51.0 m | 
+  Per-Task: walk_forward: 690.1 | walk_backward: 719.2 | turn_left: 689.2 | turn_right: 550.8 | stand_still: 497.7 | 
+Iter  134 | Step  274,432 | Reward   584.1 | Episodes  727 | Speed: 78 sps | Time 51.4 m | 
+  Per-Task: walk_forward: 690.1 | walk_backward: 719.2 | turn_left: 702.9 | turn_right: 550.8 | stand_still: 508.5 | 
+Iter  135 | Step  276,480 | Reward   465.4 | Episodes  730 | Speed: 78 sps | Time 51.9 m | 
+  Per-Task: walk_forward: 550.7 | walk_backward: 719.2 | turn_left: 702.9 | turn_right: 550.8 | stand_still: 446.1 | 
+Iter  136 | Step  278,528 | Reward   471.5 | Episodes  734 | Speed: 77 sps | Time 52.3 m | 
+  Per-Task: walk_forward: 600.4 | walk_backward: 719.2 | turn_left: 581.3 | turn_right: 550.8 | stand_still: 450.2 | 
+Iter  137 | Step  280,576 | Reward   492.1 | Episodes  736 | Speed: 75 sps | Time 52.8 m | 
+  Per-Task: walk_forward: 600.4 | walk_backward: 898.9 | turn_left: 581.3 | turn_right: 550.8 | stand_still: 419.9 | 
+Iter  138 | Step  282,624 | Reward   556.1 | Episodes  739 | Speed: 80 sps | Time 53.2 m | 
+  Per-Task: walk_forward: 731.0 | walk_backward: 728.4 | turn_left: 511.0 | turn_right: 550.8 | stand_still: 419.9 | 
+Iter  139 | Step  284,672 | Reward   638.6 | Episodes  741 | Speed: 68 sps | Time 53.7 m | 
+  Per-Task: walk_forward: 740.4 | walk_backward: 728.4 | turn_left: 511.0 | turn_right: 526.5 | stand_still: 419.9 | 
+Iter  140 | Step  286,720 | Reward   683.0 | Episodes  744 | Speed: 76 sps | Time 54.1 m | 
+  Per-Task: walk_forward: 740.4 | walk_backward: 704.2 | turn_left: 565.1 | turn_right: 526.5 | stand_still: 396.1 | 
+Iter  141 | Step  288,768 | Reward   621.0 | Episodes  747 | Speed: 77 sps | Time 54.6 m | 
+  Per-Task: walk_forward: 890.7 | walk_backward: 704.2 | turn_left: 565.1 | turn_right: 423.3 | stand_still: 397.1 | 
+Iter  142 | Step  290,816 | Reward   746.4 | Episodes  749 | Speed: 83 sps | Time 55.0 m | 
+  Per-Task: walk_forward: 902.6 | walk_backward: 704.2 | turn_left: 702.7 | turn_right: 423.3 | stand_still: 397.1 | 
+Iter  143 | Step  292,864 | Reward   734.0 | Episodes  752 | Speed: 85 sps | Time 55.4 m | 
+  Per-Task: walk_forward: 879.7 | walk_backward: 704.2 | turn_left: 702.7 | turn_right: 625.8 | stand_still: 397.1 | 
+Iter  144 | Step  294,912 | Reward   604.2 | Episodes  756 | Speed: 80 sps | Time 55.8 m | 
+  Per-Task: walk_forward: 727.7 | walk_backward: 525.0 | turn_left: 702.7 | turn_right: 625.8 | stand_still: 401.0 | 
+Iter  145 | Step  296,960 | Reward   663.7 | Episodes  758 | Speed: 80 sps | Time 56.3 m | 
+  Per-Task: walk_forward: 727.7 | walk_backward: 510.6 | turn_left: 692.8 | turn_right: 625.8 | stand_still: 401.0 | 
+Iter  146 | Step  299,008 | Reward   527.9 | Episodes  761 | Speed: 75 sps | Time 56.7 m | 
+  Per-Task: walk_forward: 560.4 | walk_backward: 510.6 | turn_left: 692.8 | turn_right: 660.5 | stand_still: 388.1 | 
+Iter  147 | Step  301,056 | Reward   703.7 | Episodes  763 | Speed: 82 sps | Time 57.1 m | 
+  Per-Task: walk_forward: 581.5 | walk_backward: 510.6 | turn_left: 692.8 | turn_right: 861.2 | stand_still: 388.1 | 
+Iter  148 | Step  303,104 | Reward   880.2 | Episodes  765 | Speed: 82 sps | Time 57.5 m | 
+  Per-Task: walk_forward: 604.6 | walk_backward: 679.5 | turn_left: 692.8 | turn_right: 861.2 | stand_still: 388.1 | 
+Iter  149 | Step  305,152 | Reward   879.7 | Episodes  767 | Speed: 80 sps | Time 58.0 m | 
+  Per-Task: walk_forward: 604.6 | walk_backward: 679.5 | turn_left: 917.3 | turn_right: 861.2 | stand_still: 388.1 | 
+Iter  150 | Step  307,200 | Reward   939.8 | Episodes  769 | Speed: 75 sps | Time 58.4 m | 
+  Per-Task: walk_forward: 604.6 | walk_backward: 825.4 | turn_left: 917.3 | turn_right: 876.9 | stand_still: 388.1 | 
+   ->  Checkpoint saved: checkpoints_vla/vla_ppo_iter_150.pt
+Iter  151 | Step  309,248 | Reward   848.1 | Episodes  773 | Speed: 73 sps | Time 58.9 m | 
+  Per-Task: walk_forward: 726.8 | walk_backward: 830.0 | turn_left: 917.3 | turn_right: 1031.9 | stand_still: 388.1 | 
+Iter  152 | Step  311,296 | Reward   830.6 | Episodes  775 | Speed: 75 sps | Time 59.4 m | 
+  Per-Task: walk_forward: 726.8 | walk_backward: 804.2 | turn_left: 917.3 | turn_right: 1025.5 | stand_still: 388.1 | 
+Iter  153 | Step  313,344 | Reward   837.6 | Episodes  777 | Speed: 75 sps | Time 59.8 m | 
+  Per-Task: walk_forward: 726.8 | walk_backward: 799.5 | turn_left: 917.3 | turn_right: 1040.5 | stand_still: 388.1 | 
+Iter  154 | Step  315,392 | Reward   726.5 | Episodes  779 | Speed: 72 sps | Time 60.3 m | 
+  Per-Task: walk_forward: 726.8 | walk_backward: 799.5 | turn_left: 917.3 | turn_right: 1040.5 | stand_still: 418.1 | 
+Iter  155 | Step  317,440 | Reward   722.7 | Episodes  781 | Speed: 79 sps | Time 60.7 m | 
+  Per-Task: walk_forward: 726.8 | walk_backward: 799.2 | turn_left: 937.8 | turn_right: 1040.5 | stand_still: 418.1 | 
+Iter  156 | Step  319,488 | Reward   884.1 | Episodes  783 | Speed: 81 sps | Time 61.1 m | 
+  Per-Task: walk_forward: 726.8 | walk_backward: 787.1 | turn_left: 937.8 | turn_right: 1038.7 | stand_still: 418.1 | 
+Iter  157 | Step  321,536 | Reward   890.5 | Episodes  785 | Speed: 82 sps | Time 61.6 m | 
+  Per-Task: walk_forward: 879.1 | walk_backward: 787.1 | turn_left: 937.8 | turn_right: 1035.4 | stand_still: 418.1 | 
+Iter  158 | Step  323,584 | Reward   849.3 | Episodes  787 | Speed: 82 sps | Time 62.0 m | 
+  Per-Task: walk_forward: 867.5 | walk_backward: 787.1 | turn_left: 937.8 | turn_right: 1035.4 | stand_still: 407.5 | 
+Iter  159 | Step  325,632 | Reward   967.3 | Episodes  789 | Speed: 82 sps | Time 62.4 m | 
+  Per-Task: walk_forward: 867.5 | walk_backward: 787.1 | turn_left: 941.7 | turn_right: 1061.6 | stand_still: 407.5 | 
+Iter  160 | Step  327,680 | Reward   978.5 | Episodes  791 | Speed: 78 sps | Time 62.8 m | 
+  Per-Task: walk_forward: 843.7 | walk_backward: 971.7 | turn_left: 941.7 | turn_right: 1061.6 | stand_still: 407.5 | 
+Iter  161 | Step  329,728 | Reward   952.9 | Episodes  793 | Speed: 84 sps | Time 63.2 m | 
+  Per-Task: walk_forward: 833.8 | walk_backward: 971.7 | turn_left: 950.5 | turn_right: 1061.6 | stand_still: 407.5 | 
+Iter  162 | Step  331,776 | Reward   806.5 | Episodes  797 | Speed: 82 sps | Time 63.6 m | 
+  Per-Task: walk_forward: 833.8 | walk_backward: 827.5 | turn_left: 953.0 | turn_right: 1061.6 | stand_still: 413.0 | 
+Iter  163 | Step  333,824 | Reward   784.5 | Episodes  799 | Speed: 83 sps | Time 64.1 m | 
+  Per-Task: walk_forward: 833.8 | walk_backward: 827.5 | turn_left: 954.3 | turn_right: 1061.6 | stand_still: 413.0 | 
+Iter  164 | Step  335,872 | Reward   761.8 | Episodes  801 | Speed: 85 sps | Time 64.5 m | 
+  Per-Task: walk_forward: 833.8 | walk_backward: 827.5 | turn_left: 931.6 | turn_right: 1061.6 | stand_still: 413.0 | 
+Iter  165 | Step  337,920 | Reward   656.2 | Episodes  805 | Speed: 82 sps | Time 64.9 m | 
+  Per-Task: walk_forward: 930.4 | walk_backward: 827.5 | turn_left: 931.6 | turn_right: 996.3 | stand_still: 274.2 | 
+Iter  166 | Step  339,968 | Reward   705.6 | Episodes  807 | Speed: 81 sps | Time 65.3 m | 
+  Per-Task: walk_forward: 949.3 | walk_backward: 720.9 | turn_left: 931.6 | turn_right: 996.3 | stand_still: 274.2 | 
+Iter  167 | Step  342,016 | Reward   715.1 | Episodes  809 | Speed: 85 sps | Time 65.7 m | 
+  Per-Task: walk_forward: 949.3 | walk_backward: 729.5 | turn_left: 950.3 | turn_right: 996.3 | stand_still: 274.2 | 
+Iter  168 | Step  344,064 | Reward   708.5 | Episodes  811 | Speed: 83 sps | Time 66.1 m | 
+  Per-Task: walk_forward: 949.3 | walk_backward: 663.5 | turn_left: 950.3 | turn_right: 996.3 | stand_still: 274.2 | 
+Iter  169 | Step  346,112 | Reward   703.1 | Episodes  814 | Speed: 83 sps | Time 66.5 m | 
+  Per-Task: walk_forward: 949.3 | walk_backward: 655.7 | turn_left: 819.0 | turn_right: 996.3 | stand_still: 280.2 | 
+Iter  170 | Step  348,160 | Reward   673.9 | Episodes  818 | Speed: 85 sps | Time 66.9 m | 
+  Per-Task: walk_forward: 949.3 | walk_backward: 778.4 | turn_left: 819.0 | turn_right: 996.3 | stand_still: 178.1 | 
+Iter  171 | Step  350,208 | Reward   695.0 | Episodes  820 | Speed: 83 sps | Time 67.3 m | 
+  Per-Task: walk_forward: 949.3 | walk_backward: 778.4 | turn_left: 834.3 | turn_right: 996.3 | stand_still: 178.1 | 
+Iter  172 | Step  352,256 | Reward   698.6 | Episodes  824 | Speed: 84 sps | Time 67.7 m | 
+  Per-Task: walk_forward: 798.1 | walk_backward: 778.4 | turn_left: 834.3 | turn_right: 889.4 | stand_still: 178.1 | 
+Iter  173 | Step  354,304 | Reward   595.9 | Episodes  826 | Speed: 86 sps | Time 68.1 m | 
+  Per-Task: walk_forward: 798.1 | walk_backward: 778.4 | turn_left: 834.3 | turn_right: 852.9 | stand_still: 190.2 | 
+Iter  174 | Step  356,352 | Reward   708.3 | Episodes  829 | Speed: 81 sps | Time 68.6 m | 
+  Per-Task: walk_forward: 798.1 | walk_backward: 759.3 | turn_left: 863.9 | turn_right: 852.9 | stand_still: 211.7 | 
+Iter  175 | Step  358,400 | Reward   711.2 | Episodes  831 | Speed: 88 sps | Time 69.0 m | 
+  Per-Task: walk_forward: 868.6 | walk_backward: 759.3 | turn_left: 863.9 | turn_right: 852.9 | stand_still: 211.7 | 
+Iter  176 | Step  360,448 | Reward   741.1 | Episodes  834 | Speed: 85 sps | Time 69.4 m | 
+  Per-Task: walk_forward: 862.1 | walk_backward: 759.3 | turn_left: 836.9 | turn_right: 852.9 | stand_still: 211.7 | 
+Iter  177 | Step  362,496 | Reward   835.3 | Episodes  836 | Speed: 85 sps | Time 69.8 m | 
+  Per-Task: walk_forward: 866.2 | walk_backward: 748.9 | turn_left: 836.9 | turn_right: 852.9 | stand_still: 211.7 | 
+Iter  178 | Step  364,544 | Reward   754.0 | Episodes  839 | Speed: 84 sps | Time 70.2 m | 
+  Per-Task: walk_forward: 866.2 | walk_backward: 748.9 | turn_left: 836.5 | turn_right: 852.9 | stand_still: 255.5 | 
+Iter  179 | Step  366,592 | Reward   691.0 | Episodes  842 | Speed: 77 sps | Time 70.6 m | 
+  Per-Task: walk_forward: 835.0 | walk_backward: 748.9 | turn_left: 836.5 | turn_right: 852.9 | stand_still: 269.3 | 
+Iter  180 | Step  368,640 | Reward   684.5 | Episodes  844 | Speed: 81 sps | Time 71.0 m | 
+  Per-Task: walk_forward: 845.5 | walk_backward: 748.9 | turn_left: 824.5 | turn_right: 852.9 | stand_still: 269.3 | 
+Iter  181 | Step  370,688 | Reward   416.6 | Episodes  848 | Speed: 87 sps | Time 71.4 m | 
+  Per-Task: walk_forward: 673.7 | walk_backward: 748.9 | turn_left: 824.5 | turn_right: 852.9 | stand_still: 187.4 | 
+Iter  182 | Step  372,736 | Reward   510.4 | Episodes  850 | Speed: 79 sps | Time 71.8 m | 
+  Per-Task: walk_forward: 658.4 | walk_backward: 743.0 | turn_left: 824.5 | turn_right: 852.9 | stand_still: 187.4 | 
+Iter  183 | Step  374,784 | Reward   477.9 | Episodes  855 | Speed: 88 sps | Time 72.2 m | 
+  Per-Task: walk_forward: 452.3 | walk_backward: 718.6 | turn_left: 824.5 | turn_right: 797.3 | stand_still: 187.4 | 
+Iter  184 | Step  376,832 | Reward   548.0 | Episodes  858 | Speed: 85 sps | Time 72.6 m | 
+  Per-Task: walk_forward: 421.7 | walk_backward: 823.1 | turn_left: 824.5 | turn_right: 797.3 | stand_still: 247.8 | 
+Iter  185 | Step  378,880 | Reward   522.0 | Episodes  861 | Speed: 81 sps | Time 73.1 m | 
+  Per-Task: walk_forward: 421.7 | walk_backward: 907.3 | turn_left: 927.4 | turn_right: 797.3 | stand_still: 247.8 | 
+Iter  186 | Step  380,928 | Reward   486.1 | Episodes  866 | Speed: 83 sps | Time 73.5 m | 
+  Per-Task: walk_forward: 421.7 | walk_backward: 629.3 | turn_left: 717.3 | turn_right: 603.9 | stand_still: 247.8 | 
+Iter  187 | Step  382,976 | Reward   408.8 | Episodes  870 | Speed: 84 sps | Time 73.9 m | 
+  Per-Task: walk_forward: 375.1 | walk_backward: 629.3 | turn_left: 717.3 | turn_right: 603.9 | stand_still: 142.8 | 
+Iter  188 | Step  385,024 | Reward   415.8 | Episodes  872 | Speed: 88 sps | Time 74.3 m | 
+  Per-Task: walk_forward: 406.9 | walk_backward: 629.3 | turn_left: 733.1 | turn_right: 603.9 | stand_still: 142.8 | 
+Iter  189 | Step  387,072 | Reward   413.7 | Episodes  877 | Speed: 87 sps | Time 74.7 m | 
+  Per-Task: walk_forward: 406.9 | walk_backward: 602.5 | turn_left: 694.5 | turn_right: 371.0 | stand_still: 243.8 | 
+Iter  190 | Step  389,120 | Reward   416.3 | Episodes  881 | Speed: 88 sps | Time 75.0 m | 
+  Per-Task: walk_forward: 406.9 | walk_backward: 602.5 | turn_left: 520.9 | turn_right: 167.9 | stand_still: 243.8 | 
+Iter  191 | Step  391,168 | Reward   417.7 | Episodes  885 | Speed: 85 sps | Time 75.5 m | 
+  Per-Task: walk_forward: 406.9 | walk_backward: 491.2 | turn_left: 581.2 | turn_right: 167.9 | stand_still: 353.2 | 
+Iter  192 | Step  393,216 | Reward   495.1 | Episodes  887 | Speed: 81 sps | Time 75.9 m | 
+  Per-Task: walk_forward: 748.8 | walk_backward: 491.2 | turn_left: 581.2 | turn_right: 167.9 | stand_still: 353.2 | 
+Iter  193 | Step  395,264 | Reward   386.0 | Episodes  894 | Speed: 79 sps | Time 76.3 m | 
+  Per-Task: walk_forward: 512.2 | walk_backward: 239.1 | turn_left: 520.8 | turn_right: 167.9 | stand_still: 455.5 | 
+/opt/anaconda3/envs/pytorch_env/lib/python3.10/multiprocessing/resource_tracker.py:224: UserWarning: resource_tracker: There appear to be 1 leaked semaphore objects to clean up at shutdown
+  warnings.warn('resource_tracker: There appear to be %d '
