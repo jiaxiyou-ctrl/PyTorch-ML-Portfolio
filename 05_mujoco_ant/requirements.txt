@@ -1,22 +1,7 @@
-# Physics simulation
-mujoco>=3.0.0
-gymnasium[mujoco]>=1.0.0
-
-# Deep learning
 torch>=2.0.0
-transformers>=4.30.0
-
-# Vision (pixel / VLA wrappers)
-opencv-python>=4.8.0
-
-# Utilities
+gymnasium[mujoco]>=0.29.0
+mujoco>=3.0.0
 numpy>=1.24.0
 matplotlib>=3.7.0
-tqdm>=4.65.0
-
-# Video
-imageio>=2.31.0
-imageio-ffmpeg>=0.4.8
-
-# Tests (optional)
-pytest>=7.0.0
+transformers>=4.30.0
+Pillow>=9.0.0
