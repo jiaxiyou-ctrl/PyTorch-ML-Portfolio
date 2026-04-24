@@ -1,40 +1,34 @@
 #!/bin/bash
-#SBATCH --job-name=ant_pixel_ppo
-#SBATCH --time=12:00:00
-#SBATCH --nodes=1
-#SBATCH --ntasks=1
-#SBATCH --cpus-per-task=8
+#SBATCH --job-name=pixel-ppo-ant
+#SBATCH --partition=gpu
 #SBATCH --gres=gpu:1
-#SBATCH --output=logs/slurm_%j_pixel.out
-#SBATCH --error=logs/slurm_%j_pixel.err
+#SBATCH --cpus-per-task=4
+#SBATCH --mem=32G
+#SBATCH --time=24:00:00
+#SBATCH --output=logs/slurm_pixel_%j.log
+#SBATCH --error=logs/slurm_pixel_%j.err
 #
-# BluePebble / BlueCrystal (Bristol): edit --account, --partition, and module lines to match
-# the cluster user guide. Submit from project root:  sbatch scripts/slurm_v2_pixel.sh
+# Adjust modules and conda env for BluePebble / BlueCrystal. Submit from
+# 05_mujoco_ant:  sbatch scripts/slurm_v2_pixel.sh
 
 set -euo pipefail
 
-# Project root = parent of scripts/
 ROOT="$(cd "$(dirname "$0")/.." && pwd)"
 cd "$ROOT"
-
 mkdir -p logs
 
-# Example: load toolchain (uncomment and adjust)
-# module purge
-# module load cuda/12.x
-# module load miniforge3
-# source activate your-env-name
+# module load languages/python/3.10
+# module load libs/cuda/11.8
+# source activate pytorch_env
 
+export MUJOCO_GL=osmesa
 export PYTHONUNBUFFERED=1
 
-# Optional: prefer a specific GPU architecture
-# export CUDA_VISIBLE_DEVICES=0
+python v2_pixel_ppo/pixel_train.py \
+  --steps 5000000 \
+  --device cuda \
+  --checkpoint-dir checkpoints_pixel/ \
+  --save-interval 100000 \
+  --log-dir logs/
 
-echo "Job ID: ${SLURM_JOB_ID:-local}"
-echo "Host: $(hostname)"
-echo "PWD: $PWD"
-echo "Starting V2 pixel PPO..."
-
-python v2_pixel_ppo/pixel_train.py
-
-echo "Done."
+echo "Pixel PPO training complete at $(date)"

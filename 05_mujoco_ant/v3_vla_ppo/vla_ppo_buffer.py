@@ -126,7 +126,6 @@ class VLAPPOBuffer:
             batch_indices = []
             for task_id in unique_tasks:
                 start = b * per_task
-                end = start + per_task
                 indices = task_to_indices[task_id]
                 selected = indices[start % len(indices):(start % len(indices)) + per_task]
                 if len(selected) < per_task:
@@ -135,16 +134,16 @@ class VLAPPOBuffer:
                 batch_indices.append(selected)
             batch_idx = np.concatenate(batch_indices)
             np.random.shuffle(batch_idx)
-        yield {
-            "observations": torch.tensor(
-                self.observations[batch_idx], dtype=torch.float32
-            ) / 255.0,
-            "actions": torch.tensor(self.actions[batch_idx]),
-            "log_probs": torch.tensor(self.log_probs[batch_idx]),
-            "advantages": torch.tensor(self.advantages[batch_idx]),
-            "returns": torch.tensor(self.returns[batch_idx]),
-            "task_indices": torch.tensor(self.task_indices[batch_idx]),
-        }
+            yield {
+                "observations": torch.tensor(
+                    self.observations[batch_idx], dtype=torch.float32
+                ) / 255.0,
+                "actions": torch.tensor(self.actions[batch_idx]),
+                "log_probs": torch.tensor(self.log_probs[batch_idx]),
+                "advantages": torch.tensor(self.advantages[batch_idx]),
+                "returns": torch.tensor(self.returns[batch_idx]),
+                "task_indices": torch.tensor(self.task_indices[batch_idx]),
+            }
 
     
     def reset(self) -> None:

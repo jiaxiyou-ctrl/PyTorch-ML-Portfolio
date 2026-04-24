@@ -1,34 +1,35 @@
 #!/bin/bash
-#SBATCH --job-name=ant_vla_ppo
-#SBATCH --time=24:00:00
-#SBATCH --nodes=1
-#SBATCH --ntasks=1
-#SBATCH --cpus-per-task=8
+#SBATCH --job-name=vla-ppo-ant
+#SBATCH --partition=gpu
 #SBATCH --gres=gpu:1
-#SBATCH --output=logs/slurm_%j_vla.out
-#SBATCH --error=logs/slurm_%j_vla.err
+#SBATCH --cpus-per-task=4
+#SBATCH --mem=32G
+#SBATCH --time=48:00:00
+#SBATCH --output=logs/slurm_vla_%j.log
+#SBATCH --error=logs/slurm_vla_%j.err
 #
-# V3 downloads CLIP weights on first run; ensure cache dir is on a writable
-# filesystem (e.g. $SCRATCH or $HOME/.cache) if compute nodes have no internet.
-# Submit from project root:  sbatch scripts/slurm_v3_vla.sh
+# Adjust modules and conda env for your site. Submit from 05_mujoco_ant:
+#   sbatch scripts/slurm_v3_vla.sh
 
 set -euo pipefail
 
 ROOT="$(cd "$(dirname "$0")/.." && pwd)"
 cd "$ROOT"
-
 mkdir -p logs
 
-# module load ...  # set CUDA / conda as on your site
+# module load languages/python/3.10
+# module load libs/cuda/11.8
+# source activate pytorch_env
 
+export MUJOCO_GL=osmesa
 export PYTHONUNBUFFERED=1
-# export HF_HOME="$SCRATCH/hf_cache"   # optional: large-model cache
+# export HF_HOME="$SCRATCH/hf_cache"
 
-echo "Job ID: ${SLURM_JOB_ID:-local}"
-echo "Host: $(hostname)"
-echo "PWD: $PWD"
-echo "Starting V3 VLA PPO..."
+python v3_vla_ppo/vla_train.py \
+  --steps 10000000 \
+  --device cuda \
+  --checkpoint-dir checkpoints_vla_v4/ \
+  --save-interval 100000 \
+  --log-dir logs/
 
-python v3_vla_ppo/vla_train.py
-
-echo "Done."
+echo "VLA PPO training complete at $(date)"

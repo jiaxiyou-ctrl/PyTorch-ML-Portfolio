@@ -58,17 +58,14 @@ class VLAPPOAgent:
         normalize_reward: bool = True,
         visual_dim: int = 256,
         language_dim: int = 256,
+        device: torch.device | None = None,
     ) -> None:
         """Initialize the VLA-PPO agent with all hyperparameters."""
+        self.device = device or torch.device("cpu")
         in_channels = obs_shape[0]
-        self.network = MultimodalActorCritic(
-            in_channels,
-            act_dim,
-            visual_dim,
-            language_dim,
-        )
 
         self.language_encoder = LanguageEncoder(output_dim=language_dim)
+        self.language_encoder.to(self.device)
 
         self.task_names = list(TASK_INSTRUCTIONS.keys())
         self.task_texts = [
@@ -82,7 +79,14 @@ class VLAPPOAgent:
         )
         self.task_embeddings = torch.stack(
             [self._precomputed_embeddings[text] for text in self.task_texts]
-        )
+        ).to(self.device)
+
+        self.network = MultimodalActorCritic(
+            in_channels,
+            act_dim,
+            visual_dim,
+            language_dim,
+        ).to(self.device)
 
         self.optimizer = torch.optim.Adam(
             [
@@ -143,7 +147,7 @@ class VLAPPOAgent:
 
     def get_language_features(self, task_indices: torch.Tensor) -> torch.Tensor:
         """Look up precomputed language embeddings by task index."""
-        return self.task_embeddings[task_indices]
+        return self.task_embeddings[task_indices.to(self.device)]
 
     def normalize_reward(self, reward: float, task_name: str) -> float:
         """Normalize reward per-task using independent running statistics."""
@@ -158,7 +162,9 @@ class VLAPPOAgent:
     ) -> Tuple[np.ndarray, float, float]:
         """Select an action given an observation and task name."""
         with torch.no_grad():
-            obs_tensor = torch.tensor(obs, dtype=torch.float32).unsqueeze(0)
+            obs_tensor = torch.as_tensor(
+                obs, dtype=torch.float32, device=self.device
+            ).unsqueeze(0)
 
             task_index = self.get_task_index(task_name)
             language_features = self.task_embeddings[task_index].unsqueeze(0)
@@ -168,21 +174,21 @@ class VLAPPOAgent:
                 language_features,
             )
 
-            return action.squeeze(0).numpy(), log_prob.item(), value.item()
+            return action.squeeze(0).cpu().numpy(), log_prob.item(), value.item()
 
     def update(self) -> None:
         """Run PPO update for multiple epochs over the collected rollout buffer."""
         for _epoch in range(self.update_epochs):
 
             for batch in self.buffer.get_balanced_batches(self.batch_size):
-                obs = batch["observations"]
+                obs = batch["observations"].to(self.device)
                 if self.use_augmentation:
                     obs = random_shift(obs, pad=4)
-                actions = batch["actions"]
-                old_log_probs = batch["log_probs"]
-                advantages = batch["advantages"]
-                returns = batch["returns"]
-                task_indices = batch["task_indices"]
+                actions = batch["actions"].to(self.device)
+                old_log_probs = batch["log_probs"].to(self.device)
+                advantages = batch["advantages"].to(self.device)
+                returns = batch["returns"].to(self.device)
+                task_indices = batch["task_indices"].to(self.device)
 
                 lang_features = self.get_language_features(task_indices)
                 advantages = (advantages - advantages.mean()) / (

@@ -35,17 +35,19 @@ V2/V3 use OpenCV; V3 uses Hugging Face `transformers` (CLIP). MuJoCo assets are 
 
 ## Train
 
+All three entry points accept `--steps`, `--device` (`auto` / `cuda` / `cpu`), `--checkpoint-dir`, `--save-interval` (in **environment steps**), `--resume`, and `--log-dir`. Training logs go to `logs/train_YYYYMMDD_HHMMSS.log` as well as the console.
+
 ```bash
 # V1 — state PPO
-python v1_state_ppo/train.py
+python v1_state_ppo/train.py --steps 5000000
 python v1_state_ppo/train.py --resume checkpoints/ant_ppo_final.pt
 python v1_state_ppo/train.py --domain-randomization
 
 # V2 — pixel PPO
-python v2_pixel_ppo/pixel_train.py
+python v2_pixel_ppo/pixel_train.py --steps 5000000 --device auto
 
-# V3 — VLA (default save dir in code is often checkpoints_vla_v4)
-python v3_vla_ppo/vla_train.py
+# V3 — VLA (default checkpoint dir: checkpoints_vla_v4)
+python v3_vla_ppo/vla_train.py --steps 10000000 --device cuda
 ```
 
 **Cluster:** see `scripts/slurm_v2_pixel.sh` and `scripts/slurm_v3_vla.sh` (edit modules, account, and partitions for your site first).

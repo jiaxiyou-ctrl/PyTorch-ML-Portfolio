@@ -46,8 +46,10 @@ class PPOAgent:
         update_epochs: int = 10,
         batch_size: int = 64,
         buffer_size: int = 2048,
+        device: torch.device | None = None,
     ) -> None:
-        self.network = ActorCritic(obs_dim, act_dim)
+        self.device = device or torch.device("cpu")
+        self.network = ActorCritic(obs_dim, act_dim).to(self.device)
         self.optimizer = torch.optim.Adam(self.network.parameters(), lr=lr)
         self.buffer = PPOBuffer(buffer_size, obs_dim, act_dim)
 
@@ -73,21 +75,23 @@ class PPOAgent:
             Tuple of ``(action, log_prob, value)``.
         """
         with torch.no_grad():
-            obs_tensor = torch.tensor(obs, dtype=torch.float32)
+            obs_tensor = torch.as_tensor(
+                obs, dtype=torch.float32, device=self.device
+            )
             action, log_prob, _, value = self.network.get_action_and_value(
                 obs_tensor
             )
-            return action.numpy(), log_prob.item(), value.item()
+            return action.cpu().numpy(), log_prob.item(), value.item()
 
     def update(self) -> None:
         """Run multiple epochs of PPO-Clip updates on the current buffer."""
         for _epoch in range(self.update_epochs):
             for batch in self.buffer.get_batches(self.batch_size):
-                obs = batch["observations"]
-                actions = batch["actions"]
-                old_log_probs = batch["log_probs"]
-                advantages = batch["advantages"]
-                returns = batch["returns"]
+                obs = batch["observations"].to(self.device)
+                actions = batch["actions"].to(self.device)
+                old_log_probs = batch["log_probs"].to(self.device)
+                advantages = batch["advantages"].to(self.device)
+                returns = batch["returns"].to(self.device)
 
                 advantages = (advantages - advantages.mean()) / (
                     advantages.std() + 1e-8

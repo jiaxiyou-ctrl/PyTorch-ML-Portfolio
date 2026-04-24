@@ -9,10 +9,11 @@ import torch.nn.functional as F
 def random_shift(images: torch.Tensor, pad: int = 4) -> torch.Tensor:
     """Randomly shift the image by a small amount."""
     batch_size, channels, height, width = images.shape
+    device = images.device
     padded = F.pad(images, [pad, pad, pad, pad], mode='replicate')
 
-    crop_top = torch.randint(0, 2 * pad + 1, size=(batch_size,))
-    crop_left = torch.randint(0, 2 * pad + 1, size=(batch_size,))
+    crop_top = torch.randint(0, 2 * pad + 1, size=(batch_size,), device=device)
+    crop_left = torch.randint(0, 2 * pad + 1, size=(batch_size,), device=device)
     
     cropped = torch.empty_like(images)
     for i in range(batch_size):
