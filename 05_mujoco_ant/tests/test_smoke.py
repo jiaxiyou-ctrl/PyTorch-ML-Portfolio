@@ -1,7 +1,12 @@
 """Smoke test: verify the VLA-PPO pipeline runs end-to-end without errors."""
 
-from vla_train import make_vla_env
-from vla_ppo_agent import VLAPPOAgent
+import os
+import sys
+
+sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+
+from v3_vla_ppo.vla_ppo_agent import VLAPPOAgent
+from v3_vla_ppo.vla_train import make_vla_env
 
 # 1. Test environment
 env = make_vla_env(image_size=84, frame_stack=3)

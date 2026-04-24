@@ -1,175 +1,99 @@
-# 05 — PPO Ant Walker (MuJoCo)
+# 05 — MuJoCo Ant RL (PPO, pixel, VLA)
 
-Training a quadruped ant to walk using PPO with observation/reward normalization and learning rate annealing.
+This directory contains **three** reinforcement-learning lineages for **Gymnasium `Ant-v5`**, all implemented in PyTorch: state-based PPO, pixel PPO, and a vision–language–action (VLA) PPO variant. They share small utilities under `shared/`.
 
----
-
-## Overview
-
-This project implements Proximal Policy Optimization (PPO) from scratch using PyTorch to solve the MuJoCo Ant-v5 continuous control task. The agent controls 8 joint torques to make a four-legged ant walk forward as fast as possible while staying upright.
-
-Key techniques beyond vanilla PPO include running observation normalization (Welford's algorithm), reward normalization, linear learning-rate annealing, and optional domain randomization for sim-to-real robustness.
+**Working directory:** run commands with your current working directory set to this folder (`05_mujoco_ant/`), so paths like `checkpoints/` and `logs/` resolve correctly.
 
 ---
 
-## Architecture
+## Layout
 
-```
-                          ┌─────────────────────────┐
-                          │      ActorCritic         │
-                          │                         │
-         obs (105-dim)    │  ┌──── Actor Trunk ────┐ │
-        ─────────────────►│  │ Linear(105, 256)    │ │
-                          │  │ Tanh                │ │──► action mean (8-dim)
-                          │  │ Linear(256, 256)    │ │    + learnable log_std
-                          │  │ Tanh                │ │
-                          │  │ Linear(256, 8)      │ │
-                          │  └─────────────────────┘ │
-                          │                         │
-                          │  ┌──── Critic Trunk ───┐ │
-                          │  │ Linear(105, 256)    │ │
-                          │  │ Tanh                │ │──► state value (scalar)
-                          │  │ Linear(256, 256)    │ │
-                          │  │ Tanh                │ │
-                          │  │ Linear(256, 1)      │ │
-                          │  └─────────────────────┘ │
-                          └─────────────────────────┘
-```
+| Path | Role |
+|------|------|
+| `v1_state_ppo/` | V1: MLP on proprio state; `train.py` |
+| `v2_pixel_ppo/` | V2: pixel observations; `pixel_train.py`; imports `PixelActorCritic` from V1’s `networks` |
+| `v3_vla_ppo/` | V3: pixels + language (CLIP), multimodal policy; `vla_train.py` |
+| `shared/` | `obs_normalizer`, `reward_normalizer`, `domain_random`, `evaluate`, `explore_env` |
+| `scripts/` | Recording, plotting, Slurm template scripts |
+| `tests/` | Smoke, mini-train, domain-randomization checks |
+| `logs/` | Text training logs (`training_log_v1.txt` …) |
+| `checkpoints*`, `results/`, `demo_videos/` | **Untouched** artefact locations (see `.gitignore` for what is not committed) |
+
+Sub-readmes: `v1_state_ppo/README.md`, `v2_pixel_ppo/README.md`, `v3_vla_ppo/README.md`. Meeting prep for HPC: `docs/meeting_notes_jack.md`.
 
 ---
 
-## Key Features
-
-| Feature | Description |
-|---|---|
-| **PPO-Clip** | Clipped surrogate objective constrains the policy update ratio to `[1-ε, 1+ε]` |
-| **Actor-Critic** | Separate actor and critic trunks (two-layer MLP with Tanh activations) |
-| **GAE** | Generalized Advantage Estimation balances bias and variance via λ |
-| **Observation Normalization** | Welford's online algorithm for running mean/variance normalization |
-| **Reward Normalization** | Running standard deviation scaling for consistent gradient magnitudes |
-| **LR Annealing** | Linear decay from 3e-4 to 0 over training for stable convergence |
-| **Domain Randomization** | Randomizes gravity, friction, and mass for sim-to-real transfer |
-| **Checkpoint Resume** | Save and resume training from any checkpoint |
-
----
-
-## Results
-
-### Training Reward Curve
-
-![Training Reward Curve](results/training_reward_curve.png)
-
-### Performance Summary
-
-| Metric | Value |
-|---|---|
-| Total timesteps | 5,000,000 |
-| Total episodes | ~24,400 |
-| Best mean reward | ~626 |
-| Training time | ~37 minutes |
-| Throughput | ~2,200 FPS |
-
----
-
-## Project Structure
-
-```
-05_mujoco_ant/
-├── networks.py             # ActorCritic network (actor + critic heads)
-├── ppo_buffer.py           # PPO rollout buffer with GAE computation
-├── ppo_agent.py            # PPO agent (select_action, update)
-├── obs_normalizer.py       # Running observation normalizer (Welford)
-├── reward_normalizer.py    # Running reward normalizer
-├── domain_random.py        # Domain randomization for sim-to-real
-├── train.py                # Training loop with checkpoint & resume
-├── record.py               # Record trained agent as MP4 video
-├── plot_training_curve.py  # Plot training reward curve from log
-├── training_log.txt        # Training output log
-├── README.md               # Project documentation
-├── results/
-│   ├── training_reward_curve.png
-│   └── ant_walking.gif
-├── checkpoints/            # (gitignored) saved model checkpoints
-└── videos/                 # (gitignored) recorded videos
-```
-
----
-
-## Usage
-
-### Install Dependencies
+## Install
 
 ```bash
 pip install -r requirements.txt
 ```
 
-### Train the Agent
-
-```bash
-# Fresh start (1M steps by default)
-python train.py
-
-# Custom number of timesteps
-python train.py --timesteps 5000000
-
-# Resume from a checkpoint
-python train.py --resume checkpoints/ant_ppo_final.pt
-
-# Enable domain randomization
-python train.py --domain-randomization
-```
-
-### Record Video
-
-```bash
-python record.py --checkpoint checkpoints/ant_ppo_final.pt --episodes 3
-```
-
-### Plot Training Curve
-
-```bash
-python plot_training_curve.py --log training_log.txt
-```
-
-### Explore the Environment
-
-```bash
-python explore_env.py
-```
+V2/V3 use OpenCV; V3 uses Hugging Face `transformers` (CLIP). MuJoCo assets are pulled in via `gymnasium[mujoco]`.
 
 ---
 
-## Hyperparameters
+## Train
 
-| Parameter | Value |
-|---|---|
-| Learning rate | 3e-4 (linearly annealed to 0) |
-| Discount (γ) | 0.99 |
-| GAE lambda (λ) | 0.95 |
-| Clip epsilon (ε) | 0.2 |
-| Entropy coefficient | 0.01 |
-| Value loss coefficient | 0.5 |
-| Max gradient norm | 0.5 |
-| Buffer size (steps/update) | 2,048 |
-| Mini-batch size | 64 |
-| Update epochs per rollout | 10 |
-| Hidden layer width | 256 |
-| Activation | Tanh |
+```bash
+# V1 — state PPO
+python v1_state_ppo/train.py
+python v1_state_ppo/train.py --resume checkpoints/ant_ppo_final.pt
+python v1_state_ppo/train.py --domain-randomization
 
----
+# V2 — pixel PPO
+python v2_pixel_ppo/pixel_train.py
 
-## What I Learned
+# V3 — VLA (default save dir in code is often checkpoints_vla_v4)
+python v3_vla_ppo/vla_train.py
+```
 
-- **Observation normalization is essential** — without it, the ant flips over immediately because sensor channels span wildly different ranges
-- **Reward normalization stabilizes training** — raw rewards in Ant-v5 vary from −200 to 600+; normalizing keeps gradients on a consistent scale
-- **LR annealing prevents late-training instability** — linearly decaying the learning rate lets the policy fine-tune without overshooting
-- **PPO is sample-efficient for locomotion** — the ant learns to walk forward in ~500K steps and reaches strong performance by ~2M steps
-- **Domain randomization adds robustness** — randomizing gravity, friction, and mass during training produces policies that transfer better across conditions
+**Cluster:** see `scripts/slurm_v2_pixel.sh` and `scripts/slurm_v3_vla.sh` (edit modules, account, and partitions for your site first).
 
 ---
 
-## References
+## Record video / demos
 
-- Schulman et al. — [*Proximal Policy Optimization Algorithms*](https://arxiv.org/abs/1707.06347) (2017)
-- Schulman et al. — [*High-Dimensional Continuous Control Using Generalized Advantage Estimation*](https://arxiv.org/abs/1506.02438) (2016)
-- [Gymnasium Ant-v5 Documentation](https://gymnasium.farama.org/environments/mujoco/ant/)
+- **V1 (state) MP4** (Gymnasium `RecordVideo`):
+
+  ```bash
+  python scripts/record_v1_state.py --checkpoint checkpoints/ant_ppo_final.pt --episodes 3
+  ```
+
+- **V3 (VLA) task videos** (writes under `demo_videos/`):
+
+  ```bash
+  python scripts/record_demo.py
+  ```
+
+`record_v1_state.py` and `record_demo.py` are **different** (state policy vs VLA); both live under `scripts/`.
+
+---
+
+## Plots and logs
+
+```bash
+python scripts/plot_training_curve.py --log logs/training_log_v1.txt --output results/training_reward_curve.png
+```
+
+Legacy logs are stored as `logs/training_log_v1.txt` (formerly `training_log.txt`), `training_log_v2.txt`, et cetera.
+
+---
+
+## Tests
+
+With `pytest` (optional) from this directory:
+
+```bash
+pytest tests/ -q
+```
+
+Or run individual scripts: `python tests/test_domain_random.py` (path setup is included). VLA tests download/use CLIP; expect a cold start the first time.
+
+---
+
+## V1 design notes (original course write-up)
+
+The state agent uses an actor–critic MLP, GAE, running observation and reward normalisation, optional domain randomisation, and linear LR schedule. A typical result curve is in `results/training_reward_curve.png`.
+
+**References:** Schulman et al., *PPO* and *GAE*; [Gymnasium Ant-v5](https://gymnasium.farama.org/environments/mujoco/ant/).

@@ -1,11 +1,16 @@
 """Record demo videos of the trained VLA-PPO agent."""
 
-import os
+import sys, os
+
+sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+
 import re
-import torch
+
 import imageio
-from vla_train import make_vla_env
-from vla_ppo_agent import VLAPPOAgent
+import torch
+
+from v3_vla_ppo.vla_ppo_agent import VLAPPOAgent
+from v3_vla_ppo.vla_train import make_vla_env
 
 
 def get_latest_checkpoint(checkpoint_dir):

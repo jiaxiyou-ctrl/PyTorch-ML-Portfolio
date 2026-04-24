@@ -3,8 +3,9 @@
 Prints environment metadata and runs a few episodes with random actions
 to verify the setup before training.
 
-Usage:
-    python explore_env.py
+Usage (from project root)::
+
+    python shared/explore_env.py
 """
 
 import gymnasium as gym

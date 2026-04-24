@@ -1,19 +1,23 @@
 """Record a trained Ant-v5 agent walking and save as MP4 video.
 
-Usage:
-    python record.py
-    python record.py --checkpoint checkpoints/ant_ppo_final.pt --episodes 5
+Usage (from project root ``05_mujoco_ant/``)::
+
+    python scripts/record_v1_state.py
+    python scripts/record_v1_state.py --checkpoint checkpoints/ant_ppo_final.pt --episodes 5
 """
 
+import sys, os
+
+sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+
 import argparse
-import os
 
 import gymnasium as gym
 import numpy as np
 import torch
 
-from obs_normalizer import ObsNormalizer
-from ppo_agent import PPOAgent
+from shared.obs_normalizer import ObsNormalizer
+from v1_state_ppo.ppo_agent import PPOAgent
 
 
 def record(

@@ -5,11 +5,12 @@ import numpy as np
 import torch
 from torch import nn
 
-from multimodal_networks import MultimodalActorCritic
-from language_encoder import LanguageEncoder
-from vla_ppo_buffer import VLAPPOBuffer
-from language_reward_wrapper import TASK_INSTRUCTIONS
-from augmentation import random_shift  
+from v2_pixel_ppo.augmentation import random_shift
+
+from .language_encoder import LanguageEncoder
+from .language_reward_wrapper import TASK_INSTRUCTIONS
+from .multimodal_networks import MultimodalActorCritic
+from .vla_ppo_buffer import VLAPPOBuffer  
 
 
 class RunningMeanStd:

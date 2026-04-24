@@ -10,8 +10,8 @@ import numpy as np
 import torch
 from torch import nn
 
-from networks import ActorCritic
-from ppo_buffer import PPOBuffer
+from .networks import ActorCritic
+from .ppo_buffer import PPOBuffer
 
 
 class PPOAgent:

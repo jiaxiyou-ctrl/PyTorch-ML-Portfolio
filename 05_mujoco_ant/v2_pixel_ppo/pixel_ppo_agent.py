@@ -6,8 +6,8 @@ import numpy as np
 import torch
 from torch import nn
 
-from networks import PixelActorCritic
-from pixel_ppo_buffer import PixelPPOBuffer
+from v1_state_ppo.networks import PixelActorCritic
+from .pixel_ppo_buffer import PixelPPOBuffer
 
 class RunningMeanStd:
     """Welford's online algorithm for tracking mean/variance of a scalar stream.

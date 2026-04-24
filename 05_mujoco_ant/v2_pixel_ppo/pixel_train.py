@@ -1,14 +1,17 @@
 """Train PPO agent to control Ant from pixel observations."""
 
-import os
+import sys, os
+
+sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+
 import time
 
 import gymnasium as gym
 import numpy as np
 import torch
 
-from pixel_ppo_agent import PixelPPOAgent
-from pixel_wrapper import PixelObsWrapper
+from v2_pixel_ppo.pixel_ppo_agent import PixelPPOAgent
+from v2_pixel_ppo.pixel_wrapper import PixelObsWrapper
 
 CONFIG = {
     "image_size": 84,

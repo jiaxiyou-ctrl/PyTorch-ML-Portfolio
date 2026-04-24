@@ -4,10 +4,14 @@ Supports observation/reward normalization, linear learning-rate annealing,
 optional domain randomization, and checkpoint save/resume.
 
 Usage:
-    python train.py                                        # fresh start
-    python train.py --resume checkpoints/ant_ppo_final.pt  # resume
-    python train.py --timesteps 5000000                    # custom length
+    python v1_state_ppo/train.py                                        # fresh start
+    python v1_state_ppo/train.py --resume checkpoints/ant_ppo_final.pt  # resume
+    python v1_state_ppo/train.py --timesteps 5000000                    # custom length
 """
+
+import sys, os
+
+sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
 import argparse
 import os
@@ -17,10 +21,10 @@ import gymnasium as gym
 import numpy as np
 import torch
 
-from domain_random import DomainRandomizer
-from obs_normalizer import ObsNormalizer
-from ppo_agent import PPOAgent
-from reward_normalizer import RewardNormalizer
+from shared.domain_random import DomainRandomizer
+from shared.obs_normalizer import ObsNormalizer
+from shared.reward_normalizer import RewardNormalizer
+from v1_state_ppo.ppo_agent import PPOAgent
 
 # ── Default hyperparameters ───────────────────────────────────────────
 INITIAL_LR = 3e-4

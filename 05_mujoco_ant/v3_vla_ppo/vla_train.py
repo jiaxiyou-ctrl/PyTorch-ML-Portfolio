@@ -1,15 +1,18 @@
 """VLA-PPO training script for multi-task Ant-v5 control."""
 
-import os
+import sys, os
+
+sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+
 import time
 
 import gymnasium as gym
 import numpy as np
 import torch
 
-from vla_ppo_agent import VLAPPOAgent
-from vla_wrapper import PixelObsWrapper
-from language_reward_wrapper import LanguageRewardWrapper
+from v3_vla_ppo.vla_ppo_agent import VLAPPOAgent
+from v3_vla_ppo.vla_wrapper import PixelObsWrapper
+from v3_vla_ppo.language_reward_wrapper import LanguageRewardWrapper
 
 CONFIG = {
     "image_size": 84,

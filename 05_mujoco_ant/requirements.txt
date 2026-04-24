@@ -4,11 +4,19 @@ gymnasium[mujoco]>=1.0.0
 
 # Deep learning
 torch>=2.0.0
+transformers>=4.30.0
+
+# Vision (pixel / VLA wrappers)
+opencv-python>=4.8.0
 
 # Utilities
 numpy>=1.24.0
 matplotlib>=3.7.0
+tqdm>=4.65.0
 
-# Video recording
+# Video
 imageio>=2.31.0
 imageio-ffmpeg>=0.4.8
+
+# Tests (optional)
+pytest>=7.0.0

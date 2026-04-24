@@ -1,8 +1,13 @@
 """Mini training test: run 2 PPO iterations to verify the full pipeline."""
 
+import os
+import sys
 import time
-from vla_train import make_vla_env
-from vla_ppo_agent import VLAPPOAgent
+
+sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+
+from v3_vla_ppo.vla_ppo_agent import VLAPPOAgent
+from v3_vla_ppo.vla_train import make_vla_env
 
 import numpy as np
 import torch
@@ -115,7 +120,7 @@ def mini_train():
     print("  PPO update (backprop)")
     print("  Data augmentation (random shift)")
     print("\nReady for full training:")
-    print("  python vla_train.py")
+    print("  python v3_vla_ppo/vla_train.py")
 
     env.close()
 

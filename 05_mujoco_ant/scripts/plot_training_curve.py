@@ -1,12 +1,16 @@
 """Plot training reward curve from a training log file.
 
-Usage:
-    python plot_training_curve.py
-    python plot_training_curve.py --log training_log.txt --output results/curve.png
+Usage (from project root)::
+
+    python scripts/plot_training_curve.py
+    python scripts/plot_training_curve.py --log logs/training_log_v1.txt --output results/curve.png
 """
 
+import sys, os
+
+sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+
 import argparse
-import os
 import re
 from typing import List, Tuple
 
@@ -139,7 +143,7 @@ if __name__ == "__main__":
         description="Plot training reward curve from log file."
     )
     parser.add_argument(
-        "--log", default="training_log.txt",
+        "--log", default="logs/training_log_v1.txt",
         help="Path to training log file",
     )
     parser.add_argument(

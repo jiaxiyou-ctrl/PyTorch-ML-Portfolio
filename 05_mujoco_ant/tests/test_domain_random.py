@@ -4,12 +4,18 @@ Runs a few episodes with randomized physics and prints the sampled
 parameters to verify that randomization is working correctly.
 
 Usage:
-    python test_domain_random.py
+    python -m pytest tests/test_domain_random.py
+    # or: python tests/test_domain_random.py
 """
+
+import os
+import sys
+
+sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
 import gymnasium as gym
 
-from domain_random import DomainRandomizer
+from shared.domain_random import DomainRandomizer
 
 
 def test() -> None:
