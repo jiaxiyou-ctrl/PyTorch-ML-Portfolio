@@ -6,9 +6,9 @@ import numpy as np
 import torch
 from torch import nn
 
-from v1_state_ppo.networks import PixelActorCritic
 from v2_pixel_ppo.augmentation import random_shift
 
+from .networks import PixelActorCritic
 from .pixel_ppo_buffer import PixelPPOBuffer
 
 class RunningMeanStd:

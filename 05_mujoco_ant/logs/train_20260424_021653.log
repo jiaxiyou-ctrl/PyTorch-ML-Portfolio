@@ -1,0 +1,16 @@
+2026-04-24 02:16:53,368 [INFO] Using device: cpu
+2026-04-24 02:16:53,368 [INFO] ============================================================
+2026-04-24 02:16:53,368 [INFO] VLA-PPO Training for Ant-v5
+2026-04-24 02:16:53,368 [INFO] ============================================================
+2026-04-24 02:16:53,368 [INFO]   Image:        84×84
+2026-04-24 02:16:53,368 [INFO]   Frame stack:  3
+2026-04-24 02:16:53,368 [INFO]   Tasks:        walk_forward, walk_backward, turn_left, turn_right, stand_still
+2026-04-24 02:16:53,368 [INFO]   Total steps:  1,000
+2026-04-24 02:16:53,368 [INFO] ============================================================
+2026-04-24 02:16:55,359 [INFO]    ->  Training started!
+2026-04-24 02:17:07,392 [INFO] Iter    1 | Step    2,048 | Reward   300.1 | Episodes   15 | Speed: 170 sps | Time 0.2 m |
+2026-04-24 02:17:07,393 [INFO]   Per-Task: walk_forward: 40.0 | walk_backward: 87.0 | turn_left: 63.5 | turn_right: 48.6 | stand_still: 1267.5 | 
+2026-04-24 02:17:07,393 [INFO] Training complete!
+2026-04-24 02:17:07,393 [INFO] Best reward: 300.1
+2026-04-24 02:17:07,393 [INFO] Total time: 0.2 min
+2026-04-24 02:17:07,421 [INFO] [Checkpoint] Saved at step 2,048, reward 300.1 -> checkpoints_vla_v4/vla_ppo_final.pt

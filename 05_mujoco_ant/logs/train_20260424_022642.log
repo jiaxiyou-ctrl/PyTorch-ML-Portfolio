@@ -1,0 +1,20 @@
+2026-04-24 02:26:42,221 [INFO] Using device: cpu
+2026-04-24 02:26:42,221 [INFO] ============================================================
+2026-04-24 02:26:42,221 [INFO] Pixel-based PPO Training for Ant-v5
+2026-04-24 02:26:42,221 [INFO] ============================================================
+2026-04-24 02:26:42,221 [INFO]   Image:        84×84
+2026-04-24 02:26:42,221 [INFO]   Frame stack:  3
+2026-04-24 02:26:42,221 [INFO]   Buffer size:  2048
+2026-04-24 02:26:42,221 [INFO]   Augmentation: True
+2026-04-24 02:26:42,221 [INFO]   Total steps:  1,000
+2026-04-24 02:26:42,221 [INFO]   Iterations:   ~0
+2026-04-24 02:26:42,221 [INFO] ============================================================
+2026-04-24 02:26:43,085 [INFO]    ->  Training started! (params: 1,025,713)
+2026-04-24 02:27:07,809 [INFO] Iter    1 | Step    2,048 | Reward  -119.1 | min=-346, max=-36 | Episodes   33 | Speed: 83 steps/s | Time 0.4 min
+2026-04-24 02:27:07,809 [INFO] Training complete!
+2026-04-24 02:27:07,809 [INFO] Best reward: -119.1
+2026-04-24 02:27:07,810 [INFO] Total steps: 2,048
+2026-04-24 02:27:07,810 [INFO] Total episodes: 33
+2026-04-24 02:27:07,810 [INFO] Total time: 0.4 min
+2026-04-24 02:27:07,810 [INFO] Total params: 1,025,713
+2026-04-24 02:27:07,837 [INFO] [Checkpoint] Saved at step 2,048, reward -119.1 -> checkpoints_pixel/pixel_ppo_final.pt

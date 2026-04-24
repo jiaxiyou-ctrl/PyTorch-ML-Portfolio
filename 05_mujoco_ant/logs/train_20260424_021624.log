@@ -1,0 +1,12 @@
+2026-04-24 02:16:24,766 [INFO] Using device: cpu
+2026-04-24 02:16:24,911 [INFO] ============================================================
+2026-04-24 02:16:24,911 [INFO] PPO Training — Ant-v5
+2026-04-24 02:16:24,911 [INFO] ============================================================
+2026-04-24 02:16:24,911 [INFO] Observation dim:      105
+2026-04-24 02:16:24,911 [INFO] Action dim:           8
+2026-04-24 02:16:24,911 [INFO] Total timesteps:      1,000
+2026-04-24 02:16:24,911 [INFO] Buffer size:          2048
+2026-04-24 02:16:24,911 [INFO] Domain randomization: OFF
+2026-04-24 02:16:24,911 [INFO] ============================================================
+2026-04-24 02:16:25,427 [INFO] [Checkpoint] Saved at step 0, reward 0.0 -> checkpoints/ant_ppo_final.pt
+2026-04-24 02:16:25,427 [INFO] Training complete. Final model saved to checkpoints/ant_ppo_final.pt
