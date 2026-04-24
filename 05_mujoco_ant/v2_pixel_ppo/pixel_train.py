@@ -1,8 +1,10 @@
 """Train PPO agent to control Ant from pixel observations."""
 
 import os
+import platform
 
-os.environ.setdefault("MUJOCO_GL", "osmesa")
+if platform.system() == "Linux":
+    os.environ["MUJOCO_GL"] = "osmesa"
 
 import sys
 

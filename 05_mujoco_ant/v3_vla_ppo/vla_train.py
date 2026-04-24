@@ -1,8 +1,10 @@
 """VLA-PPO training script for multi-task Ant-v5 control."""
 
 import os
+import platform
 
-os.environ.setdefault("MUJOCO_GL", "osmesa")
+if platform.system() == "Linux":
+    os.environ["MUJOCO_GL"] = "osmesa"
 
 import sys
 

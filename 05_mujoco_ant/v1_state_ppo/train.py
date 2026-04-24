@@ -10,9 +10,11 @@ Usage:
 """
 
 import os
+import platform
 
-# Headless / cluster default; override with MUJOCO_GL=... before launch if needed.
-os.environ.setdefault("MUJOCO_GL", "osmesa")
+# Headless on Linux (cluster); macOS uses glfw by default. Override with MUJOCO_GL=... if needed.
+if platform.system() == "Linux":
+    os.environ["MUJOCO_GL"] = "osmesa"
 
 import sys
 
